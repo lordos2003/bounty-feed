@@ -41,9 +41,21 @@
     "Scottcjn", "kwizzlesurp10-ctrl", "SecureBananaLabs", "Presago-Labs", "lnflash"
   ],
   "exclude_repos": [
-    "BasedHardware/omi", "gigs-sh/gigs-sh", "sutt/innocuous", "zkp2p/peer-link"
+    "BasedHardware/omi", "gigs-sh/gigs-sh", "sutt/innocuous", "zkp2p/peer-link",
+    "mscrnt/lockpick", "habibdxb01/bounty-watcher", "scottonchain/microcredit-agent-testbed"
   ],
   "exclude_title_regex": [
-    "Bounty Alert", "Micro Bounty Alert", "\\[radar\\]", "bug bounty report", "Payment Status Request"
-  ]
+    "Bounty Alert", "Micro Bounty Alert", "\\[radar\\]", "bug bounty report", "Payment Status Request",
+    "open bounties right now", "BOOTSTRAP-\\d+"
+  ],
+  "exclude_labels": [
+    "paid", "accepted", "delivered", "claimed", "completed", "done", "expired",
+    "duplicate", "invalid", "wontfix", "won't fix", "unpaid"
+  ],
+  "exclude_text_regex": [
+    "not a paid bounty", "no money involved", "credit only", "credits only",
+    "unpaid\\W{1,4}(?:the )?reward is", "slots?:\\s*\\d+\\s*\\(filled\\)",
+    "no (?:monetary|cash) (?:reward|payment)"
+  ],
+  "skip_expired_deadline": true
 }

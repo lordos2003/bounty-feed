@@ -88,12 +88,42 @@ def gh(path, params=None, accept="application/vnd.github+json"):
     return None
 
 
-def excluded(item):
+DEADLINE_RE = re.compile(r"(?:deadline|expires?|due(?: date)?)\W{0,5}(\d{4}-\d{2}-\d{2})", re.IGNORECASE)
+EXCLUDE_STATS = {}
+
+
+def exclusion_reason(item):
+    """Причина исключения задачи или None. Нужна, чтобы не тратить enrich на закрытые/неоплачиваемые."""
     repo = item["repository_url"].split("/repos/")[1]
     owner = repo.split("/")[0]
-    if owner in CFG["exclude_owners"] or repo in CFG["exclude_repos"]:
-        return True
-    return any(re.search(p, item["title"], re.IGNORECASE) for p in CFG["exclude_title_regex"])
+    if owner in CFG["exclude_owners"]:
+        return "owner"
+    if repo in CFG["exclude_repos"]:
+        return "repo"
+    title = item["title"]
+    if any(re.search(p, title, re.IGNORECASE) for p in CFG["exclude_title_regex"]):
+        return "title"
+    bad_labels = {x.lower() for x in CFG.get("exclude_labels", [])}
+    for lab in item.get("labels", []):
+        if (lab.get("name") or "").strip().lower() in bad_labels:
+            return "label:" + lab["name"].strip().lower()
+    text = f"{title}\n{item.get('body') or ''}"
+    for p in CFG.get("exclude_text_regex", []):
+        if re.search(p, text, re.IGNORECASE):
+            return "text"
+    if CFG.get("skip_expired_deadline", True):
+        for m in DEADLINE_RE.finditer(text):
+            if m.group(1) < TODAY:
+                return "deadline"
+    return None
+
+
+def excluded(item):
+    reason = exclusion_reason(item)
+    if reason:
+        key = reason.split(":")[0]
+        EXCLUDE_STATS[key] = EXCLUDE_STATS.get(key, 0) + 1
+    return bool(reason)
 
 
 def search_all():
@@ -177,6 +207,9 @@ def enrich(rec):
     s += 2 if any("bounty" in l.lower() or "reward" in l.lower() for l in out["labels"]) else 0
     s += 1 if out["author_association"] in ("OWNER", "MEMBER", "COLLABORATOR") else 0
     s += 1 if (NOW.date() - dt.date.fromisoformat(out["updated"])).days <= 7 else 0
+    usd = [float(x.replace(",", "")) for a in amounts
+           for x in re.findall(r"\$\s?(\d[\d,]*(?:\.\d+)?)", a)]
+    s -= 3 if usd and max(usd) < 5 else 0  # микро-награды ($1–4) почти всегда шум
     s -= 2 if out["stripe_likely"] else 0
     s -= 4 * len(out["prs_open"])
     s -= 10 if out["prs_merged"] else 0
@@ -195,7 +228,8 @@ def main():
     seen = json.load(open(seen_path, encoding="utf-8")) if os.path.exists(seen_path) else {}
 
     found = search_all()
-    log(f"search finished: {len(found)} unique issues, {time.time() - START:.0f}s elapsed")
+    log(f"search finished: {len(found)} unique issues, {time.time() - START:.0f}s elapsed; "
+        f"excluded by filters (with repeats): {EXCLUDE_STATS}")
     if not found:
         log("ничего не найдено — latest.json не перезаписываю")
         sys.exit(1)
