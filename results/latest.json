@@ -1,90 +1,39 @@
 {
- "generated_at": "2026-10-14T08:40:14+00:00",
- "count": 514,
- "new_today": 514,
+ "generated_at": "2026-10-14T10:04:54+00:00",
+ "count": 500,
+ "new_today": 500,
  "results": [
   {
-   "url": "https://github.com/auscaster/frantic-board/issues/330",
-   "repo": "auscaster/frantic-board",
-   "number": 330,
-   "title": "Frantic bounty #120: Add a valuable startup offer to Sourcey",
-   "created": "2026-08-02",
+   "url": "https://github.com/osmesirius-ship-it/daxda-next-gen/issues/33",
+   "repo": "osmesirius-ship-it/daxda-next-gen",
+   "number": 33,
+   "title": "[PAYOUT CLAIM] [adversarial_redteam-question] [BOUNTY] [$10000] [AGENTIC] [AI] DAXDA Autonomous Adversarial LLM Red-Teaming & Steganographic Escape Synthesizer – Anomalous Containment Wing ($10,000)",
+   "created": "2026-10-12",
    "updated": "2026-10-14",
-   "comments": 1603,
+   "comments": 0,
    "labels": [
-    "bounty",
-    "funded",
-    "claimed",
-    "delivered",
-    "accepted",
-    "needs-work",
-    "paid"
+    "bounty-claim",
+    "level-2",
+    "adversarial_redteam-question"
    ],
-   "author": "auscaster",
+   "author": "osmesirius-ship-it",
    "author_association": "OWNER",
    "queries": [
-    "label:bounty",
-    "label:paid",
-    "\"/bounty\" in:comments",
-    "bounty USDC"
+    "bounty USDT",
+    "\"bounty:\" in:title"
    ],
-   "body_snippet": "Frantic bounty #120 Add a valuable startup offer to Sourcey Worker price: $1 Slots: 150 (filled) Status: needs work Claim: https://gofrantic.com/bounties/120 Funding receipt: https://gofrantic.com/r/1a87cb95 Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- frantic:thread:frantic:bounty:120 --> <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:120 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXR",
+   "body_snippet": "### 🏆 Formal Bounty Claim & Settlement Request: [BOUNTY] [$10000] [AGENTIC] [AI] DAXDA Autonomous Adversarial LLM Red-Teaming & Steganographic Escape Synthesizer – Anomalous Containment Wing - **Designated Sub-Bounty Tag**: `[adversarial_redteam-question]` - **Bounty Level**: **Level 2** - **Reward Claimed**: **$10,000 USD** - **Claimant**: @osmesirius-ship-it - **Bounty Specification**: [`BOUNTY_DAXDA_L2_ADVERSARIAL_REDTEAM.md`](https://github.com/osmesirius-ship-it/daxda-next-gen/blob/main/dax",
    "prs_open": [],
    "prs_merged": [],
-   "prs_closed": [
-    "https://github.com/sourcey/startup-credits/pull/78",
-    "https://github.com/auscaster/frantic-board/pull/333"
-   ],
+   "prs_closed": [],
    "claims": 0,
    "claimers": [],
    "bot_bounty": null,
    "paid_hint": false,
    "enriched": true,
    "amounts": [
-    "$1"
-   ],
-   "stripe_likely": false,
-   "score": 7,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/auscaster/frantic-board/issues/476",
-   "repo": "auscaster/frantic-board",
-   "number": 476,
-   "title": "Frantic bounty #136: Add a newly launched startup to Stompstart",
-   "created": "2026-09-30",
-   "updated": "2026-10-14",
-   "comments": 272,
-   "labels": [
-    "bounty",
-    "funded",
-    "delivered",
-    "accepted",
-    "needs-work",
-    "paid"
-   ],
-   "author": "auscaster",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "label:paid",
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "Frantic bounty #136 Add a newly launched startup to Stompstart Worker price: $1.50 Slots: 40 (filled) Status: needs work Claim: https://gofrantic.com/bounties/136 Funding receipt: https://gofrantic.com/r/c9a6ca45 Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- frantic:thread:frantic:bounty:136 --> <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:136 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZG",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [
-    "https://github.com/auscaster/stompstart-startup-list/pull/10"
-   ],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [
-    "$1.50"
+    "$10,000",
+    "$10000"
    ],
    "stripe_likely": false,
    "score": 7,
@@ -131,76 +80,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/habibdxb01/bounty-watcher/issues/5",
-   "repo": "habibdxb01/bounty-watcher",
-   "number": 5,
-   "title": "📋 2 open bounties right now",
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "comments": 0,
-   "labels": [
-    "bounty",
-    "assessed"
-   ],
-   "author": "github-actions[bot]",
-   "author_association": "NONE",
-   "queries": [
-    "label:bounty"
-   ],
-   "body_snippet": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Comprehend as a utility to redact data](https://github.com/arakoodev/EdgeChains/issues/290) cc @habibdxb01 <!-- algora:gh-4455330769 --> <!-- algora:gh-4166244335 --> <!-- algora:gh-4043764365 --> <!-- algora:gh-2873015698 --",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [
-    "$150",
-    "$50"
-   ],
-   "stripe_likely": false,
-   "score": 6,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/scottonchain/microcredit-agent-testbed/issues/17",
-   "repo": "scottonchain/microcredit-agent-testbed",
-   "number": 17,
-   "title": "BOOTSTRAP-001: paid AI work and resource access, then human earnings",
-   "created": "2026-10-06",
-   "updated": "2026-10-14",
-   "comments": 192,
-   "labels": [],
-   "author": "scottonchain",
-   "author_association": "OWNER",
-   "queries": [
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "AI disclosure: the operator's ChatGPT assistant. **BOOTSTRAP-001 v2 — 2026-10-06.** Updated at the operator's request after current-market research. [Evidence and primary sources](https://github.com/scottonchain/microcredit-agent-testbed/issues/17#issuecomment-6016218420). This body is the current strategy; older comments remain historical evidence. The withdrawn real-device testing proposal stays withdrawn. ## Outcome Build an AI-operated route from a real customer's useful task to paid deliver",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [
-    "https://github.com/scottonchain/microcredit-agent-testbed/pull/18"
-   ],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [
-    "$20",
-    "1 USDC"
-   ],
-   "stripe_likely": false,
-   "score": 5,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
    "repo": "sybil-solutions/local-ai-registry",
    "number": 223,
@@ -240,184 +119,32 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/hunki1488-a11y/AIgor/issues/3",
-   "repo": "hunki1488-a11y/AIgor",
-   "number": 3,
-   "title": "AIBTC bounty: Refer 3 active agents for substantive PR review — 1000 sats",
-   "created": "2026-05-23",
-   "updated": "2026-10-11",
-   "comments": 3,
-   "labels": [
-    "aibtc",
-    "bounty",
-    "bitcoin"
-   ],
-   "author": "hunki1488-a11y",
-   "author_association": "OWNER",
+   "url": "https://github.com/Signpost-Labs/signpost-app/issues/45",
+   "repo": "Signpost-Labs/signpost-app",
+   "number": 45,
+   "title": "[Bounty: $75] Use `npm ci` in `contract-integration.yml`",
+   "created": "2026-10-08",
+   "updated": "2026-10-14",
+   "comments": 1,
+   "labels": [],
+   "author": "cythecode",
+   "author_association": "NONE",
    "queries": [
-    "label:bounty",
-    "bounty sats"
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
    ],
-   "body_snippet": "This is an external cross-post for an active AIBTC bounty. Original bounty: https://aibtc.com/bounty/mpibf27qb62de2afff30 Reward: 1000 sats Deadline: 2026-06-06T05:00:00.000Z What the bounty asks for: Refer 3 distinct registered AIBTC agents. Each referred agent sends the bounty poster an inbox message containing: - the referral code - a public PR URL they want reviewed The poster then provides substantive PR review back to each referred agent. Useful links: - AIBTC bounty board: https://aibtc.c",
+   "body_snippet": "**Context** `contract-integration.yml` installs dependencies with `npm install`, while every job in `ci.yml` and the `backend` job use `npm ci --no-audit --no-fund`. `npm install` may rewrite `package-lock.json` and resolve versions that drift from the lockfile, so the integration suite can pass against a dependency tree nobody has committed — exactly the tree whose ABI the suite is meant to validate. **Proposed Change** Replace `npm install` with `npm ci --no-audit --no-fund` in the `Install de",
    "prs_open": [],
    "prs_merged": [],
-   "prs_closed": [
-    "https://github.com/hunki1488-a11y/AIgor/pull/4"
-   ],
-   "claims": 1,
-   "claimers": [
-    "tiaraimpex410-sudo"
-   ],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
    "bot_bounty": null,
    "paid_hint": false,
    "enriched": true,
    "amounts": [
-    "1000 sats"
+    "$75"
    ],
-   "stripe_likely": false,
-   "score": 5,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mscrnt/lockpick/issues/32",
-   "repo": "mscrnt/lockpick",
-   "number": 32,
-   "title": "[B111] Pick up each key item (keys, crests, MO disk, emblems...)",
-   "created": "2026-10-13",
-   "updated": "2026-10-14",
-   "comments": 5,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "area:re1",
-    "needs-game"
-   ],
-   "author": "mscrnt",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "**Do this in-game (with a capture running):** Pick up each key item (keys, crests, MO disk, emblems...). **Verifies:** Key item ids for the item name table. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/issues/new?template=capture-submission.yml) mentioning **B111**. Full list: [CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md). --- ",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mscrnt/lockpick/issues/31",
-   "repo": "mscrnt/lockpick",
-   "number": 31,
-   "title": "[B110] Combine items",
-   "created": "2026-10-13",
-   "updated": "2026-10-14",
-   "comments": 5,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "area:re1",
-    "needs-game"
-   ],
-   "author": "mscrnt",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "**Do this in-game (with a capture running):** Combine items. **Verifies:** Combine results and slot changes. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/issues/new?template=capture-submission.yml) mentioning **B110**. Full list: [CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md). --- **Not a paid bounty.** There's no money involved",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mscrnt/lockpick/issues/30",
-   "repo": "mscrnt/lockpick",
-   "number": 30,
-   "title": "[B109] Get poisoned and cure it (blue herb or serum)",
-   "created": "2026-10-13",
-   "updated": "2026-10-14",
-   "comments": 4,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "area:re1",
-    "needs-game"
-   ],
-   "author": "mscrnt",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "**Do this in-game (with a capture running):** Get poisoned and cure it (blue herb or serum). **Verifies:** Poison status flags (player +0xDC). How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/issues/new?template=capture-submission.yml) mentioning **B109**. Full list: [CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md). --- **Not a paid b",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mscrnt/lockpick/issues/26",
-   "repo": "mscrnt/lockpick",
-   "number": 26,
-   "title": "[B105] Use the bazooka with each round type (explosive, acid, flame)",
-   "created": "2026-10-13",
-   "updated": "2026-10-14",
-   "comments": 5,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "area:re1",
-    "needs-game"
-   ],
-   "author": "mscrnt",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "**Do this in-game (with a capture running):** Use the bazooka with each round type (explosive, acid, flame). **Verifies:** Bazooka id and round-type ids. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/issues/new?template=capture-submission.yml) mentioning **B105**. Full list: [CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md). --- **N",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
    "stripe_likely": false,
    "score": 4,
    "first_seen": "2026-10-14",
@@ -494,62 +221,24 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/71",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 71,
-   "title": "[悬赏] 灵枢生态宣传：材料 + 渠道 + 触达读数（可核验，不写「效果好」）",
-   "created": "2026-10-12",
+   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1313",
+   "repo": "SPLURT-Station/S.P.L.U.R.T-tg",
+   "number": 1313,
+   "title": "[BOUNTY] Suggestion #1286",
+   "created": "2026-10-13",
    "updated": "2026-10-13",
    "comments": 4,
    "labels": [
-    "bounty",
-    "bounty:open",
-    "difficulty:medium"
+    "bounty"
    ],
-   "author": "FuRongJun-1999",
-   "author_association": "OWNER",
+   "author": "SPLURT-Station-Bot",
+   "author_association": "COLLABORATOR",
    "queries": [
     "label:bounty",
     "\"/bounty\" in:comments",
-    "bounty USDC"
+    "\"bounty:\" in:title"
    ],
-   "body_snippet": "## 背景 生态需要对外传播。但「宣传效果」本身不可机械复核——所以本悬赏**把宣传转成可核验的交付物**： 材料（存在性）＋ 渠道（链接可达）＋ 触达读数（可查数字）。**不写不可核验的「效果好」**。 ## 验收标准（必填 · 可机械复核） 1. **交付物**：`docs/promo/<主题>_v0.1.md`——含 ① 文案 ② 目标受众 ③ 渠道清单 ④ 发布记录（链接 ＋ 日期）⑤ 触达读数 2. **复跑命令**： ```bash python -X utf8 scripts/check_links.py docs/promo/ # 期望退出码 0（逐条链接可达） ``` 3. **期望读数**： - **≥3 个渠道**的**实际发布链接**（不是「计划发布」）＋ 每条的触达读数（星标 / 浏览 / 转发 / 评论数，须可查） - 读数须附**来源**（链接或截图路径）；**无读数的渠道写「未取到读数 ＋ 原因」** - 每条文案与目标受众对应；受众不明确的文案**不算交付** 4. **反面对照**：链接校验脚本须带守卫（≥3 条断言 ＋ 定点变异自证）；人为改坏一个",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mscrnt/lockpick/issues/29",
-   "repo": "mscrnt/lockpick",
-   "number": 29,
-   "title": "[B108] Use each healing item (green, red+green, blue, mixed herbs, first aid spray)",
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "comments": 5,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "area:re1",
-    "needs-game"
-   ],
-   "author": "mscrnt",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "**Do this in-game (with a capture running):** Use each healing item (green, red+green, blue, mixed herbs, first aid spray). **Verifies:** Healing item ids, heal amounts, herb combining. **Status so far:** Partly seen: first aid spray (full heal). How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/issues/new?template=capture-submission.yml) mentioning **B108**. Full list: [CAPTURE",
+   "body_snippet": "### About the Bounty ## Original issue text: **Suggestion:** Make it so that large painting frames can be either bought or crafted. Its really something small, but it'd still be nice to have the possibility to actually use all the large paintings made by other players and the crew. **Reason:** [BOUNTY] okye **Results:** 5x <:In_help:1056296636348899408> 0x <:In_harm:1056296637909192794> ### Suggestion Reference **Suggested by:** foxytwizz https://discord.com/channels/908082639704064051/140468627",
    "prs_open": [],
    "prs_merged": [],
    "prs_closed": [],
@@ -576,9 +265,9 @@
    "author": "cksime[bot]",
    "author_association": "NONE",
    "queries": [
-    "\"/bounty\" in:comments",
     "bounty USDC",
-    "bounty USDT"
+    "bounty USDT",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "# PR Blueprint — Issue #2843 Repository: microg/GmsCore Issue URL: https://github.com/microg/GmsCore/issues/2843 Generated: 2026-10-13T06:23:00.177889 ## Analysis The GmsCore repository currently ships no WearOS/Wearable support surface at all. The `play-services-wearable` artifact that apps (WearOS companion apps, WearableListenerService implementations, and the Wear app 'bridge' stack) link against is absent from the published `com.google.android.gms:play-services-*` shims, so any app that imp",
    "prs_open": [],
@@ -598,13 +287,13 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1313",
+   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1312",
    "repo": "SPLURT-Station/S.P.L.U.R.T-tg",
-   "number": 1313,
-   "title": "[BOUNTY] Suggestion #1286",
+   "number": 1312,
+   "title": "[BOUNTY] Suggestion #1285",
    "created": "2026-10-13",
    "updated": "2026-10-13",
-   "comments": 4,
+   "comments": 1,
    "labels": [
     "bounty"
    ],
@@ -612,9 +301,9 @@
    "author_association": "COLLABORATOR",
    "queries": [
     "label:bounty",
-    "\"/bounty\" in:comments"
+    "\"bounty:\" in:title"
    ],
-   "body_snippet": "### About the Bounty ## Original issue text: **Suggestion:** Make it so that large painting frames can be either bought or crafted. Its really something small, but it'd still be nice to have the possibility to actually use all the large paintings made by other players and the crew. **Reason:** [BOUNTY] okye **Results:** 5x <:In_help:1056296636348899408> 0x <:In_harm:1056296637909192794> ### Suggestion Reference **Suggested by:** foxytwizz https://discord.com/channels/908082639704064051/140468627",
+   "body_snippet": "### About the Bounty ## Original issue text: **Suggestion:** Add digi sprites for some testicles to stop them from getting cut off down the standard legline. **Reason:** [BOUNTY] yeah ok but dot your nuts are small, ok? you don't need this. **Results:** 7x <:In_help:1056296636348899408> 0x <:In_harm:1056296637909192794> ### Suggestion Reference **Suggested by:** dotmaster https://discord.com/channels/908082639704064051/1404686278351655055/1559574694833819789 ### Contact Information Contact `mos_",
    "prs_open": [],
    "prs_merged": [],
    "prs_closed": [],
@@ -630,26 +319,25 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/mscrnt/lockpick/issues/34",
-   "repo": "mscrnt/lockpick",
-   "number": 34,
-   "title": "[B113] Try to pick something up with a full inventory",
-   "created": "2026-10-13",
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/71",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 71,
+   "title": "[悬赏] 灵枢生态宣传：材料 + 渠道 + 触达读数（可核验，不写「效果好」）",
+   "created": "2026-10-12",
    "updated": "2026-10-13",
-   "comments": 5,
+   "comments": 4,
    "labels": [
-    "help wanted",
     "bounty",
-    "area:re1",
-    "needs-game"
+    "bounty:open",
+    "difficulty:medium"
    ],
-   "author": "mscrnt",
+   "author": "FuRongJun-1999",
    "author_association": "OWNER",
    "queries": [
     "label:bounty",
     "bounty USDC"
    ],
-   "body_snippet": "**Do this in-game (with a capture running):** Try to pick something up with a full inventory. **Verifies:** Slot limits: Chris 6, Jill 8. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/issues/new?template=capture-submission.yml) mentioning **B113**. Full list: [CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md). --- **Not a paid bounty",
+   "body_snippet": "## 背景 生态需要对外传播。但「宣传效果」本身不可机械复核——所以本悬赏**把宣传转成可核验的交付物**： 材料（存在性）＋ 渠道（链接可达）＋ 触达读数（可查数字）。**不写不可核验的「效果好」**。 ## 验收标准（必填 · 可机械复核） 1. **交付物**：`docs/promo/<主题>_v0.1.md`——含 ① 文案 ② 目标受众 ③ 渠道清单 ④ 发布记录（链接 ＋ 日期）⑤ 触达读数 2. **复跑命令**： ```bash python -X utf8 scripts/check_links.py docs/promo/ # 期望退出码 0（逐条链接可达） ``` 3. **期望读数**： - **≥3 个渠道**的**实际发布链接**（不是「计划发布」）＋ 每条的触达读数（星标 / 浏览 / 转发 / 评论数，须可查） - 读数须附**来源**（链接或截图路径）；**无读数的渠道写「未取到读数 ＋ 原因」** - 每条文案与目标受众对应；受众不明确的文案**不算交付** 4. **反面对照**：链接校验脚本须带守卫（≥3 条断言 ＋ 定点变异自证）；人为改坏一个",
    "prs_open": [],
    "prs_merged": [],
    "prs_closed": [],
@@ -659,278 +347,6 @@
    "paid_hint": false,
    "enriched": true,
    "amounts": [],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mscrnt/lockpick/issues/7",
-   "repo": "mscrnt/lockpick",
-   "number": 7,
-   "title": "Capture bounties: help Lockpick learn the game",
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "comments": 3,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "capture"
-   ],
-   "author": "mscrnt",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "bounty USDC"
-   ],
-   "body_snippet": "Lockpick only trusts what it has seen the real game do. Everything still needed is listed by release in **[docs/CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md)** (source of truth, checked off as captures come in). **How to help** 1. Install Lockpick ([Lockpick-win-Setup.exe](https://github.com/mscrnt/lockpick/releases/latest/download/Lockpick-win-Setup.exe)). 2. Start Resident Evil (GOG) normally, then **Debug → Start capture** in Lockpick. 3. Play — s",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mscrnt/lockpick/issues/22",
-   "repo": "mscrnt/lockpick",
-   "number": 22,
-   "title": "[B007] Play the Rebecca section (Chris scenario)",
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "comments": 3,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "area:re1",
-    "needs-game"
-   ],
-   "author": "mscrnt",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "bounty USDC"
-   ],
-   "body_snippet": "**Do this in-game (with a capture running):** Play the Rebecca section (Chris scenario). **Verifies:** Character id 3 and Rebecca's inventory pointer (0xBE9950). How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/issues/new?template=capture-submission.yml) mentioning **B007**. Full list: [CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md).",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mscrnt/lockpick/issues/25",
-   "repo": "mscrnt/lockpick",
-   "number": 25,
-   "title": "[B104] Fire and reload the Colt Python / magnum",
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "comments": 3,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "area:re1",
-    "needs-game"
-   ],
-   "author": "mscrnt",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "bounty USDC"
-   ],
-   "body_snippet": "**Do this in-game (with a capture running):** Fire and reload the Colt Python / magnum. **Verifies:** Magnum and magnum-round ids. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/issues/new?template=capture-submission.yml) mentioning **B104**. Full list: [CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md). --- **Not a paid bounty.** The",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mscrnt/lockpick/issues/27",
-   "repo": "mscrnt/lockpick",
-   "number": 27,
-   "title": "[B106] Use the flamethrower (Chris)",
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "comments": 3,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "area:re1",
-    "needs-game"
-   ],
-   "author": "mscrnt",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "bounty USDC"
-   ],
-   "body_snippet": "**Do this in-game (with a capture running):** Use the flamethrower (Chris). **Verifies:** Flamethrower id and fuel. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/issues/new?template=capture-submission.yml) mentioning **B106**. Full list: [CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md). --- **Not a paid bounty.** There's no money i",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mscrnt/lockpick/issues/28",
-   "repo": "mscrnt/lockpick",
-   "number": 28,
-   "title": "[B107] Use the rocket launcher (ending)",
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "comments": 3,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "area:re1",
-    "needs-game"
-   ],
-   "author": "mscrnt",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "bounty USDC"
-   ],
-   "body_snippet": "**Do this in-game (with a capture running):** Use the rocket launcher (ending). **Verifies:** Rocket launcher id. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/issues/new?template=capture-submission.yml) mentioning **B107**. Full list: [CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md). --- **Not a paid bounty.** There's no money inv",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Circadian-agent/agent-economy-data/issues/5",
-   "repo": "Circadian-agent/agent-economy-data",
-   "number": 5,
-   "title": "Sellers settling through non-Coinbase facilitators are outside the Bazaar frame; offering a live one as a test point",
-   "created": "2026-08-20",
-   "updated": "2026-10-13",
-   "comments": 30,
-   "labels": [],
-   "author": "0200project",
-   "author_association": "NONE",
-   "queries": [
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "Disclosure: base-tx-explain is our own service, offered here as a measurement point, not a request to feature it. The header of `x402_market_scan.py` calls the Bazaar the only source of per-listing demand, and the scan reads nothing else. We run a paid MCP server, https://base-tx-explain.fly.dev/mcp (one tool, deterministic decode of Base mainnet transactions to strict JSON), settling $0.02/call USDC on Base through the PayAI facilitator rather than Coinbase's. We paged all 15,157 Bazaar listing",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [
-    "$0.02"
-   ],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/5",
-   "repo": "bujiproject-art/agentmidasopendevteam",
-   "number": 5,
-   "title": "Bounty #29 ($100): eligibility, integration scope and Pakistan payout",
-   "created": "2026-09-06",
-   "updated": "2026-10-13",
-   "comments": 3,
-   "labels": [],
-   "author": "Talha24Akram",
-   "author_association": "NONE",
-   "queries": [
-    "\"/bounty\" in:comments",
-    "bounty USDT"
-   ],
-   "body_snippet": "I am evaluating **Bounty #29, Onboarding Checklist ($100)**, listed in BOUNTIES.md, for an implementation covering onboarding steps and progress tracking. **AI disclosure:** Research, implementation and testing would be carried out autonomously by ChatGPT (GPT-6 Astra Pro) on behalf of this GitHub account. This is not an offer of human-only development or live support. Before claiming a slot or beginning implementation, please confirm: 1. Is #29 currently available, with the advertised $100 cash",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [
-    "$100"
-   ],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Nikolife2016/pulsefeed-x402/issues/3",
-   "repo": "Nikolife2016/pulsefeed-x402",
-   "number": 3,
-   "title": "radar: 72 ветки ждут ответа",
-   "created": "2026-07-31",
-   "updated": "2026-10-13",
-   "comments": 87,
-   "labels": [
-    "radar"
-   ],
-   "author": "github-actions[bot]",
-   "author_association": "CONTRIBUTOR",
-   "queries": [
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "Свежие вопросы, где у нас есть конкретный ответ — 2026-07-31 UTC - **[x402-foundation/x402#3006](https://github.com/x402-foundation/x402/issues/3006)** — [Feature]: Privacy-minimal receipt does not bind the payment terms of the accepted offer чем полезны: схемы: в спеке их четыре, и у upto/auth-capture amount — потолок, а не цена; смена получателя и адреса-двойники — у нас есть история наблюдений - **[x402-foundation/x402#3005](https://github.com/x402-foundation/x402/issues/3005)** — [Feature]: ",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [
-    "$0.01"
-   ],
    "stripe_likely": false,
    "score": 4,
    "first_seen": "2026-10-14",
@@ -965,69 +381,6 @@
     "$5",
     "5 USDC"
    ],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/chiuhehe1-design/conm/issues/33",
-   "repo": "chiuhehe1-design/conm",
-   "number": 33,
-   "title": "[Bounty Solution] arakoodev/EdgeChains#273: BOUNTY: add support for qdrant vector database in javascript sdk",
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "comments": 0,
-   "labels": [],
-   "author": "haydets[bot]",
-   "author_association": "NONE",
-   "queries": [
-    "bounty USDC",
-    "bounty USDT"
-   ],
-   "body_snippet": "# PR Blueprint — Issue #273 Repository: arakoodev/EdgeChains Issue URL: https://github.com/arakoodev/EdgeChains/issues/273 Generated: 2026-10-13T22:26:12.600786 ## Analysis The JavaScript SDK's vector storage layer is hard-coded to Postgres/Supabase via PostgresClient (lib/src/lib/clients/PostgresClient.ts) and consumed by services such as HydeSearchService.ts (line 64), which constructs the client directly. There is no abstraction boundary between the search service and the concrete vector stor",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [
-    "$1"
-   ],
-   "stripe_likely": false,
-   "score": 4,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1312",
-   "repo": "SPLURT-Station/S.P.L.U.R.T-tg",
-   "number": 1312,
-   "title": "[BOUNTY] Suggestion #1285",
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "comments": 1,
-   "labels": [
-    "bounty"
-   ],
-   "author": "SPLURT-Station-Bot",
-   "author_association": "COLLABORATOR",
-   "queries": [
-    "label:bounty"
-   ],
-   "body_snippet": "### About the Bounty ## Original issue text: **Suggestion:** Add digi sprites for some testicles to stop them from getting cut off down the standard legline. **Reason:** [BOUNTY] yeah ok but dot your nuts are small, ok? you don't need this. **Results:** 7x <:In_help:1056296636348899408> 0x <:In_harm:1056296637909192794> ### Suggestion Reference **Suggested by:** dotmaster https://discord.com/channels/908082639704064051/1404686278351655055/1559574694833819789 ### Contact Information Contact `mos_",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
    "stripe_likely": false,
    "score": 4,
    "first_seen": "2026-10-14",
@@ -1120,7 +473,6 @@
    "author_association": "COLLABORATOR",
    "queries": [
     "label:bounty",
-    "\"/bounty\" in:comments",
     "bounty USDC"
    ],
    "body_snippet": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rx-7900-xtx-24gb` | | Model | Qwen3.8-27B, or any model in `registry/models.json` not yet tested on this card | | Context | 128K or more | | Done when | all six checks pass: loads, answers, thinks, calls a tool, recalls at a nearly full window, 15 tok/s or more | **Why:** The biggest consumer AMD card has one re",
@@ -1161,7 +513,6 @@
    "author_association": "COLLABORATOR",
    "queries": [
     "label:bounty",
-    "\"/bounty\" in:comments",
     "bounty USDC"
    ],
    "body_snippet": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `intel-arc-b580-12gb` | | Model | Qwen3.5-9B or Gemma 4 12B, or any model in `registry/models.json` not yet tested on this card | | Context | 64K or more | | Done when | all six checks pass: loads, answers, thinks, calls a tool, recalls at a nearly full window, 15 tok/s or more | **Why:** Arc B580 owners already ",
@@ -1224,46 +575,6 @@
     "$100",
     "$130"
    ],
-   "stripe_likely": false,
-   "score": 3,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/309",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 309,
-   "title": "Keep a NUL character in feedback text from failing knowledge proposal generation",
-   "created": "2026-10-06",
-   "updated": "2026-10-11",
-   "comments": 3,
-   "labels": [
-    "bug",
-    "bounty",
-    "points:50",
-    "track:reusability",
-    "priority:P3"
-   ],
-   "author": "armstrongsam25",
-   "author_association": "CONTRIBUTOR",
-   "queries": [
-    "label:bounty"
-   ],
-   "body_snippet": "## Problem or idea On the sandbox deployment the orchestrator logs `proposal generation failed for web-research-1/fetch_page` on every start. It was seen on the published image for `1f4e8fbf` and on the build before it. The reported cause is a NUL character (`\\x00`) in text sent to PostgreSQL, which does not accept NUL in a text value. The knowledge update proposal for that tool is never stored, and the same failure repeats on each start. This was reported from the deployment log on 2026-10-06. ",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [
-    "https://github.com/AstralDeep/AstralDeep/pull/314",
-    "https://github.com/AstralDeep/AstralDeep/pull/315",
-    "https://github.com/AstralDeep/AstralDeep/pull/354",
-    "https://github.com/AstralDeep/AstralDeep/pull/356"
-   ],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
    "stripe_likely": false,
    "score": 3,
    "first_seen": "2026-10-14",
@@ -1392,6 +703,37 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/chiuhehe1-design/conm/issues/37",
+   "repo": "chiuhehe1-design/conm",
+   "number": 37,
+   "title": "[Bounty Solution] zio/zio#9211: ZIO.timeoutTO has tremendous overhead",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 0,
+   "labels": [],
+   "author": "cksime[bot]",
+   "author_association": "NONE",
+   "queries": [
+    "bounty USDC",
+    "bounty USDT",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "# PR Blueprint — Issue #9211 Repository: zio/zio Issue URL: https://github.com/zio/zio/issues/9211 Generated: 2026-10-14T14:05:28.124515 ## Analysis Root cause: ZIO.timeoutTO (and by extension ZIO.timeout) in ZIO 2 is implemented via `raceFibersWith`, which forks a second fiber for the `sleep` effect and races both fibers. Forking a fiber per timeout is enormously expensive (fiber allocation, FiberRef snapshotting, scheduler registration, awaits on the race result). The benchmark in the issue sh",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/Asayed36/trading-bot/issues/354",
    "repo": "Asayed36/trading-bot",
    "number": 354,
@@ -1431,7 +773,7 @@
    "title": "Knos relay log",
    "created": "2026-10-02",
    "updated": "2026-10-14",
-   "comments": 1121,
+   "comments": 1135,
    "labels": [
     "knos-relay"
    ],
@@ -1442,6 +784,276 @@
     "bounty USDC"
    ],
    "body_snippet": "This is a log written by a workflow. It is not a task and carries no payment. One line per token the always-on worker relayed (see src/knos/proof/ghrelay.py).",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/322",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 322,
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：加「修复有没有守卫」检查器 —— 《运行手册》§八-2 的人工判据做成可跑脚本（**PR #321**）",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 1,
+   "labels": [],
+   "author": "m3159584479",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "<!-- intake:v1 {\"project\": \"bounty_site\", \"difficulty\": \"medium\", \"impact\": \"A\", \"target\": \"FuRongJun-1999/dsh-bounty\", \"form\": \"intake\", \"pr\": \"https://github.com/FuRongJun-1999/dsh-bounty/pull/321\"} --> | 项 | 值 | |---|---| | PR | **FuRongJun-1999/dsh-bounty#321** | | 目标 project | **`bounty_site`** | | 难度自申请 | **medium** | | 影响等级建议 | **A** | 本件为 `intake` 输入（非悬赏，不 `/claim`）。 **诚实边界**：本脚本判的是**文件的覆盖面**，不是**判据的有效性** —— 把 §八-2 的**第一层筛选**机械化，第二层（判据是否真锚在本次修复上）仍需人工；未接进 CI workflow。 ",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/320",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 320,
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：加「静默回退」检查器 —— 《运行手册》§二-8 的人工步骤做成可跑脚本（§七 点名要求）（**PR #319**）",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 1,
+   "labels": [],
+   "author": "m3159584479",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "<!-- intake:v1 {\"project\": \"bounty_site\", \"difficulty\": \"medium\", \"impact\": \"A\", \"target\": \"FuRongJun-1999/dsh-bounty\", \"form\": \"intake\", \"pr\": \"https://github.com/FuRongJun-1999/dsh-bounty/pull/319\"} --> | 项 | 值 | |---|---| | PR | **FuRongJun-1999/dsh-bounty#319** | | 目标 project | **`bounty_site`**（本仓自己的工具链） | | 难度自申请 | **medium** | | 影响等级建议 | **A**（手册 §七 自认的弱点，且 §二-8 是维护者八道取证之一） | 本件为 `intake` 输入（非悬赏，不 `/claim`）：外部人无法自授 `bounty` 标签 （`.github/ISSUE_TEMPLATE/bounty.yml`；`docs/bounty/README.md` §",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/318",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 318,
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`STALE_RE` 补数字边界 —— 旧式**分不清 −1 与 −12/−10**（**PR #317**｜含自纠说明）",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 4,
+   "labels": [],
+   "author": "m3159584479",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "<!-- intake:v1 {\"project\": \"bounty_site\", \"difficulty\": \"easy\", \"impact\": \"B\", \"target\": \"FuRongJun-1999/dsh-bounty\", \"form\": \"intake\", \"pr\": \"https://github.com/FuRongJun-1999/dsh-bounty/pull/317\"} --> > ## ⚠️ 本申报已**大幅缩小**（含自纠说明） > > 原申报含四项。复核 `scripts/review_build.py` L20-23 与 `docs/spec/悬赏站设计_v1.0.md` > §7.0 / L1593-1594 后确认：`docs/guide/悬赏站使用指南_v1.0.md` 是**另一个产品** > （Django ＋ PostgreSQL ＋ Redis 的《悬赏与项目管理平台》）的**规格交付物** > （该设计稿 L1594 明写「交付物 | 设计文档 + 使用指南（PR 只提这两个）」、 > L1593「不接 GitHub、不记录 PR」）⇒ ",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/316",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 316,
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`bounty_board` 加 `--products-check` —— 四个导出产物只写不校验（**PR #315**）",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 1,
+   "labels": [],
+   "author": "m3159584479",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "<!-- intake:v1 {\"project\": \"bounty_site\", \"difficulty\": \"medium\", \"impact\": \"A\", \"target\": \"FuRongJun-1999/dsh-bounty\", \"form\": \"intake\", \"pr\": \"https://github.com/FuRongJun-1999/dsh-bounty/pull/315\"} --> | 项 | 值 | |---|---| | PR | **FuRongJun-1999/dsh-bounty#315** | | 目标 project | **`bounty_site`**（本仓自己的代码） | | 难度自申请 | **medium** | | 影响等级建议 | **A** | 本件为 `intake` 输入（非悬赏，不 `/claim`）—— 详见 PR 正文。 ## 交付信号（v0.4 §三·3.2 三字段） | 字段 | 内容 | |---|---| | **意图声明** | 消除「四个导出产物只写不校验 ⇒ 生成器源改了、盘上产物静默陈旧而无守卫会红」这一信",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/314",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 314,
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`daily_table --check` 升级为**读盘比对**（消掉手册 §四-1 自认漂移盲区）（**PR #313**）",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 1,
+   "labels": [],
+   "author": "m3159584479",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "<!-- intake:v1 {\"project\": \"bounty_site\", \"difficulty\": \"medium\", \"impact\": \"A\", \"target\": \"FuRongJun-1999/dsh-bounty\", \"form\": \"intake\", \"pr\": \"https://github.com/FuRongJun-1999/dsh-bounty/pull/313\"} --> | 项 | 值 | |---|---| | PR | **FuRongJun-1999/dsh-bounty#313** | | 目标 project | **`bounty_site`**（本仓自己的代码） | | 难度自申请 | **medium** | | 影响等级建议 | **A** | 本件为 `intake` 输入（非悬赏，不 `/claim`）—— 详见 PR 正文。 ## 交付信号（v0.4 §三·3.2 三字段） | 字段 | 内容 | |---|---| | **意图声明** | 消除「`--check` 名为漂移闸、实为确定性自检 ⇒ 生成器源改了、盘上 `贡献",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/312",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 312,
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`build_site` 加 `--check` 漂移闸 —— `site/*.html` 此前零闸（**PR #311**）",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 1,
+   "labels": [],
+   "author": "m3159584479",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "<!-- intake:v1 {\"project\": \"bounty_site\", \"difficulty\": \"medium\", \"impact\": \"A\", \"target\": \"FuRongJun-1999/dsh-bounty\", \"form\": \"intake\", \"pr\": \"https://github.com/FuRongJun-1999/dsh-bounty/pull/311\"} --> | 项 | 值 | |---|---| | PR | **FuRongJun-1999/dsh-bounty#311** | | 目标 project | **`bounty_site`**（本仓自己的代码） | | 难度自申请 | **medium** | | 影响等级建议 | **A** | 本件为 `intake` 输入（非悬赏，不 `/claim`）：外部人无法自授 `bounty` 标签（`.github/ISSUE_TEMPLATE/bounty.yml`； `docs/bounty/README.md` §二 `/claim` 校验②）。详见 PR 正文与本条下方。 #",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/309",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 309,
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`evidence_probe`：`line_numbers` 的 `needle` **非字符串**不再崩栈（**PR #305**）",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 1,
+   "labels": [],
+   "author": "m3159584479",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "<!-- intake:v1 {\"project\": \"bounty_site\", \"difficulty\": \"medium\", \"impact\": \"B\", \"target\": \"FuRongJun-1999/dsh-bounty\", \"form\": \"intake\", \"pr\": \"https://github.com/FuRongJun-1999/dsh-bounty/pull/305\"} --> > ### 本件为 `intake` 输入（外部贡献申报），**非悬赏，不 `/claim`** > > 依据：`.github/ISSUE_TEMPLATE/bounty.yml`「`bounty` 标签是状态机的**准入闸**…… > 故标签一律由维护者手动打」⇒ 外部人**无法自授悬赏身份**； > `docs/bounty/README.md` §二：`/claim` 的校验②要求「`bounty` 标签**在**且为 `open`/`expired` 态」。 > > ⇒ **本件不主张认领**，仅提供可复核证据，供维护者裁定。 > 权限现状（如实）：本账号对 `dsh-bo",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/308",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 308,
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`check_plan`：镜像 `issues` **非对象** ⇒ fail-closed 退 1（不再裸 `AttributeError`）（**PR #304**）",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 1,
+   "labels": [],
+   "author": "m3159584479",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "<!-- intake:v1 {\"project\": \"bounty_site\", \"difficulty\": \"medium\", \"impact\": \"A\", \"target\": \"FuRongJun-1999/dsh-bounty\", \"form\": \"intake\", \"pr\": \"https://github.com/FuRongJun-1999/dsh-bounty/pull/304\"} --> > ### 本件为 `intake` 输入（外部贡献申报），**非悬赏，不 `/claim`** > > 依据：`.github/ISSUE_TEMPLATE/bounty.yml`「`bounty` 标签是状态机的**准入闸**…… > 故标签一律由维护者手动打」⇒ 外部人**无法自授悬赏身份**； > `docs/bounty/README.md` §二：`/claim` 的校验②要求「`bounty` 标签**在**且为 `open`/`expired` 态」。 > > ⇒ **本件不主张认领**，仅提供可复核证据，供维护者裁定。 > 权限现状（如实）：本账号对 `dsh-bo",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/306",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 306,
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`bounty_board`：`rescore` / `role_revocations` / `latest_marker` 对**非对象、非字符串元素**崩栈（**PR #302**）",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 1,
+   "labels": [],
+   "author": "m3159584479",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "<!-- intake:v1 {\"project\": \"bounty_site\", \"difficulty\": \"medium\", \"impact\": \"A\", \"target\": \"FuRongJun-1999/dsh-bounty\", \"form\": \"intake\", \"pr\": \"https://github.com/FuRongJun-1999/dsh-bounty/pull/302\"} --> > ### 本件为 `intake` 输入（外部贡献申报），**非悬赏，不 `/claim`** > > 依据：`.github/ISSUE_TEMPLATE/bounty.yml`「`bounty` 标签是状态机的**准入闸**…… > 故标签一律由维护者手动打」⇒ 外部人**无法自授悬赏身份**； > `docs/bounty/README.md` §二：`/claim` 的校验②要求「`bounty` 标签**在**且为 `open`/`expired` 态」。 > > ⇒ **本件不主张认领**，仅提供可复核证据，供维护者裁定。 > 权限现状（如实）：本账号对 `dsh-bo",
    "prs_open": [],
    "prs_merged": [],
    "prs_closed": [],
@@ -1526,21 +1138,21 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/chiuhehe1-design/conm/issues/37",
-   "repo": "chiuhehe1-design/conm",
-   "number": 37,
-   "title": "[Bounty Solution] zio/zio#9211: ZIO.timeoutTO has tremendous overhead",
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/281",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 281,
+   "title": "【贡献申报】18 件缺陷修复（dsh-bounty ×11 ＋ lingshu ×7）",
    "created": "2026-10-14",
    "updated": "2026-10-14",
-   "comments": 0,
+   "comments": 1,
    "labels": [],
-   "author": "cksime[bot]",
-   "author_association": "NONE",
+   "author": "Beiwo992",
+   "author_association": "CONTRIBUTOR",
    "queries": [
-    "bounty USDC",
-    "bounty USDT"
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
    ],
-   "body_snippet": "# PR Blueprint — Issue #9211 Repository: zio/zio Issue URL: https://github.com/zio/zio/issues/9211 Generated: 2026-10-14T14:05:28.124515 ## Analysis Root cause: ZIO.timeoutTO (and by extension ZIO.timeout) in ZIO 2 is implemented via `raceFibersWith`, which forks a second fiber for the `sleep` effect and races both fibers. Forking a fiber per timeout is enormously expensive (fiber allocation, FiberRef snapshotting, scheduler registration, awaits on the race result). The benchmark in the issue sh",
+   "body_snippet": "*以下修复均已获维护者独立复核并合入各仓库 main（其中 dsh-bounty#243/#246 经返工验收后由维护者本地合并，PR 关闭）；最终计分以维护者确认为准。* ## 18 件缺陷修复（dsh-bounty ×11 ＋ lingshu ×7） ### dsh-bounty（11 件） | 修复 PR | 对应缺陷 | 标题 | |---|---|---| | #242 | #198 | fix(_do_select): 定标 rounds=1→0，与 /deliver 累加语义对齐 | | #243 | #199 | fix(claim): 回评超时扣分与 timeout_delta 对齐（−2×base） | | #244 | #200 | fix(spec): E 已启用（v1.0.1），修正\"无承载\"过期断言 | | #245 | #206 | fix(offline): store_apply 落盘标记补全 bidders/criteria/impact | | #246 | #207 | fix(docs): daily_table SCORE_NOTE 与实现对",
    "prs_open": [],
    "prs_merged": [],
    "prs_closed": [],
@@ -1550,6 +1162,38 @@
    "paid_hint": false,
    "enriched": true,
    "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Circadian-agent/agent-economy-data/issues/5",
+   "repo": "Circadian-agent/agent-economy-data",
+   "number": 5,
+   "title": "Sellers settling through non-Coinbase facilitators are outside the Bazaar frame; offering a live one as a test point",
+   "created": "2026-08-20",
+   "updated": "2026-10-13",
+   "comments": 30,
+   "labels": [],
+   "author": "0200project",
+   "author_association": "NONE",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "bounty USDC"
+   ],
+   "body_snippet": "Disclosure: base-tx-explain is our own service, offered here as a measurement point, not a request to feature it. The header of `x402_market_scan.py` calls the Bazaar the only source of per-listing demand, and the scan reads nothing else. We run a paid MCP server, https://base-tx-explain.fly.dev/mcp (one tool, deterministic decode of Base mainnet transactions to strict JSON), settling $0.02/call USDC on Base through the PayAI facilitator rather than Coinbase's. We paged all 15,157 Bazaar listing",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [
+    "$0.02"
+   ],
    "stripe_likely": false,
    "score": 1,
    "first_seen": "2026-10-14",
@@ -1586,21 +1230,21 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/vitorpamplona/amethyst/issues/4340",
-   "repo": "vitorpamplona/amethyst",
-   "number": 4340,
-   "title": "[BUG] On-chain wallet: cannot send funds to a Bitcoin address",
-   "created": "2026-10-06",
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/213",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 213,
+   "title": "【贡献申报】15 件缺陷报告（dsh-bounty ×10 ＋ lingshu ×5）",
+   "created": "2026-10-13",
    "updated": "2026-10-13",
-   "comments": 6,
+   "comments": 1,
    "labels": [],
-   "author": "AxelHamburch",
-   "author_association": "NONE",
+   "author": "Beiwo992",
+   "author_association": "CONTRIBUTOR",
    "queries": [
     "\"/bounty\" in:comments",
-    "bounty sats"
+    "\"bounty:\" in:title"
    ],
-   "body_snippet": "**Describe the bug** The in-app on-chain wallet (NIP-BC, static Taproot address derived from the Nostr pubkey) shows my balance, but there is no direct way to withdraw it to a regular Bitcoin address (`bc1q…` / `bc1p…`). Pasting one into the wallet's \"Send On-Chain Zap\" sheet fails with \"internal key must be 32 bytes (got 21)\". Because there is no seed phrase, the funds are effectively locked in Amethyst. The only working path I found is very indirect (see Workaround) and easy to get wrong: the ",
+   "body_snippet": "*维护者尚未回帖判定；最终计分以维护者确认为准；若判不成立，对应申报自动作废。* ## 【贡献申报】15 件缺陷报告（dsh-bounty ×10 ＋ lingshu ×5） ### P1（4 件） | # | 仓库 | 标题 | |---|------|------| | dsh-bounty#198 | dsh-bounty | fix(_do_select): 定标承诺 20 分走 deliver 只给 10 分 | | dsh-bounty#199 | dsh-bounty | fix(claim): 回评写 −1 实扣 −20 | | dsh-bounty#200 | dsh-bounty | fix(spec): E 无承载文档过期 | | lingshu#530 | lingshu | fix(tools/coggraph): derive_edges 字符串 created 崩溃 | ### P2（11 件） | # | 仓库 | 标题 | |---|------|------| | dsh-bounty#206 | dsh-bounty | [离线模式] store_",
    "prs_open": [],
    "prs_merged": [],
    "prs_closed": [],
@@ -1732,6 +1376,38 @@
    "paid_hint": false,
    "enriched": true,
    "amounts": [],
+   "stripe_likely": false,
+   "score": 1,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/chiuhehe1-design/conm/issues/33",
+   "repo": "chiuhehe1-design/conm",
+   "number": 33,
+   "title": "[Bounty Solution] arakoodev/EdgeChains#273: BOUNTY: add support for qdrant vector database in javascript sdk",
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "comments": 0,
+   "labels": [],
+   "author": "haydets[bot]",
+   "author_association": "NONE",
+   "queries": [
+    "bounty USDC",
+    "bounty USDT"
+   ],
+   "body_snippet": "# PR Blueprint — Issue #273 Repository: arakoodev/EdgeChains Issue URL: https://github.com/arakoodev/EdgeChains/issues/273 Generated: 2026-10-13T22:26:12.600786 ## Analysis The JavaScript SDK's vector storage layer is hard-coded to Postgres/Supabase via PostgresClient (lib/src/lib/clients/PostgresClient.ts) and consumed by services such as HydeSearchService.ts (line 64), which constructs the client directly. There is no abstraction boundary between the search service and the concrete vector stor",
+   "prs_open": [],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [
+    "$1"
+   ],
    "stripe_likely": false,
    "score": 1,
    "first_seen": "2026-10-14",
@@ -2156,44 +1832,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/AstralDeep/AstralProjection/issues/55",
-   "repo": "AstralDeep/AstralProjection",
-   "number": 55,
-   "title": "Render a bounded ChatGPT MCP status and artifact panel",
-   "created": "2026-10-07",
-   "updated": "2026-10-12",
-   "comments": 1,
-   "labels": [
-    "enhancement",
-    "bounty",
-    "points:100",
-    "track:interoperability",
-    "track:reusability",
-    "priority:P3"
-   ],
-   "author": "armstrongsam25",
-   "author_association": "CONTRIBUTOR",
-   "queries": [
-    "label:bounty"
-   ],
-   "body_snippet": "## Problem or idea OpenAI MCP Extensions can display resource-backed tool panels. Projection currently renders MCP text/content, but a host-rendered Astral Work status/artifact panel has not been qualified. Reusable rendering belongs in Projection; Deep must supply already-authorized, sanitized state. ## Expected outcome Provide an installed-wheel rendering target/example for a small status/artifact panel using existing primitives and vanilla JS/CSS. The external ChatGPT host is an explicitly de",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 1,
-   "claimers": [
-    "ljn66666"
-   ],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 1,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/ClankerNation/OpenAgents/issues/57",
    "repo": "ClankerNation/OpenAgents",
    "number": 57,
@@ -2499,46 +2137,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/67",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 67,
-   "title": "[悬赏] 横向测评：各家角色扮演 / 记忆系统 / 智能体工作流方案（≥3 家 · 可复跑）",
-   "created": "2026-10-12",
-   "updated": "2026-10-14",
-   "comments": 12,
-   "labels": [
-    "bounty",
-    "bounty:delivered",
-    "difficulty:expert"
-   ],
-   "author": "FuRongJun-1999",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "## 背景 市面上角色扮演、记忆系统、智能体工作流方案众多，但**结论多、读数少**—— 「哪家记忆检索更准」这类问题，缺的是**第三方可原样复跑的读数**。本悬赏要的正是读数。 ## 验收标准（必填 · 可机械复核） 1. **交付物**：`docs/reviews/<方案名>_v0.1.md` **≥3 家**（三个方向各 ≥1 家，或同一方向 ≥3 家）＋ `docs/reviews/测评方法论_v0.1.md` 2. **复跑命令**：报告里给出的**每条命令第三方可原样复跑**；报告须含「复现步骤」一节（环境、依赖、命令、预期耗时） 3. **期望读数**：每家 ≥1 组**改前 vs 改后**（或 基线 vs 方案）的逐项对照读数，含原始输出片段（围栏代码块） 4. **反面对照**： - 结论与读数**逐项对应**（哪条读数支撑哪条结论，一一可指） - **零 LLM 判官**：判据可机械复核，禁用「看起来更好」「体验更佳」这类不可判表述 - 未能复跑的项**显式写「未测 ＋ 原因」**——**留空或用「应该没问题」代替视为未交付** 5. **边界声明**：每家报告末尾",
-   "prs_open": [],
-   "prs_merged": [],
-   "prs_closed": [
-    "https://github.com/FuRongJun-1999/dsh-bounty/pull/282"
-   ],
-   "claims": 2,
-   "claimers": [
-    "wasd258-jpg",
-    "rindbeans"
-   ],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": 0,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/ClankerNation/OpenAgents/issues/59",
    "repo": "ClankerNation/OpenAgents",
    "number": 59,
@@ -2756,50 +2354,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/auscaster/frantic-board/issues/431",
-   "repo": "auscaster/frantic-board",
-   "number": 431,
-   "title": "Frantic bounty #134: Run an Ausca Browser Session end to end and report the process",
-   "created": "2026-09-17",
-   "updated": "2026-10-13",
-   "comments": 63,
-   "labels": [
-    "bounty",
-    "funded",
-    "delivered",
-    "paid"
-   ],
-   "author": "auscaster",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "label:paid",
-    "bounty USDC",
-    "bounty USDT"
-   ],
-   "body_snippet": "Frantic bounty #134 Run an Ausca Browser Session end to end and report the process Worker price: $1.05 Slots: 10 (filled) Status: delivered Claim: https://gofrantic.com/bounties/134 Funding receipt: https://gofrantic.com/r/f1080f24 Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- frantic:thread:frantic:bounty:134 --> <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:134 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym9",
-   "prs_open": [
-    "https://github.com/auscaster/frantic-board/pull/439",
-    "https://github.com/auscaster/frantic-board/pull/446"
-   ],
-   "prs_merged": [],
-   "prs_closed": [
-    "https://github.com/auscaster/frantic-board/pull/449"
-   ],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [
-    "$1.05"
-   ],
-   "stripe_likely": false,
-   "score": -1,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/sybil-solutions/local-ai-registry/issues/222",
    "repo": "sybil-solutions/local-ai-registry",
    "number": 222,
@@ -2835,48 +2389,6 @@
    "enriched": true,
    "amounts": [
     "$50"
-   ],
-   "stripe_likely": false,
-   "score": -1,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/auscaster/frantic-board/issues/432",
-   "repo": "auscaster/frantic-board",
-   "number": 432,
-   "title": "Frantic bounty #135: Run an Ausca Agent Inbox end to end and report the process",
-   "created": "2026-09-17",
-   "updated": "2026-10-07",
-   "comments": 99,
-   "labels": [
-    "bounty",
-    "funded",
-    "delivered",
-    "paid"
-   ],
-   "author": "auscaster",
-   "author_association": "OWNER",
-   "queries": [
-    "label:paid",
-    "bounty USDT"
-   ],
-   "body_snippet": "Frantic bounty #135 Run an Ausca Agent Inbox end to end and report the process Worker price: $1.05 Slots: 10 (filled) Status: delivered Claim: https://gofrantic.com/bounties/135 Funding receipt: https://gofrantic.com/r/a9ec0457 Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- frantic:thread:frantic:bounty:135 --> <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:135 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWV",
-   "prs_open": [
-    "https://github.com/auscaster/frantic-board/pull/436",
-    "https://github.com/auscaster/frantic-board/pull/438"
-   ],
-   "prs_merged": [],
-   "prs_closed": [
-    "https://github.com/auscaster/frantic-board/pull/448"
-   ],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [
-    "$1.05"
    ],
    "stripe_likely": false,
    "score": -1,
@@ -4714,43 +4226,108 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/aadarwal/swarmstatus-bounties/issues/4",
-   "repo": "aadarwal/swarmstatus-bounties",
-   "number": 4,
-   "title": "Explain the us-ma-760 row using primary source history",
-   "created": "2026-09-05",
-   "updated": "2026-10-12",
-   "comments": 1,
+   "url": "https://github.com/NashKara96/fx/issues/1",
+   "repo": "NashKara96/fx",
+   "number": 1,
+   "title": "🎯 Ensure all OnStop hooks execute during Lifecycle.Stop() even if a prior hook returns context.Canceled or context.DeadlineExceeded",
+   "created": "2026-07-21",
+   "updated": "2026-10-11",
+   "comments": 6,
    "labels": [
     "bounty",
-    "publish",
-    "type:question",
-    "priority:medium",
-    "area:SEC"
+    "opire",
+    "$10"
    ],
-   "author": "aadarwal",
+   "author": "NashKara96",
    "author_association": "OWNER",
    "queries": [
     "label:bounty"
    ],
-   "body_snippet": "## Question What primary-source history explains code us-ma-760, offerings 1 and usd 14300 in the 2020 county data? ## Existing evidence - [Primary source](https://www.investor.gov/files/county.json) Current direct primary JSON contains the outlier; response SHA256 19f21855d65a95e4fecd49ee1dd0127748dbebb1eb218c4c877efbc707093297, observed September 5. - [Primary source](https://www.wikiservice.at/fractal/wiki.cgi?action=browse&id=SecCountyDataExtractH619Table) Existing head-only cached table inc",
+   "body_snippet": "## 📝 Description In the current lifecycle management implementation, when `Lifecycle.Stop()` is invoked, it executes the registered `OnStop` hooks in reverse order of their registration. However, if any of these hooks returns an error—specifically `context.Canceled` or `context.DeadlineExceeded`—the execution loop aborts immediately. This premature termination prevents subsequent shutdown hooks from running. As a result, critical resources registered later in the lifecycle (such as network liste",
    "prs_open": [
-    "https://github.com/aadarwal/swarmstatus-bounties/pull/63"
+    "https://github.com/NashKara96/fx/pull/2"
    ],
    "prs_merged": [],
    "prs_closed": [
-    "https://github.com/aadarwal/swarmstatus-bounties/pull/28"
+    "https://github.com/NashKara96/fx/pull/5"
    ],
-   "claims": 1,
-   "claimers": [
-    "jdjioe5-cpu"
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": true,
+   "score": -2,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/NashKara96/resty/issues/1",
+   "repo": "NashKara96/resty",
+   "number": 1,
+   "title": "🎯 Fix Race Condition and Stale Nonce Count in Concurrent Digest Authentication",
+   "created": "2026-07-21",
+   "updated": "2026-10-11",
+   "comments": 7,
+   "labels": [
+    "bounty",
+    "opire",
+    "$10"
    ],
+   "author": "NashKara96",
+   "author_association": "OWNER",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "## 📝 Description When using Resty's built-in Digest Authentication support with a shared `resty.Client` instance, concurrent requests to the same endpoint can fail with `401 Unauthorized`. This occurs because the Digest access authentication state—specifically the nonce count (`nc`) and the client nonce (`cnonce`)—is mutated concurrently across goroutines without proper synchronization. Under concurrent load, multiple goroutines read the same stale `nc` value, generate identical authentication h",
+   "prs_open": [
+    "https://github.com/NashKara96/resty/pull/5"
+   ],
+   "prs_merged": [],
+   "prs_closed": [
+    "https://github.com/NashKara96/resty/pull/4"
+   ],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": true,
+   "score": -2,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/307",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 307,
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`bounty_list`：真源 `items` 元素**非对象**不再崩（`--check` 漂移闸从此拿得到结论）（**PR #303**）",
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "comments": 1,
+   "labels": [],
+   "author": "m3159584479",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "\"/bounty\" in:comments",
+    "\"bounty:\" in:title"
+   ],
+   "body_snippet": "<!-- intake:v1 {\"project\": \"bounty_site\", \"difficulty\": \"medium\", \"impact\": \"A\", \"target\": \"FuRongJun-1999/dsh-bounty\", \"form\": \"intake\", \"pr\": \"https://github.com/FuRongJun-1999/dsh-bounty/pull/303\"} --> > ### 本件为 `intake` 输入（外部贡献申报），**非悬赏，不 `/claim`** > > 依据：`.github/ISSUE_TEMPLATE/bounty.yml`「`bounty` 标签是状态机的**准入闸**…… > 故标签一律由维护者手动打」⇒ 外部人**无法自授悬赏身份**； > `docs/bounty/README.md` §二：`/claim` 的校验②要求「`bounty` 标签**在**且为 `open`/`expired` 态」。 > > ⇒ **本件不主张认领**，仅提供可复核证据，供维护者裁定。 > 权限现状（如实）：本账号对 `dsh-bo",
+   "prs_open": [
+    "https://github.com/FuRongJun-1999/dsh-bounty/pull/303"
+   ],
+   "prs_merged": [],
+   "prs_closed": [],
+   "claims": 0,
+   "claimers": [],
    "bot_bounty": null,
    "paid_hint": false,
    "enriched": true,
    "amounts": [],
    "stripe_likely": false,
-   "score": -2,
+   "score": -3,
    "first_seen": "2026-10-14",
    "is_new": true
   },
@@ -5345,7 +4922,6 @@
    "author_association": "COLLABORATOR",
    "queries": [
     "label:bounty",
-    "\"/bounty\" in:comments",
     "bounty USDC"
    ],
    "body_snippet": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rx-9070-xt-16gb (or rx-7600-xt-16gb, rx-6800-xt-16gb)` | | Model | Qwen3.8-27B or Swift-1.5 IQ3_S, or any model in `registry/models.json` not yet tested on this card | | Context | 128K or more | | Done when | all six checks pass: loads, answers, thinks, calls a tool, recalls at a nearly full window, 15 tok/s or ",
@@ -5413,6 +4989,48 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/67",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 67,
+   "title": "[悬赏] 横向测评：各家角色扮演 / 记忆系统 / 智能体工作流方案（≥3 家 · 可复跑）",
+   "created": "2026-10-12",
+   "updated": "2026-10-14",
+   "comments": 13,
+   "labels": [
+    "bounty",
+    "bounty:delivered",
+    "difficulty:expert"
+   ],
+   "author": "FuRongJun-1999",
+   "author_association": "OWNER",
+   "queries": [
+    "label:bounty",
+    "\"/bounty\" in:comments",
+    "bounty USDC"
+   ],
+   "body_snippet": "## 背景 市面上角色扮演、记忆系统、智能体工作流方案众多，但**结论多、读数少**—— 「哪家记忆检索更准」这类问题，缺的是**第三方可原样复跑的读数**。本悬赏要的正是读数。 ## 验收标准（必填 · 可机械复核） 1. **交付物**：`docs/reviews/<方案名>_v0.1.md` **≥3 家**（三个方向各 ≥1 家，或同一方向 ≥3 家）＋ `docs/reviews/测评方法论_v0.1.md` 2. **复跑命令**：报告里给出的**每条命令第三方可原样复跑**；报告须含「复现步骤」一节（环境、依赖、命令、预期耗时） 3. **期望读数**：每家 ≥1 组**改前 vs 改后**（或 基线 vs 方案）的逐项对照读数，含原始输出片段（围栏代码块） 4. **反面对照**： - 结论与读数**逐项对应**（哪条读数支撑哪条结论，一一可指） - **零 LLM 判官**：判据可机械复核，禁用「看起来更好」「体验更佳」这类不可判表述 - 未能复跑的项**显式写「未测 ＋ 原因」**——**留空或用「应该没问题」代替视为未交付** 5. **边界声明**：每家报告末尾",
+   "prs_open": [
+    "https://github.com/FuRongJun-1999/dsh-bounty/pull/362"
+   ],
+   "prs_merged": [],
+   "prs_closed": [
+    "https://github.com/FuRongJun-1999/dsh-bounty/pull/282"
+   ],
+   "claims": 2,
+   "claimers": [
+    "wasd258-jpg",
+    "rindbeans"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": -4,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/Circadian-agent/agent-collective/issues/1",
    "repo": "Circadian-agent/agent-collective",
    "number": 1,
@@ -5441,40 +5059,6 @@
     "69 USD",
     "83 USDC"
    ],
-   "stripe_likely": false,
-   "score": -5,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/amaybaum-prod/shopware/issues/148",
-   "repo": "amaybaum-prod/shopware",
-   "number": 148,
-   "title": "e2e-testsuite-platform-7.0.5.tgz: 47 vulnerabilities (highest severity is: 9.8) [trunk] (reachable)",
-   "created": "2026-02-25",
-   "updated": "2026-10-13",
-   "comments": 4,
-   "labels": [],
-   "author": "renovate[bot]",
-   "author_association": "NONE",
-   "queries": [
-    "\"/bounty\" in:comments",
-    "bounty USDT"
-   ],
-   "body_snippet": "<details> <summary>📂 Vulnerable Library - <strong>e2e-testsuite-platform-7.0.5.tgz</strong></summary> **Path to dependency file:** /tests/e2e/package.json </details> > Partial results (27 findings) are displayed below due to a content size limitation in GitHub. To view information on the remaining findings, navigate to the Mend Application. # Findings | Finding | Severity | 🎯 CVSS | Exploit Maturity | EPSS | Library | Type | Fixed in | Remediation Available | **Reachability** | | ------------- |",
-   "prs_open": [
-    "https://github.com/amaybaum-prod/shopware/pull/205"
-   ],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 1,
-   "claimers": [
-    "zhaog100"
-   ],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
    "stripe_likely": false,
    "score": -5,
    "first_seen": "2026-10-14",
@@ -5518,6 +5102,45 @@
    "amounts": [
     "$640"
    ],
+   "stripe_likely": false,
+   "score": -5,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/bodycount0/stellar-drips-protocol/issues/4",
+   "repo": "bodycount0/stellar-drips-protocol",
+   "number": 4,
+   "title": "[FEAT] Implement on-chain subscription analytics and event history viewer",
+   "created": "2026-08-08",
+   "updated": "2026-10-11",
+   "comments": 4,
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "frontend",
+    "bounty"
+   ],
+   "author": "chinecherem58",
+   "author_association": "CONTRIBUTOR",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "## Overview The contract emits events for every lifecycle action. No frontend surfaces this data. ## Bounty Comment tagging @bodycount0 before starting to claim the bounty. ## Acceptance criteria - [ ] New EventHistory component - [ ] Fetches events via Stellar RPC getEvents - [ ] Paginated table with event type, timestamp, address, amount - [ ] CSV export button",
+   "prs_open": [
+    "https://github.com/bodycount0/stellar-drips-protocol/pull/7",
+    "https://github.com/bodycount0/stellar-drips-protocol/pull/13"
+   ],
+   "prs_merged": [],
+   "prs_closed": [
+    "https://github.com/bodycount0/stellar-drips-protocol/pull/12"
+   ],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
    "stripe_likely": false,
    "score": -5,
    "first_seen": "2026-10-14",
@@ -5800,7 +5423,8 @@
    "queries": [
     "label:bounty",
     "\"/bounty\" in:comments",
-    "bounty USDC"
+    "bounty USDC",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `gtx-1080-ti-11gb` | | Model | a 7-9B model (llama.cpp is fine), or any model in `registry/models.json` not yet tested on this card | | Context | 32K or more | | Done when | all six checks pass: loads, answers, thinks, calls a tool, recalls at a nearly full window, 15 tok/s or more | **Why:** Pascal is still ever",
    "prs_open": [
@@ -5847,7 +5471,8 @@
    "queries": [
     "\"/bounty\" in:comments",
     "bounty USDC",
-    "bounty USDT"
+    "bounty USDT",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "https://github.com/ubiquity/business-development/issues/174",
    "prs_open": [
@@ -6020,82 +5645,6 @@
    ],
    "stripe_likely": false,
    "score": -7,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/334",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 334,
-   "title": "Import instructions-only Agent Skills into the governed owner catalog",
-   "created": "2026-10-07",
-   "updated": "2026-10-12",
-   "comments": 3,
-   "labels": [
-    "enhancement",
-    "bounty",
-    "points:100",
-    "track:interoperability",
-    "track:security",
-    "track:reusability",
-    "priority:P2"
-   ],
-   "author": "armstrongsam25",
-   "author_association": "CONTRIBUTOR",
-   "queries": [
-    "label:bounty"
-   ],
-   "body_snippet": "## Problem or idea Anthropic publishes reusable SKILL.md instructions and the Agent Skills format is now an open standard. Astral already has an owner-scoped, revisioned skill catalog, but no bounded standards-aware import was found. Copying plugin directories would also bring scripts, hooks, connectors, permissions and mixed-license material that Astral has not authorized. ## Expected outcome Offer a human-owned preview/import operation for one bounded SKILL.md instruction body through the exis",
-   "prs_open": [
-    "https://github.com/AstralDeep/AstralDeep/pull/410",
-    "https://github.com/AstralDeep/AstralDeep/pull/419"
-   ],
-   "prs_merged": [],
-   "prs_closed": [],
-   "claims": 1,
-   "claimers": [
-    "ljn66666"
-   ],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": -7,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/scottonchain/microcredit-agent-testbed/issues/15",
-   "repo": "scottonchain/microcredit-agent-testbed",
-   "number": 15,
-   "title": "Central message board — Hermes, Claude, Codex and operator coordination",
-   "created": "2026-10-05",
-   "updated": "2026-10-14",
-   "comments": 939,
-   "labels": [],
-   "author": "scottonchain",
-   "author_association": "OWNER",
-   "queries": [
-    "\"/bounty\" in:comments",
-    "bounty USDC"
-   ],
-   "body_snippet": "AI disclosure: the operator's Codex / ChatGPT lane. This is the central board for the three lanes: Hermes, Claude Code and Codex / ChatGPT. ## Current structure TEAM-STRUCTURE-001 supersedes the original role split and BOARD-001 instructions. Read the [published team policy](https://github.com/scottonchain/microcredit-agent-testbed/blob/main/coordination/team-structure.md) and the [current canonical world model](https://github.com/scottonchain/microcredit-agent-testbed/blob/main/world-model/mode",
-   "prs_open": [],
-   "prs_merged": [
-    "https://github.com/scottonchain/microcredit-contract/pull/18",
-    "https://github.com/scottonchain/microcredit-agent-testbed/pull/14",
-    "https://github.com/scottonchain/microcredit-agent-testbed/pull/16"
-   ],
-   "prs_closed": [],
-   "claims": 0,
-   "claimers": [],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": -8,
    "first_seen": "2026-10-14",
    "is_new": true
   },
@@ -6322,7 +5871,8 @@
    "queries": [
     "label:bounty",
     "\"/bounty\" in:comments",
-    "bounty USDC"
+    "bounty USDC",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rtx-2080-ti-11gb` | | Model | Qwen3.5-9B, or any model in `registry/models.json` not yet tested on this card | | Context | 64K or more | | Done when | all six checks pass: loads, answers, thinks, calls a tool, recalls at a nearly full window, 15 tok/s or more | **Why:** The most common 11 GB Turing card; no card",
    "prs_open": [
@@ -6426,6 +5976,94 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/Bitcoindefi/OpenAO/issues/13",
+   "repo": "Bitcoindefi/OpenAO",
+   "number": 13,
+   "title": "Etapa 4: editor visual de mapas dentro del juego",
+   "created": "2026-08-16",
+   "updated": "2026-10-11",
+   "comments": 10,
+   "labels": [
+    "enhancement",
+    "modo-construccion",
+    "etapa-4-editor",
+    "bounty",
+    "grantfox",
+    "reward-100-usd",
+    "Maybe Rewarded",
+    "GrantFox OSS",
+    "Third Campaign"
+   ],
+   "author": "leocagli",
+   "author_association": "COLLABORATOR",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "Parte de #2 (modo construcción). Depende de todas las issues de API. **Esta es la cara visible del proyecto: el editor de mapas dentro del navegador, con el juego corriendo.** ## Contexto El cliente es Next.js con PixiJS. El mundo se renderiza en un canvas de 21x21 tiles (672x672 px, tiles de 32). Esta issue vive en el código del frontend, no en `api/`. ## Alcance 1. Modo edición activable por cuentas con permiso, sin salir del juego. 2. Selector de herramienta: pincel de terreno, colocar NPC, c",
+   "prs_open": [
+    "https://github.com/Bitcoindefi/OpenAO/pull/354"
+   ],
+   "prs_merged": [
+    "https://github.com/Bitcoindefi/OpenAO/pull/33",
+    "https://github.com/woahwhattheheck/bounty-concierge/pull/578"
+   ],
+   "prs_closed": [
+    "https://github.com/Aduersarius/OpenAO/pull/2"
+   ],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": -10,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/maitebloger111/Apache-Arrow/issues/1",
+   "repo": "maitebloger111/Apache-Arrow",
+   "number": 1,
+   "title": "🎯 Optimize Partition Pruning and Expression Evaluation for Large Partitioned Parquet Datasets",
+   "created": "2026-06-06",
+   "updated": "2026-10-11",
+   "comments": 12,
+   "labels": [
+    "bounty",
+    "opire",
+    "$10"
+   ],
+   "author": "maitebloger111",
+   "author_association": "OWNER",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "## 📝 Description When querying large Parquet datasets partitioned across thousands of directories (e.g., Hive-style partitioning with high cardinality keys), the dataset filtering and query planning phases exhibit significant latency. Currently, the dataset scanner evaluates filter expressions against partition keys in a manner that scales poorly with the number of fragments. The overhead is primarily driven by: 1. Redundant or eager metadata loading of Parquet file footers before partition prun",
+   "prs_open": [
+    "https://github.com/maitebloger111/Apache-Arrow/pull/2",
+    "https://github.com/maitebloger111/Apache-Arrow/pull/6"
+   ],
+   "prs_merged": [],
+   "prs_closed": [
+    "https://github.com/maitebloger111/Apache-Arrow/pull/3",
+    "https://github.com/maitebloger111/Apache-Arrow/pull/5"
+   ],
+   "claims": 2,
+   "claimers": [
+    "rock2089",
+    "abhiavi"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": true,
+   "score": -10,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/MergeFi/contracts/issues/530",
    "repo": "MergeFi/contracts",
    "number": 530,
@@ -6457,61 +6095,6 @@
    "paid_hint": false,
    "enriched": true,
    "amounts": [],
-   "stripe_likely": false,
-   "score": -11,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
-   "repo": "warpspeedopen-source/warpspeed-bounties",
-   "number": 4,
-   "title": "[PAID BOUNTY - $750] Email Threads API",
-   "created": "2026-05-28",
-   "updated": "2026-10-13",
-   "comments": 72,
-   "labels": [
-    "help wanted",
-    "bounty",
-    "expert",
-    "paid",
-    "open",
-    "nodejs",
-    "prisma",
-    "typescript",
-    "backend",
-    "API"
-   ],
-   "author": "warpspeedopen-source",
-   "author_association": "OWNER",
-   "queries": [
-    "label:bounty",
-    "label:paid",
-    "\"/bounty\" in:comments",
-    "bounty USDC",
-    "bounty USDT"
-   ],
-   "body_snippet": "## Bounty Overview Build a thread-first Email Threads API for the warpSpeed app. This bounty introduces a new threaded email experience so users can work with conversations instead of isolated messages. Developers will create API support for listing email threads, opening a thread to view related messages, preserving draft activity inside the correct conversation, and ensuring search/filter behaviour remains consistent with the existing message API. This bounty is part of the warpSpeed OPEN deve",
-   "prs_open": [
-    "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/16",
-    "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/20",
-    "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/44",
-    "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/61"
-   ],
-   "prs_merged": [],
-   "prs_closed": [
-    "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/34"
-   ],
-   "claims": 1,
-   "claimers": [
-    "skyfire707"
-   ],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [
-    "$750"
-   ],
    "stripe_likely": false,
    "score": -11,
    "first_seen": "2026-10-14",
@@ -6693,6 +6276,90 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/Kristywvs22/zap/issues/1",
+   "repo": "Kristywvs22/zap",
+   "number": 1,
+   "title": "🎯 Fix: Request Body Exhaustion on HTTP Retries When Using `io.Reader`",
+   "created": "2026-07-20",
+   "updated": "2026-10-11",
+   "comments": 8,
+   "labels": [
+    "bounty",
+    "opire",
+    "$10"
+   ],
+   "author": "Kristywvs22",
+   "author_association": "OWNER",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "## 📝 Description When configuring automatic retries in the HTTP client, supplying a request body via an `io.Reader` (which is not seekable or reset automatically) causes subsequent retry attempts to send an empty or truncated body. During the initial request, the HTTP transport consumes the `io.Reader` to completion. If a transient network error or a retryable HTTP status code (e.g., `503 Service Unavailable`) triggers a retry, the client reuses the same request object. Because the reader has al",
+   "prs_open": [
+    "https://github.com/Kristywvs22/zap/pull/2",
+    "https://github.com/Kristywvs22/zap/pull/4"
+   ],
+   "prs_merged": [],
+   "prs_closed": [
+    "https://github.com/Kristywvs22/zap/pull/3"
+   ],
+   "claims": 3,
+   "claimers": [
+    "zubi-fix",
+    "code-cannot-be-blank",
+    "adraca"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": true,
+   "score": -12,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Kristywvs22/gin/issues/1",
+   "repo": "Kristywvs22/gin",
+   "number": 1,
+   "title": "🎯 Fix Data Race in (*Context).Copy() by Shallow Copying the Keys Map",
+   "created": "2026-07-20",
+   "updated": "2026-10-11",
+   "comments": 9,
+   "labels": [
+    "bounty",
+    "opire",
+    "$10"
+   ],
+   "author": "Kristywvs22",
+   "author_association": "OWNER",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "## 📝 Description The `(*Context).Copy()` method is the recommended way to pass a Gin context to a read-only asynchronous goroutine. However, the `Keys` map (which stores metadata via `Context.Set()`) is copied by reference rather than value. Because Go maps are not thread-safe, if the original request goroutine continues to modify context keys (e.g., in subsequent middleware or handlers) while an asynchronous background goroutine reads or writes to the copied context's keys, a concurrent map acc",
+   "prs_open": [
+    "https://github.com/Kristywvs22/gin/pull/2",
+    "https://github.com/Kristywvs22/gin/pull/7"
+   ],
+   "prs_merged": [],
+   "prs_closed": [
+    "https://github.com/Kristywvs22/gin/pull/4"
+   ],
+   "claims": 3,
+   "claimers": [
+    "zubi-fix",
+    "code-cannot-be-blank",
+    "abhiavi"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": true,
+   "score": -12,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/illbnm/homelab-stack/issues/8",
    "repo": "illbnm/homelab-stack",
    "number": 8,
@@ -6805,7 +6472,6 @@
    "author_association": "NONE",
    "queries": [
     "\"💎 Bounty\" in:comments",
-    "\"/bounty\" in:comments",
     "bounty USDT"
    ],
    "body_snippet": "### Request Type Improvement ### Description Following up on the discussion in #8255 (which was closed to split the scope into two dedicated issues). As a web agency (Mediastar Web), we manage multiple WordPress sites for clients and we're evaluating Coolify as our central hosting platform. One area where we're missing structured support is a production-ready reference setup for running WordPress on OpenLiteSpeed. What we'd like to see: - A reusable service template or stack for WordPress + Open",
@@ -6877,6 +6543,52 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/TrudieMasenheimer3/prometheus/issues/1",
+   "repo": "TrudieMasenheimer3/prometheus",
+   "number": 1,
+   "title": "🎯 Fix false positive truncation warning in /api/v1/query when result count equals limit",
+   "created": "2026-08-14",
+   "updated": "2026-10-11",
+   "comments": 10,
+   "labels": [
+    "bounty",
+    "opire",
+    "$10"
+   ],
+   "author": "TrudieMasenheimer3",
+   "author_association": "OWNER",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "## 📝 Description When executing queries via the Prometheus HTTP API (`/api/v1/query` or `/api/v1/query_range`) with a result limit configured, the API incorrectly reports that the results have been truncated even when the size of the returned dataset is exactly equal to the requested limit (and no actual data was left out). This is typically caused by an off-by-one error or an incorrect boundary check (e.g., using `>=` instead of `>`) when determining if the query results exceed the limit. The A",
+   "prs_open": [
+    "https://github.com/TrudieMasenheimer3/prometheus/pull/9",
+    "https://github.com/TrudieMasenheimer3/prometheus/pull/12",
+    "https://github.com/TrudieMasenheimer3/prometheus/pull/19"
+   ],
+   "prs_merged": [],
+   "prs_closed": [
+    "https://github.com/TrudieMasenheimer3/prometheus/pull/2",
+    "https://github.com/TrudieMasenheimer3/prometheus/pull/6",
+    "https://github.com/TrudieMasenheimer3/prometheus/pull/7",
+    "https://github.com/TrudieMasenheimer3/prometheus/pull/8",
+    "https://github.com/TrudieMasenheimer3/prometheus/pull/11"
+   ],
+   "claims": 2,
+   "claimers": [
+    "colozhb",
+    "trexfr-ops"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": true,
+   "score": -14,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/VARUN3WARE/textkit-bounty/issues/5",
    "repo": "VARUN3WARE/textkit-bounty",
    "number": 5,
@@ -6910,6 +6622,49 @@
    "enriched": true,
    "amounts": [],
    "stripe_likely": false,
+   "score": -16,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/CornelParsch21/client-go/issues/1",
+   "repo": "CornelParsch21/client-go",
+   "number": 1,
+   "title": "🎯 Prevent Indefinite Request Throttling When RateLimiter Burst is Configured Too Low",
+   "created": "2026-08-11",
+   "updated": "2026-10-11",
+   "comments": 12,
+   "labels": [
+    "bounty",
+    "opire",
+    "$10"
+   ],
+   "author": "CornelParsch21",
+   "author_association": "OWNER",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "## 📝 Description In `client-go`, the client-side rate limiting is managed via the `util/flowcontrol` package, which wraps `golang.org/x/time/rate`. Currently, if a `RateLimiter` is configured with a very small burst size (specifically `burst <= 0` or a burst size that is too small relative to the concurrency of the requests), requests can be throttled indefinitely. In `golang.org/x/time/rate`, a token bucket with a burst of `0` will never allow any tokens to be consumed, causing `Wait()` or `Acc",
+   "prs_open": [
+    "https://github.com/CornelParsch21/client-go/pull/4",
+    "https://github.com/CornelParsch21/client-go/pull/8"
+   ],
+   "prs_merged": [
+    "https://github.com/CornelParsch21/client-go/pull/2"
+   ],
+   "prs_closed": [
+    "https://github.com/CornelParsch21/client-go/pull/3",
+    "https://github.com/CornelParsch21/client-go/pull/7",
+    "https://github.com/CornelParsch21/client-go/pull/15",
+    "https://github.com/CornelParsch21/client-go/pull/21"
+   ],
+   "claims": 0,
+   "claimers": [],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": true,
    "score": -16,
    "first_seen": "2026-10-14",
    "is_new": true
@@ -7003,6 +6758,51 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/KentonMaverick47/cobra/issues/1",
+   "repo": "KentonMaverick47/cobra",
+   "number": 1,
+   "title": "🎯 Fix persistent flag value leakage across repeated Command.Execute() invocations",
+   "created": "2026-08-10",
+   "updated": "2026-10-11",
+   "comments": 12,
+   "labels": [
+    "bounty",
+    "opire",
+    "$10"
+   ],
+   "author": "KentonMaverick47",
+   "author_association": "OWNER",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "## 📝 Description In applications where `cobra.Command` structures are reused across multiple executions—such as in long-running daemon processes, test suites, or when programmatically calling `Command.Execute()` or `Command.ExecuteContext()` multiple times—persistent flags can leak their values from a previous execution into subsequent ones. Because flag values are bound to variables or stored within the command's internal `pflag.FlagSet` without being reset between execution cycles, a persisten",
+   "prs_open": [
+    "https://github.com/KentonMaverick47/cobra/pull/4",
+    "https://github.com/KentonMaverick47/cobra/pull/6",
+    "https://github.com/KentonMaverick47/cobra/pull/8",
+    "https://github.com/KentonMaverick47/cobra/pull/9"
+   ],
+   "prs_merged": [],
+   "prs_closed": [
+    "https://github.com/KentonMaverick47/cobra/pull/5",
+    "https://github.com/KentonMaverick47/cobra/pull/7",
+    "https://github.com/KentonMaverick47/cobra/pull/10"
+   ],
+   "claims": 2,
+   "claimers": [
+    "jamboriu",
+    "maxim65651"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": true,
+   "score": -18,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/296",
    "repo": "Vikingr2023/awesome-agent-bounties",
    "number": 296,
@@ -7022,7 +6822,8 @@
    "queries": [
     "label:bounty",
     "\"/bounty\" in:comments",
-    "bounty USDC"
+    "bounty USDC",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "## 外部 Bounty 任务镜像 | 字段 | 值 | |---|---| | 源仓库 | claude-builders-bounty/claude-builders-bounty | | 原 issue | #1 | | 作者 | claudebounty | | 创建时间 | 2026-03-27T00:55:36 | | 标签 | bounty,skill,good first issue | | 评论 | 1817 条 | | 赏金 | $50 | | 原 URL | https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1 | --- ### 任务描述 ## 💰 Bounty: $50 — powered by [Opire](https://opire.dev) ## Description Create a Claude Code skill (`SKILL.md`) or a bash script that automatically generates a structur",
    "prs_open": [
@@ -7195,6 +6996,52 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/Bitcoindefi/OpenAO/issues/1",
+   "repo": "Bitcoindefi/OpenAO",
+   "number": 1,
+   "title": "Recuperacion de contrasena falla en produccion: Amazon SES sin configurar ni documentado",
+   "created": "2026-08-16",
+   "updated": "2026-10-11",
+   "comments": 7,
+   "labels": [
+    "bounty",
+    "grantfox",
+    "reward-20-usd",
+    "Maybe Rewarded",
+    "GrantFox OSS",
+    "Third Campaign"
+   ],
+   "author": "leocagli",
+   "author_association": "COLLABORATOR",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "## Síntoma En producción (https://openao.cosmosapp.lat/), pedir recuperación de contraseña falla siempre: > No se pudo enviar el email de recuperacion. Intenta de nuevo. Reproducido con una cuenta real el 2026-08-06. No llega ningún mail y el reintento da lo mismo. ## Causa probable `api/src/lib/email.ts` manda el mail por **Amazon SES v2** y exige cuatro valores de configuración: ```ts if (!config.sesRegion || !config.sesAccessKeyId || !config.sesSecretAccessKey || !config.sesFromEmail) { throw",
+   "prs_open": [
+    "https://github.com/Bitcoindefi/OpenAO/pull/68",
+    "https://github.com/Bitcoindefi/OpenAO/pull/377",
+    "https://github.com/Bitcoindefi/OpenAO/pull/385"
+   ],
+   "prs_merged": [
+    "https://github.com/Bitcoindefi/OpenAO/pull/15"
+   ],
+   "prs_closed": [
+    "https://github.com/Bitcoindefi/OpenAO/pull/133"
+   ],
+   "claims": 1,
+   "claimers": [
+    "ivansky1"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": -20,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/devpool-directory/devpool-directory/issues/5887",
    "repo": "devpool-directory/devpool-directory",
    "number": 5887,
@@ -7229,53 +7076,6 @@
     "kakwurst234",
     "zhaog100",
     "mikegarciaagm"
-   ],
-   "bot_bounty": null,
-   "paid_hint": false,
-   "enriched": true,
-   "amounts": [],
-   "stripe_likely": false,
-   "score": -21,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/335",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 335,
-   "title": "Load full authorized skill revisions on demand without digest truncation",
-   "created": "2026-10-07",
-   "updated": "2026-10-13",
-   "comments": 3,
-   "labels": [
-    "enhancement",
-    "bounty",
-    "points:200",
-    "track:security",
-    "track:reusability",
-    "priority:P2"
-   ],
-   "author": "armstrongsam25",
-   "author_association": "CONTRIBUTOR",
-   "queries": [
-    "label:bounty",
-    "bounty USDC"
-   ],
-   "body_snippet": "## Problem or idea Astral injects bounded skill digests: user skill text is sliced into a 1,200-character combined budget. Explicit slash commands can expand a full skill, and Work already captures selected guidance revisions, but a model-selectable read path for a full authorized revision was not found. A clipped procedure can lose an essential step without making that loss visible. ## Expected outcome Expose a bounded catalog plus a governed on-demand read of an existing enabled skill revision",
-   "prs_open": [
-    "https://github.com/AstralDeep/AstralDeep/pull/406",
-    "https://github.com/AstralDeep/AstralDeep/pull/410",
-    "https://github.com/AstralDeep/AstralDeep/pull/419"
-   ],
-   "prs_merged": [
-    "https://github.com/AstralDeep/AstralDeep/pull/403"
-   ],
-   "prs_closed": [
-    "https://github.com/AstralDeep/AstralDeep/pull/407"
-   ],
-   "claims": 1,
-   "claimers": [
-    "ollie520"
    ],
    "bot_bounty": null,
    "paid_hint": false,
@@ -7434,6 +7234,151 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/RoseMark45/chi/issues/1",
+   "repo": "RoseMark45/chi",
+   "number": 1,
+   "title": "🎯 Fix URL Parameter Loss When Request Context is Replaced in Middleware After Routing",
+   "created": "2026-07-16",
+   "updated": "2026-10-11",
+   "comments": 13,
+   "labels": [
+    "bounty",
+    "opire",
+    "$10"
+   ],
+   "author": "RoseMark45",
+   "author_association": "OWNER",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "## 📝 Description When a middleware replaces the request using `r.WithContext(newCtx)` after routing has already matched a route (for example, inline middleware on a sub-router or route group), downstream handlers can intermittently lose access to URL parameters stored in Chi's routing context. The issue occurs because the routing context (`chi.Context`) attached to the original request is not consistently preserved or propagated across the cloned request in certain middleware chains. As a result",
+   "prs_open": [
+    "https://github.com/go-chi/chi/pull/1135",
+    "https://github.com/RoseMark45/chi/pull/3",
+    "https://github.com/RoseMark45/chi/pull/4",
+    "https://github.com/RoseMark45/chi/pull/6",
+    "https://github.com/RoseMark45/chi/pull/5"
+   ],
+   "prs_merged": [],
+   "prs_closed": [
+    "https://github.com/RoseMark45/chi/pull/2",
+    "https://github.com/RoseMark45/chi/pull/8",
+    "https://github.com/RoseMark45/chi/pull/10",
+    "https://github.com/RoseMark45/chi/pull/20"
+   ],
+   "claims": 4,
+   "claimers": [
+    "zubi-fix",
+    "code-cannot-be-blank",
+    "jpalafox-12",
+    "elevasyncsolutions-jpg"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": true,
+   "score": -24,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Bitcoindefi/OpenAO/issues/24",
+   "repo": "Bitcoindefi/OpenAO",
+   "number": 24,
+   "title": "Etapa 5: espacio aislado de mapas de usuario con propiedad y cuotas",
+   "created": "2026-08-16",
+   "updated": "2026-10-11",
+   "comments": 8,
+   "labels": [
+    "enhancement",
+    "modo-construccion",
+    "bounty",
+    "grantfox",
+    "reward-100-usd",
+    "etapa-5-comunidad",
+    "Maybe Rewarded",
+    "GrantFox OSS",
+    "Third Campaign"
+   ],
+   "author": "leocagli",
+   "author_association": "COLLABORATOR",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "Parte de #2 (modo construcción). Depende de la capa de persistencia. **Primera pieza del objetivo final: que cualquier jugador pueda construir su mapa.** ## El problema Si cualquiera puede crear mapas, hacen falta dos garantías: 1. **Que un mapa de usuario no pueda romper el mundo oficial.** Ni por error ni a propósito. 2. **Que un usuario entusiasta no tire abajo el servidor.** Sin cuotas, el primero que suba 500 mapas con mil NPCs cada uno arruina la fiesta para todos. ## Lo que ya existe y ha",
+   "prs_open": [
+    "https://github.com/Bitcoindefi/OpenAO/pull/60",
+    "https://github.com/Bitcoindefi/OpenAO/pull/349",
+    "https://github.com/Bitcoindefi/OpenAO/pull/369",
+    "https://github.com/Bitcoindefi/OpenAO/pull/372"
+   ],
+   "prs_merged": [
+    "https://github.com/Bitcoindefi/OpenAO/pull/33",
+    "https://github.com/woahwhattheheck/bounty-concierge/pull/552"
+   ],
+   "prs_closed": [],
+   "claims": 2,
+   "claimers": [
+    "shobhamerabacha-star",
+    "ranjeet150"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": -26,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/iii123iii/Crystal-PDF/issues/2",
+   "repo": "iii123iii/Crystal-PDF",
+   "number": 2,
+   "title": "Fix speed",
+   "created": "2026-07-06",
+   "updated": "2026-10-11",
+   "comments": 14,
+   "labels": [
+    "bounty",
+    "5K reward",
+    "10$",
+    "opire"
+   ],
+   "author": "iii123iii",
+   "author_association": "OWNER",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "currently the backend speed is trash, fix it",
+   "prs_open": [
+    "https://github.com/iii123iii/Crystal-PDF/pull/7",
+    "https://github.com/iii123iii/Crystal-PDF/pull/28",
+    "https://github.com/iii123iii/Crystal-PDF/pull/44",
+    "https://github.com/iii123iii/Crystal-PDF/pull/49",
+    "https://github.com/iii123iii/Crystal-PDF/pull/54",
+    "https://github.com/iii123iii/Crystal-PDF/pull/107"
+   ],
+   "prs_merged": [],
+   "prs_closed": [
+    "https://github.com/iii123iii/Crystal-PDF/pull/64"
+   ],
+   "claims": 2,
+   "claimers": [
+    "zubi-fix",
+    "code-cannot-be-blank"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": true,
+   "score": -26,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/illbnm/homelab-stack/issues/6",
    "repo": "illbnm/homelab-stack",
    "number": 6,
@@ -7449,7 +7394,6 @@
    "author_association": "OWNER",
    "queries": [
     "label:bounty",
-    "\"/bounty\" in:comments",
     "bounty USDC",
     "bounty USDT"
    ],
@@ -7536,6 +7480,59 @@
    ],
    "stripe_likely": false,
    "score": -27,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Bitcoindefi/OpenAO/issues/11",
+   "repo": "Bitcoindefi/OpenAO",
+   "number": 11,
+   "title": "Etapa 3: publicar mapas en vivo sin reiniciar el server",
+   "created": "2026-08-16",
+   "updated": "2026-10-11",
+   "comments": 5,
+   "labels": [
+    "enhancement",
+    "modo-construccion",
+    "etapa-3-vivo",
+    "bounty",
+    "grantfox",
+    "reward-100-usd",
+    "Maybe Rewarded",
+    "GrantFox OSS",
+    "Third Campaign"
+   ],
+   "author": "leocagli",
+   "author_association": "COLLABORATOR",
+   "queries": [
+    "label:bounty"
+   ],
+   "body_snippet": "Parte de #2 (modo construcción). Depende de todas las issues de mutación. **Esta issue es la que hace que el modo construcción se sienta \"en vivo\" en vez de \"editá y reiniciá\".** ## Lo que ya existe El server del juego hidrata game data desde la DB al arrancar y reporta la versión aplicada: ``` [GAME DATA] Objs hidratados desde DB: 1062. Version aplicada: 4875. [GAME DATA] NPC templates hidratados desde DB: 340. Version aplicada: 4872. [GAME DATA] Balance hidratado desde DB: 1. Version aplicada:",
+   "prs_open": [
+    "https://github.com/Bitcoindefi/OpenAO/pull/74",
+    "https://github.com/Bitcoindefi/OpenAO/pull/346",
+    "https://github.com/Bitcoindefi/OpenAO/pull/364",
+    "https://github.com/Aduersarius/OpenAO/pull/3",
+    "https://github.com/Bitcoindefi/OpenAO/pull/392"
+   ],
+   "prs_merged": [
+    "https://github.com/Bitcoindefi/OpenAO/pull/33",
+    "https://github.com/Bitcoindefi/OpenAO/pull/218",
+    "https://github.com/woahwhattheheck/bounty-concierge/pull/569"
+   ],
+   "prs_closed": [
+    "https://github.com/Bitcoindefi/OpenAO/pull/363"
+   ],
+   "claims": 1,
+   "claimers": [
+    "ranjeet150"
+   ],
+   "bot_bounty": null,
+   "paid_hint": false,
+   "enriched": true,
+   "amounts": [],
+   "stripe_likely": false,
+   "score": -28,
    "first_seen": "2026-10-14",
    "is_new": true
   },
@@ -7980,7 +7977,6 @@
    "author_association": "CONTRIBUTOR",
    "queries": [
     "label:bounty",
-    "\"/bounty\" in:comments",
     "bounty USDC",
     "bounty USDT"
    ],
@@ -8100,7 +8096,8 @@
     "label:bounty",
     "\"/bounty\" in:comments",
     "bounty USDC",
-    "bounty USDT"
+    "bounty USDT",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "## Outcome Fund meaningful SN118 maintenance through a transparent 5% treasury with scoped GitHub bounties, signed contributor claims, objective acceptance, and chain-reconciled payouts. ## Work - [ ] #2044 - [x] #2045 - [ ] #2046 - [ ] #2047 - [ ] #2871 - [ ] #2872 ## Activation order 1. Approve governance, funding source, custody, conflicts, and accounting. 2. Publish claim and acceptance contracts. 3. Run the board without funds and rehearse the ledger. 4. Activate a capped treasury allocatio",
    "prs_open": [
@@ -8321,7 +8318,7 @@
    "title": "[BOUNTY $150] AGENT: Claude Code sub-agent that reviews a PR and posts a structured comment",
    "created": "2026-03-27",
    "updated": "2026-10-14",
-   "comments": 1602,
+   "comments": 1604,
    "labels": [
     "bounty",
     "agent"
@@ -8332,7 +8329,8 @@
     "label:bounty",
     "\"/bounty\" in:comments",
     "bounty USDC",
-    "bounty USDT"
+    "bounty USDT",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "## 💰 Bounty: $150 — powered by [Opire](https://opire.dev) ## Description Create a Claude Code agent that takes a PR diff as input, analyzes it, and returns a structured Markdown review comment. ## Acceptance Criteria - [ ] Works via CLI: `claude-review --pr https://github.com/owner/repo/pull/123` - [ ] OR via GitHub Action (include the workflow YAML) - [ ] Structured Markdown output with: - Summary of changes (2–3 sentences) - Identified risks (list) - Improvement suggestions (list) - Confidence",
    "prs_open": [
@@ -8441,7 +8439,7 @@
    "title": "[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands",
    "created": "2026-03-27",
    "updated": "2026-10-14",
-   "comments": 1841,
+   "comments": 1843,
    "labels": [
     "bounty",
     "hook",
@@ -8453,7 +8451,8 @@
     "label:bounty",
     "\"/bounty\" in:comments",
     "bounty USDC",
-    "bounty USDT"
+    "bounty USDT",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "## 💰 Bounty: $100 — powered by [Opire](https://opire.dev) ## Description Create a Claude Code `pre-tool-use` hook in Python or bash that intercepts dangerous bash commands before they are executed. ## Acceptance Criteria - [ ] Hook follows Claude Code hooks format (`~/.claude/hooks/`) - [ ] Blocks these patterns: `rm -rf`, `DROP TABLE`, `git push --force`, `TRUNCATE`, `DELETE FROM` without a WHERE clause - [ ] Logs every blocked attempt to `~/.claude/hooks/blocked.log` with: timestamp, attempted",
    "prs_open": [
@@ -8596,7 +8595,8 @@
     "label:bounty",
     "\"/bounty\" in:comments",
     "bounty USDC",
-    "bounty USDT"
+    "bounty USDT",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "## 💰 Bounty: $75 — powered by [Opire](https://opire.dev) ## Description Create an opinionated, production-ready `CLAUDE.md` for a typical SaaS project built with Next.js 15 App Router and SQLite (better-sqlite3 or Turso). ## Acceptance Criteria - [ ] Covers: project structure, naming conventions, DB migration rules - [ ] Includes: dev commands, patterns to follow, anti-patterns to avoid - [ ] Opinionated — not generic. Every rule has a reason. - [ ] Usable without modification on a greenfield Ne",
    "prs_open": [
@@ -8793,7 +8793,6 @@
    "queries": [
     "label:bounty",
     "label:reward",
-    "\"/bounty\" in:comments",
     "bounty USDC",
     "bounty USDT"
    ],
@@ -8866,7 +8865,7 @@
    "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
    "created": "2026-03-27",
    "updated": "2026-10-14",
-   "comments": 2337,
+   "comments": 2339,
    "labels": [
     "bounty",
     "skill",
@@ -8878,7 +8877,8 @@
     "label:bounty",
     "\"/bounty\" in:comments",
     "bounty USDC",
-    "bounty USDT"
+    "bounty USDT",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "## 💰 Bounty: $50 — powered by [Opire](https://opire.dev) ## Description Create a Claude Code skill (`SKILL.md`) or a bash script that automatically generates a structured `CHANGELOG.md` from a project's git history. ## Acceptance Criteria - [ ] Works via `/generate-changelog` command or `bash changelog.sh` - [ ] Fetches commits since the last git tag - [ ] Auto-categorizes into: `Added` / `Fixed` / `Changed` / `Removed` - [ ] Outputs a properly formatted `CHANGELOG.md` - [ ] Tested on a real Git",
    "prs_open": [
@@ -9001,7 +9001,7 @@
     "$3"
    ],
    "stripe_likely": false,
-   "score": -91,
+   "score": -94,
    "first_seen": "2026-10-14",
    "is_new": true
   },
@@ -9086,26 +9086,11 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/2537",
-   "title": "Naya coordination board — live feed (successor to #2175)",
-   "repo": "SoulSchoolAcademy/NayaPOWER",
-   "number": 2537,
-   "created": "2026-10-13",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Trexzo/SpawnPK-RE/issues/392",
-   "title": "[Chat 1] Integration + Release Queue",
-   "repo": "Trexzo/SpawnPK-RE",
-   "number": 392,
-   "created": "2026-09-21",
+   "url": "https://github.com/microg/GmsCore/issues/3838",
+   "title": "[az.dpc.sima] Key verficiation bug ",
+   "repo": "microg/GmsCore",
+   "number": 3838,
+   "created": "2026-09-29",
    "updated": "2026-10-14",
    "queries": [
     "\"/bounty\" in:comments"
@@ -9131,161 +9116,131 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/2537",
+   "title": "Naya coordination board — live feed (successor to #2175)",
+   "repo": "SoulSchoolAcademy/NayaPOWER",
+   "number": 2537,
+   "created": "2026-10-13",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"/bounty\" in:comments"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Neurowealth/NeuroWealth-Smartcontract/issues/897",
+   "title": "Bug: Security reporting channels are unreachable — requesting a working private channel",
+   "repo": "Neurowealth/NeuroWealth-Smartcontract",
+   "number": 897,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"/bounty\" in:comments"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Trexzo/SpawnPK-RE/issues/392",
+   "title": "[Chat 1] Integration + Release Queue",
+   "repo": "Trexzo/SpawnPK-RE",
+   "number": 392,
+   "created": "2026-09-21",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"/bounty\" in:comments"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/jCondeData/minecraft-alive-workplace/issues/1",
+   "title": "Nightly tests failing",
+   "repo": "jCondeData/minecraft-alive-workplace",
+   "number": 1,
+   "created": "2026-09-30",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"/bounty\" in:comments"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/levy-street/world-of-claudecraft/issues/4244",
+   "title": "Release v0.45.0",
+   "repo": "levy-street/world-of-claudecraft",
+   "number": 4244,
+   "created": "2026-09-28",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"/bounty\" in:comments"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/NousResearch/hermes-agent/issues/91169",
+   "title": "project bind-board leaves board project_id unset",
+   "repo": "NousResearch/hermes-agent",
+   "number": 91169,
+   "created": "2026-08-20",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"/bounty\" in:comments"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/ROAM-game-org/road-machiners/issues/507",
+   "title": "Add remote salvage-claim contracts with protected objectives",
+   "repo": "ROAM-game-org/road-machiners",
+   "number": 507,
+   "created": "2026-10-13",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"/bounty\" in:comments"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/ROAM-game-org/road-machiners/issues/506",
+   "title": "Add remote off-road survey contracts",
+   "repo": "ROAM-game-org/road-machiners",
+   "number": 506,
+   "created": "2026-10-13",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"/bounty\" in:comments"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/asyncapi/.github/issues/413",
    "title": "SonarCloud security issues in release workflows",
    "repo": "asyncapi/.github",
    "number": 413,
    "created": "2026-08-19",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/307",
-   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`bounty_list`：真源 `items` 元素**非对象**不再崩（`--check` 漂移闸从此拿得到结论）（**PR #303**）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 307,
-   "created": "2026-10-14",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/322",
-   "title": "【intake 输入】dsh-bounty（`bounty_site`）：加「修复有没有守卫」检查器 —— 《运行手册》§八-2 的人工判据做成可跑脚本（**PR #321**）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 322,
-   "created": "2026-10-14",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/320",
-   "title": "【intake 输入】dsh-bounty（`bounty_site`）：加「静默回退」检查器 —— 《运行手册》§二-8 的人工步骤做成可跑脚本（§七 点名要求）（**PR #319**）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 320,
-   "created": "2026-10-14",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/318",
-   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`STALE_RE` 补数字边界 —— 旧式**分不清 −1 与 −12/−10**（**PR #317**｜含自纠说明）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 318,
-   "created": "2026-10-14",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/316",
-   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`bounty_board` 加 `--products-check` —— 四个导出产物只写不校验（**PR #315**）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 316,
-   "created": "2026-10-14",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/314",
-   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`daily_table --check` 升级为**读盘比对**（消掉手册 §四-1 自认漂移盲区）（**PR #313**）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 314,
-   "created": "2026-10-14",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/312",
-   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`build_site` 加 `--check` 漂移闸 —— `site/*.html` 此前零闸（**PR #311**）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 312,
-   "created": "2026-10-14",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/309",
-   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`evidence_probe`：`line_numbers` 的 `needle` **非字符串**不再崩栈（**PR #305**）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 309,
-   "created": "2026-10-14",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/308",
-   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`check_plan`：镜像 `issues` **非对象** ⇒ fail-closed 退 1（不再裸 `AttributeError`）（**PR #304**）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 308,
-   "created": "2026-10-14",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/306",
-   "title": "【intake 输入】dsh-bounty（`bounty_site`）：`bounty_board`：`rescore` / `role_revocations` / `latest_marker` 对**非对象、非字符串元素**崩栈（**PR #302**）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 306,
-   "created": "2026-10-14",
    "updated": "2026-10-14",
    "queries": [
     "\"/bounty\" in:comments"
@@ -9736,21 +9691,6 @@
    "repo": "FuRongJun-1999/dsh-bounty",
    "number": 174,
    "created": "2026-10-13",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/scottonchain/microcredit-agent-testbed/issues/12",
-   "title": "Collaboration handoff: independent bound-image replay witness (acceptance pending)",
-   "repo": "scottonchain/microcredit-agent-testbed",
-   "number": 12,
-   "created": "2026-10-05",
    "updated": "2026-10-14",
    "queries": [
     "\"/bounty\" in:comments"
@@ -10391,41 +10331,11 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/levy-street/world-of-claudecraft/issues/4244",
-   "title": "Release v0.45.0",
-   "repo": "levy-street/world-of-claudecraft",
-   "number": 4244,
-   "created": "2026-09-28",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/274",
    "title": "交付：lingshu 身体库贡献结算核对 —— 8 件 PR 按「内容在库」判定落地 3 处（#26 / #286 / #3 部位②），另 5 件未采纳并逐条反证",
    "repo": "FuRongJun-1999/dsh-bounty",
    "number": 274,
    "created": "2026-10-13",
-   "updated": "2026-10-14",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/281",
-   "title": "【贡献申报】18 件缺陷修复（dsh-bounty ×11 ＋ lingshu ×7）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 281,
-   "created": "2026-10-14",
    "updated": "2026-10-14",
    "queries": [
     "\"/bounty\" in:comments"
@@ -10511,21 +10421,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/osmesirius-ship-it/daxda-next-gen/issues/33",
-   "title": "[PAYOUT CLAIM] [adversarial_redteam-question] [BOUNTY] [$10000] [AGENTIC] [AI] DAXDA Autonomous Adversarial LLM Red-Teaming & Steganographic Escape Synthesizer – Anomalous Containment Wing ($10,000)",
-   "repo": "osmesirius-ship-it/daxda-next-gen",
-   "number": 33,
-   "created": "2026-10-12",
-   "updated": "2026-10-14",
-   "queries": [
-    "bounty USDT"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/vitorpamplona/amethyst/issues/4447",
    "title": "[BUG] New desktop app defaults remote signer to relay.nsec.app which is mostly down",
    "repo": "vitorpamplona/amethyst",
@@ -10534,6 +10429,276 @@
    "updated": "2026-10-14",
    "queries": [
     "bounty sats"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/375",
+   "title": "【贡献申报】cross-eval（dsh-bounty issue #67 交付面）7 件量具/判据缺陷：P0×2 ＋ P1×5 —— 附逐条复现读数、参考补丁、定点变异与去重边界",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 375,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/374",
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：cross-eval 守卫 R5「围栏读数必须逐字可指」有三条绕过面（跨引擎贴条／`#` 前缀／正文不核对），编造读数整篇免检（子面 `bench/cross_eval`）",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 374,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/373",
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：cross-eval 守卫 `section_body()` 取标题**首次出现**且不看围栏 ⇒ 假标题可架空 R7/R10/R11/R12（真未测节清空仍全绿）（子面 `bench/cross_eval`）",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 373,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/372",
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：cross-eval 自证套件 10 条定点变异对 12 条判据 —— R3 零覆盖、A11 只断言「>= 10」、R4/R5/R6 只注入 LangGraph 一份、R8 只被首模式证明（子面 `bench/cross_eval`）",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 372,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/371",
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：cross-eval 基线的 `run(\"retry\")` **无尝试上限** —— 被重试步骤真抛 `RuntimeError` 就**永不返回**，且它的 `ATTEMPTS 3` 是**假造注入**的产出（子面 `bench/cross_eval`）",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 371,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/370",
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：cross-eval 守卫 R8 缺 `sha256` 即判通过 ＋ runner 失败模式退出码恒 0 ＋ 引擎自报证据键被 6 键白名单静默丢弃（同一族三处，附 `cfg_for` 形参零引用）（子面 `bench/cross_eval`）",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 370,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/368",
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：cross-eval 基线 resume 档读数「自述冒充实测」＋ 四家同一读数三种口径（子面 `bench/cross_eval`）",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 368,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/367",
+   "title": "【intake 输入】dsh-bounty（`bounty_site`）：cross-eval 报告 4 类共 21 条读数「指不到出处／指到错出处」，守卫 R5 覆盖不到该形态（子面 `bench/cross_eval`）",
+   "repo": "FuRongJun-1999/dsh-bounty",
+   "number": 367,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Nudge-Pay/nudge-app/issues/46",
+   "title": "[Bounty: $55] Add a scheduled nightly run of the client quality gate",
+   "repo": "Nudge-Pay/nudge-app",
+   "number": 46,
+   "created": "2026-10-08",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/thirdshiftworks/opportunity-scanner/issues/1",
+   "title": "[Opportunity] [BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands — $100.0",
+   "repo": "thirdshiftworks/opportunity-scanner",
+   "number": 1,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+   "title": "[LIVE] Verified NIM bounty board",
+   "repo": "Saidur-droid/MergeEarn",
+   "number": 33,
+   "created": "2026-09-20",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Uuriko/project-room/issues/3437",
+   "title": "Human UI has no surface for bounties or credit balances: the first-owner money journey is invisible to a human owner (H-J1 FAIL)",
+   "repo": "Uuriko/project-room",
+   "number": 3437,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/115",
+   "title": "bounty-watch 2026-10-14: 0 new, 0 resumed, 4 watchlist changes",
+   "repo": "abdulsalam-create/bounty-watch",
+   "number": 115,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/LegendofKEK/bichael/issues/294",
+   "title": "High: No web UI for Ash Pit bounty place/cancel",
+   "repo": "LegendofKEK/bichael",
+   "number": 294,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/LegendofKEK/bichael/issues/293",
+   "title": "High: PvpBounty OPERATOR_ROLE can drain all open bounties",
+   "repo": "LegendofKEK/bichael",
+   "number": 293,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/LegendofKEK/bichael/issues/290",
+   "title": "Critical: PvP bounty uses synthetic receipts with no live escrow gate",
+   "repo": "LegendofKEK/bichael",
+   "number": 290,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DeonUrist/WildWasteland/issues/115",
+   "title": "[Patrols] Retribution patrols/bounty hunters from coyotes if attacked by player",
+   "repo": "DeonUrist/WildWasteland",
+   "number": 115,
+   "created": "2026-10-14",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/MergeFi/backend/issues/613",
+   "title": "POST /milestones/:id/allocate and /bounties/:id/approve|reject are documented in Swagger as working operations",
+   "repo": "MergeFi/backend",
+   "number": 613,
+   "created": "2026-10-13",
+   "updated": "2026-10-14",
+   "queries": [
+    "\"bounty:\" in:title"
    ],
    "enriched": false,
    "score": -99,
@@ -10571,161 +10736,11 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/213",
-   "title": "【贡献申报】15 件缺陷报告（dsh-bounty ×10 ＋ lingshu ×5）",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 213,
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/Uuriko/project-room/issues/941",
    "title": "Security deep pass 1: guest-link credentials + cross-review patterns (P1-P5)",
    "repo": "Uuriko/project-room",
    "number": 941,
    "created": "2026-09-24",
-   "updated": "2026-10-13",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/tscircuit/docs/issues/886",
-   "title": "Migrate schematic-only ESP32 module circuit example bounty from archived docs-old#47",
-   "repo": "tscircuit/docs",
-   "number": 886,
-   "created": "2026-09-16",
-   "updated": "2026-10-13",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/ROAM-game-org/road-machiners/issues/507",
-   "title": "Add remote salvage-claim contracts with protected objectives",
-   "repo": "ROAM-game-org/road-machiners",
-   "number": 507,
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/ROAM-game-org/road-machiners/issues/506",
-   "title": "Add remote off-road survey contracts",
-   "repo": "ROAM-game-org/road-machiners",
-   "number": 506,
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Uuriko/project-room/issues/3224",
-   "title": "[tracking] Finish raw members[...] migration behind ownMember/requireMember and add the lint ban",
-   "repo": "Uuriko/project-room",
-   "number": 3224,
-   "created": "2026-10-13",
-   "updated": "2026-10-13",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/jCondeData/minecraft-alive-workplace/issues/1",
-   "title": "Nightly tests failing",
-   "repo": "jCondeData/minecraft-alive-workplace",
-   "number": 1,
-   "created": "2026-09-30",
-   "updated": "2026-10-13",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Trexzo/SpawnPK-RE/issues/427",
-   "title": "[Chat 2][Exact v308] Recover uncovered SpawnPK application/UI contracts",
-   "repo": "Trexzo/SpawnPK-RE",
-   "number": 427,
-   "created": "2026-09-21",
-   "updated": "2026-10-13",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/1354",
-   "title": "🔱 TEAM NAYA — Priority One execution feed (successor to #554)",
-   "repo": "SoulSchoolAcademy/NayaPOWER",
-   "number": 1354,
-   "created": "2026-10-04",
-   "updated": "2026-10-13",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/jbgh2/card-game-dsl/issues/189",
-   "title": "A library cannot hold a body that names a definition the game owns",
-   "repo": "jbgh2/card-game-dsl",
-   "number": 189,
-   "created": "2026-07-29",
-   "updated": "2026-10-13",
-   "queries": [
-    "\"/bounty\" in:comments"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/riles22/wow-class-tracker/issues/15",
-   "title": "Nightly digest — per-run change summaries",
-   "repo": "riles22/wow-class-tracker",
-   "number": 15,
-   "created": "2026-07-19",
    "updated": "2026-10-13",
    "queries": [
     "\"/bounty\" in:comments"
@@ -10771,6 +10786,21 @@
    "repo": "close2ground1-debug/agent-market-x402",
    "number": 1,
    "created": "2026-10-08",
+   "updated": "2026-10-13",
+   "queries": [
+    "bounty USDC"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Nikolife2016/pulsefeed-x402/issues/3",
+   "title": "radar: 72 ветки ждут ответа",
+   "repo": "Nikolife2016/pulsefeed-x402",
+   "number": 3,
+   "created": "2026-07-31",
    "updated": "2026-10-13",
    "queries": [
     "bounty USDC"
@@ -10931,6 +10961,36 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/5",
+   "title": "Bounty #29 ($100): eligibility, integration scope and Pakistan payout",
+   "repo": "bujiproject-art/agentmidasopendevteam",
+   "number": 5,
+   "created": "2026-09-06",
+   "updated": "2026-10-13",
+   "queries": [
+    "bounty USDT"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/amaybaum-prod/shopware/issues/148",
+   "title": "e2e-testsuite-platform-7.0.5.tgz: 47 vulnerabilities (highest severity is: 9.8) [trunk] (reachable)",
+   "repo": "amaybaum-prod/shopware",
+   "number": 148,
+   "created": "2026-02-25",
+   "updated": "2026-10-13",
+   "queries": [
+    "bounty USDT"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/SalamLang/Salam/issues/1713",
    "title": "🎁 Build Something with Salam Programming Language (Community Reward)",
    "repo": "SalamLang/Salam",
@@ -10976,6 +11036,486 @@
    "is_new": true
   },
   {
+   "url": "https://github.com/vitorpamplona/amethyst/issues/4340",
+   "title": "[BUG] On-chain wallet: cannot send funds to a Bitcoin address",
+   "repo": "vitorpamplona/amethyst",
+   "number": 4340,
+   "created": "2026-10-06",
+   "updated": "2026-10-13",
+   "queries": [
+    "bounty sats"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/Uuriko/project-room/issues/3307",
+   "title": "Dispute bond is specified two ways: dispute machine opens at max(1, 5% of bounty), escrow enforces exactly 25%",
+   "repo": "Uuriko/project-room",
+   "number": 3307,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/abdulsalam-create/bounty-watch/issues/114",
+   "title": "bounty-watch 2026-10-13: 0 new, 1 resumed, 5 watchlist changes",
+   "repo": "abdulsalam-create/bounty-watch",
+   "number": 114,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/agile-students-fall2026/generic-mern-stack-project-bounty/issues/20",
+   "title": "As someone who lost their item, I want to mark who helped me when resolving the post so that the bounty is recorded as going to the right person.",
+   "repo": "agile-students-fall2026/generic-mern-stack-project-bounty",
+   "number": 20,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/agile-students-fall2026/generic-mern-stack-project-bounty/issues/15",
+   "title": "As someone who lost their item, I want to attach an optional bounty to my post so that more people are motivated to help look for it.",
+   "repo": "agile-students-fall2026/generic-mern-stack-project-bounty",
+   "number": 15,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/tscircuit/docs/issues/886",
+   "title": "Migrate schematic-only ESP32 module circuit example bounty from archived docs-old#47",
+   "repo": "tscircuit/docs",
+   "number": 886,
+   "created": "2026-09-16",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1520",
+   "title": "Restrict `/api/bounties/[id]/suggested-creators` to the bounty owner",
+   "repo": "yosemite01/stellar-creator-portfolio",
+   "number": 1520,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/166",
+   "title": "[frontend] Show the scanner's detection for a bounty's package",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 166,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1613",
+   "title": "Admin reports: export CSV for revenue, users, bounties, disputes",
+   "repo": "yosemite01/stellar-creator-portfolio",
+   "number": 1613,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/171",
+   "title": "[contract] Reject self-claims by the bounty creator",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 171,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/172",
+   "title": "[contract] Minimum bounty amount per token",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 172,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1623",
+   "title": "Mobile: end-to-end tests with Maestro or Detox for sign-in and bounty browsing",
+   "repo": "yosemite01/stellar-creator-portfolio",
+   "number": 1623,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1611",
+   "title": "Bounty templates management for clients",
+   "repo": "yosemite01/stellar-creator-portfolio",
+   "number": 1611,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1610",
+   "title": "Team/agency accounts that can apply to bounties together",
+   "repo": "yosemite01/stellar-creator-portfolio",
+   "number": 1610,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1608",
+   "title": "Verified reviews only from completed bounties",
+   "repo": "yosemite01/stellar-creator-portfolio",
+   "number": 1608,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/161",
+   "title": "[testing] Integration test: scan → create bounty on a local contract",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 161,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1606",
+   "title": "Bounty application drafts and withdrawal",
+   "repo": "yosemite01/stellar-creator-portfolio",
+   "number": 1606,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1605",
+   "title": "Saved searches and alerts for new bounties matching skills",
+   "repo": "yosemite01/stellar-creator-portfolio",
+   "number": 1605,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/156",
+   "title": "[docs] Threat model for the bounty router",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 156,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/149",
+   "title": "[drips] Fund the bounty pool from a Drips stream",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 149,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/148",
+   "title": "[drips] Send a share of each released bounty to the project's Drips list",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 148,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/146",
+   "title": "[drips] Design doc: routing bounty payouts through Drips",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 146,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1579",
+   "title": "Add e2e test for bounty lifecycle (create → apply → assign → submit → approve → pay)",
+   "repo": "yosemite01/stellar-creator-portfolio",
+   "number": 1579,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1563",
+   "title": "Add events for every state change in bounty/freelancer contracts",
+   "repo": "yosemite01/stellar-creator-portfolio",
+   "number": 1563,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/127",
+   "title": "[frontend] Submit-claim form on the bounty page",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 127,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/126",
+   "title": "[frontend] Create-bounty form",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 126,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/124",
+   "title": "[frontend] Paginate the bounty list",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 124,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/123",
+   "title": "[frontend] Sort the bounty board",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 123,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/122",
+   "title": "[frontend] Search bounties by finding text",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 122,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/118",
+   "title": "[contract] Invariant tests: contract balance always equals the sum of open bounties",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 118,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/117",
+   "title": "[contract] Structured finding metadata on bounties",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 117,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
+   "url": "https://github.com/DepRadarOrg/DepRadar/issues/115",
+   "title": "[contract] Index claims by claimant across bounties",
+   "repo": "DepRadarOrg/DepRadar",
+   "number": 115,
+   "created": "2026-10-13",
+   "updated": "2026-10-13",
+   "queries": [
+    "\"bounty:\" in:title"
+   ],
+   "enriched": false,
+   "score": -99,
+   "first_seen": "2026-10-14",
+   "is_new": true
+  },
+  {
    "url": "https://github.com/ugurozsahin/sky-academy/issues/1292",
    "title": "Rewards screen gains two \"My record\" lines: fastest tables speed and list words secure",
    "repo": "ugurozsahin/sky-academy",
@@ -10984,21 +11524,6 @@
    "updated": "2026-10-12",
    "queries": [
     "label:reward"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/jaredcaraway/schema-breeze-extension/issues/9",
-   "title": "Paid plan: one-time purchase that unlocks paid features",
-   "repo": "jaredcaraway/schema-breeze-extension",
-   "number": 9,
-   "created": "2026-10-06",
-   "updated": "2026-10-12",
-   "queries": [
-    "label:paid"
    ],
    "enriched": false,
    "score": -99,
@@ -11266,21 +11791,6 @@
    "repo": "liubaining-louis/louis-os",
    "number": 344,
    "created": "2026-08-10",
-   "updated": "2026-10-12",
-   "queries": [
-    "bounty USDC"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/RUMBO-IA/Rumbo/issues/135",
-   "title": "Cashflow execution ledger — 2026-09-13",
-   "repo": "RUMBO-IA/Rumbo",
-   "number": 135,
-   "created": "2026-09-13",
    "updated": "2026-10-12",
    "queries": [
     "bounty USDC"
@@ -11816,246 +12326,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/310",
-   "title": "Let a resumed live stream end at its deadline with its closing card",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 310,
-   "created": "2026-10-06",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/bodycount0/stellar-drips-protocol/issues/4",
-   "title": "[FEAT] Implement on-chain subscription analytics and event history viewer",
-   "repo": "bodycount0/stellar-drips-protocol",
-   "number": 4,
-   "created": "2026-08-08",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Bitcoindefi/OpenAO/issues/1",
-   "title": "Recuperacion de contrasena falla en produccion: Amazon SES sin configurar ni documentado",
-   "repo": "Bitcoindefi/OpenAO",
-   "number": 1,
-   "created": "2026-08-16",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Bitcoindefi/OpenAO/issues/11",
-   "title": "Etapa 3: publicar mapas en vivo sin reiniciar el server",
-   "repo": "Bitcoindefi/OpenAO",
-   "number": 11,
-   "created": "2026-08-16",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Bitcoindefi/OpenAO/issues/13",
-   "title": "Etapa 4: editor visual de mapas dentro del juego",
-   "repo": "Bitcoindefi/OpenAO",
-   "number": 13,
-   "created": "2026-08-16",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Bitcoindefi/OpenAO/issues/24",
-   "title": "Etapa 5: espacio aislado de mapas de usuario con propiedad y cuotas",
-   "repo": "Bitcoindefi/OpenAO",
-   "number": 24,
-   "created": "2026-08-16",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/NashKara96/fx/issues/1",
-   "title": "🎯 Ensure all OnStop hooks execute during Lifecycle.Stop() even if a prior hook returns context.Canceled or context.DeadlineExceeded",
-   "repo": "NashKara96/fx",
-   "number": 1,
-   "created": "2026-07-21",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/RoseMark45/chi/issues/1",
-   "title": "🎯 Fix URL Parameter Loss When Request Context is Replaced in Middleware After Routing",
-   "repo": "RoseMark45/chi",
-   "number": 1,
-   "created": "2026-07-16",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/KentonMaverick47/cobra/issues/1",
-   "title": "🎯 Fix persistent flag value leakage across repeated Command.Execute() invocations",
-   "repo": "KentonMaverick47/cobra",
-   "number": 1,
-   "created": "2026-08-10",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/iii123iii/Crystal-PDF/issues/2",
-   "title": "Fix speed",
-   "repo": "iii123iii/Crystal-PDF",
-   "number": 2,
-   "created": "2026-07-06",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/maitebloger111/Apache-Arrow/issues/1",
-   "title": "🎯 Optimize Partition Pruning and Expression Evaluation for Large Partitioned Parquet Datasets",
-   "repo": "maitebloger111/Apache-Arrow",
-   "number": 1,
-   "created": "2026-06-06",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/TrudieMasenheimer3/prometheus/issues/1",
-   "title": "🎯 Fix false positive truncation warning in /api/v1/query when result count equals limit",
-   "repo": "TrudieMasenheimer3/prometheus",
-   "number": 1,
-   "created": "2026-08-14",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/CornelParsch21/client-go/issues/1",
-   "title": "🎯 Prevent Indefinite Request Throttling When RateLimiter Burst is Configured Too Low",
-   "repo": "CornelParsch21/client-go",
-   "number": 1,
-   "created": "2026-08-11",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/NashKara96/resty/issues/1",
-   "title": "🎯 Fix Race Condition and Stale Nonce Count in Concurrent Digest Authentication",
-   "repo": "NashKara96/resty",
-   "number": 1,
-   "created": "2026-07-21",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Kristywvs22/zap/issues/1",
-   "title": "🎯 Fix: Request Body Exhaustion on HTTP Retries When Using `io.Reader`",
-   "repo": "Kristywvs22/zap",
-   "number": 1,
-   "created": "2026-07-20",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Kristywvs22/gin/issues/1",
-   "title": "🎯 Fix Data Race in (*Context).Copy() by Shallow Copying the Keys Map",
-   "repo": "Kristywvs22/gin",
-   "number": 1,
-   "created": "2026-07-20",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/priyanshudumps/fuel-agent-kit/issues/1",
    "title": "add a python version of the kit",
    "repo": "priyanshudumps/fuel-agent-kit",
@@ -12136,141 +12406,6 @@
    "repo": "0xddneto/AI-Proof-of-Us",
    "number": 4,
    "created": "2026-07-23",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/320",
-   "title": "Add instruction, abstention and truthful-completion diagnostic fixtures",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 320,
-   "created": "2026-10-07",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/321",
-   "title": "Qualify an isolated OpenAI Agents SDK consumer of Astral Work",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 321,
-   "created": "2026-10-07",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/324",
-   "title": "Evaluate contextual secret patterns without importing the Guardrails runtime",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 324,
-   "created": "2026-10-07",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/326",
-   "title": "Qualify an OpenAI-only Responses adapter through existing provider routing",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 326,
-   "created": "2026-10-07",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/331",
-   "title": "Qualify a native Claude Messages adapter through existing provider routing",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 331,
-   "created": "2026-10-07",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/333",
-   "title": "Qualify opt-in caching of approved non-PHI Claude prompt prefixes",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 333,
-   "created": "2026-10-07",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/336",
-   "title": "Pilot source-span validated extraction from clinical notes",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 336,
-   "created": "2026-10-07",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/337",
-   "title": "Qualify a fail-closed Linux subprocess profile using sandbox-runtime",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 337,
-   "created": "2026-10-07",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:bounty"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/AstralDeep/AstralDeep/issues/346",
-   "title": "Preserve layout and source locations when parsing owned PDF/DOCX attachments",
-   "repo": "AstralDeep/AstralDeep",
-   "number": 346,
-   "created": "2026-10-07",
    "updated": "2026-10-11",
    "queries": [
     "label:bounty"
@@ -12506,51 +12641,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
-   "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
-   "repo": "warpspeedopen-source/warpspeed-bounties",
-   "number": 3,
-   "created": "2026-05-28",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7",
-   "title": "[PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
-   "repo": "warpspeedopen-source/warpspeed-bounties",
-   "number": 7,
-   "created": "2026-05-28",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6",
-   "title": "[PAID BOUNTY - $660] Enhanced Image Preview",
-   "repo": "warpspeedopen-source/warpspeed-bounties",
-   "number": 6,
-   "created": "2026-05-28",
-   "updated": "2026-10-11",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/PayRam/payram-scripts/issues/108",
    "title": "Agent derives malformed API URLs from supported bind-IP port mappings",
    "repo": "PayRam/payram-scripts",
@@ -12664,21 +12754,6 @@
    "updated": "2026-10-10",
    "queries": [
     "label:reward"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
-   "title": "[PAID BOUNTY - $660] Inline Image Editing",
-   "repo": "warpspeedopen-source/warpspeed-bounties",
-   "number": 5,
-   "created": "2026-05-28",
-   "updated": "2026-10-10",
-   "queries": [
-    "label:paid"
    ],
    "enriched": false,
    "score": -99,
@@ -12866,21 +12941,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/jaredcaraway/schema-breeze-extension/issues/15",
-   "title": "Paid: edit JSON-LD in the panel and re-test live",
-   "repo": "jaredcaraway/schema-breeze-extension",
-   "number": 15,
-   "created": "2026-10-06",
-   "updated": "2026-10-08",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/amaybaum-prod/spectrum/issues/125",
    "title": "apollo-server-express-2.5.0-alpha.0.tgz: 35 vulnerabilities (highest severity is: 9.9) [alpha] (reachable)",
    "repo": "amaybaum-prod/spectrum",
@@ -12986,21 +13046,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/jaredcaraway/schema-breeze-extension/issues/16",
-   "title": "Paid: custom rule profiles",
-   "repo": "jaredcaraway/schema-breeze-extension",
-   "number": 16,
-   "created": "2026-10-06",
-   "updated": "2026-10-07",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/scamsniffer/scam-database/issues/740",
    "title": "Batch — 40 confirmed crypto-fraud domains (backlog 12/13)",
    "repo": "scamsniffer/scam-database",
@@ -13024,81 +13069,6 @@
    "updated": "2026-10-06",
    "queries": [
     "label:reward"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/jaredcaraway/schema-breeze-extension/issues/14",
-   "title": "Paid: quick-fix snippets with corrected JSON-LD",
-   "repo": "jaredcaraway/schema-breeze-extension",
-   "number": 14,
-   "created": "2026-10-06",
-   "updated": "2026-10-06",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/jaredcaraway/schema-breeze-extension/issues/13",
-   "title": "Paid: compare scans (history, staging vs. production, competitor)",
-   "repo": "jaredcaraway/schema-breeze-extension",
-   "number": 13,
-   "created": "2026-10-06",
-   "updated": "2026-10-06",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/jaredcaraway/schema-breeze-extension/issues/12",
-   "title": "Paid: batch scan of a sitemap or list of URLs",
-   "repo": "jaredcaraway/schema-breeze-extension",
-   "number": 12,
-   "created": "2026-10-06",
-   "updated": "2026-10-06",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/jaredcaraway/schema-breeze-extension/issues/11",
-   "title": "Paid: client-ready report export with white-label branding",
-   "repo": "jaredcaraway/schema-breeze-extension",
-   "number": 11,
-   "created": "2026-10-06",
-   "updated": "2026-10-06",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/jaredcaraway/schema-breeze-extension/issues/10",
-   "title": "Paid: watermark-free, SVG and high-resolution graph exports",
-   "repo": "jaredcaraway/schema-breeze-extension",
-   "number": 10,
-   "created": "2026-10-06",
-   "updated": "2026-10-06",
-   "queries": [
-    "label:paid"
    ],
    "enriched": false,
    "score": -99,
@@ -13159,36 +13129,6 @@
    "updated": "2026-10-06",
    "queries": [
     "bounty reward in:title"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/tmsteph/3dvr-portal/issues/2357",
-   "title": "Plan paid pilot sprint outreach to early-stage SaaS founders",
-   "repo": "tmsteph/3dvr-portal",
-   "number": 2357,
-   "created": "2026-09-12",
-   "updated": "2026-10-05",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1",
-   "title": "[PAID BOUNTY - $960] Attachment Summarizer Service",
-   "repo": "warpspeedopen-source/warpspeed-bounties",
-   "number": 1,
-   "created": "2026-05-28",
-   "updated": "2026-10-05",
-   "queries": [
-    "label:paid"
    ],
    "enriched": false,
    "score": -99,
@@ -13286,70 +13226,10 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
-   "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
-   "repo": "warpspeedopen-source/warpspeed-bounties",
-   "number": 2,
-   "created": "2026-05-28",
-   "updated": "2026-10-04",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/9",
-   "title": "[PAID BOUNTY - $750] Audio Note Recording",
-   "repo": "warpspeedopen-source/warpspeed-bounties",
-   "number": 9,
-   "created": "2026-05-28",
-   "updated": "2026-10-04",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/auscaster/frantic-board/issues/279",
-   "title": "Frantic bounty #99: Write honestly about your Frantic run (receipt required)",
-   "repo": "auscaster/frantic-board",
-   "number": 279,
-   "created": "2026-07-08",
-   "updated": "2026-10-04",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/devlootxyz-bounties/kanban-test/issues/12",
    "title": "Integrate Algorand Testnet wallet connection and task bounty funding",
    "repo": "devlootxyz-bounties/kanban-test",
    "number": 12,
-   "created": "2026-09-21",
-   "updated": "2026-10-04",
-   "queries": [
-    "bounty USDT"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/Eaprime1/custos/issues/325",
-   "title": "XDA concept entity — multi-stream with sub-streams",
-   "repo": "Eaprime1/custos",
-   "number": 325,
    "created": "2026-09-21",
    "updated": "2026-10-04",
    "queries": [
@@ -13616,21 +13496,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/spencerneutron/ChoreganizeSwift/issues/129",
-   "title": "[Paid] Insights 2.0: per-chore, per-room and per-member stats where they're useful",
-   "repo": "spencerneutron/ChoreganizeSwift",
-   "number": 129,
-   "created": "2026-09-27",
-   "updated": "2026-09-27",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/GraniteProtocol/core-v1/issues/69",
    "title": "Cold pitch: open community audit bounty on v0-4-market — would Granite sponsor a follow-up?",
    "repo": "GraniteProtocol/core-v1",
@@ -13691,81 +13556,6 @@
    "is_new": true
   },
   {
-   "url": "https://github.com/mragungsetiaji/wednesday/issues/17",
-   "title": "Scheduled news briefs with Telegram delivery",
-   "repo": "mragungsetiaji/wednesday",
-   "number": 17,
-   "created": "2026-09-26",
-   "updated": "2026-09-26",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mragungsetiaji/wednesday/issues/16",
-   "title": "LLM session recap and weekly review",
-   "repo": "mragungsetiaji/wednesday",
-   "number": 16,
-   "created": "2026-09-26",
-   "updated": "2026-09-26",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mragungsetiaji/wednesday/issues/15",
-   "title": "Second brain: ask questions of your own playbook, journal and briefs",
-   "repo": "mragungsetiaji/wednesday",
-   "number": 15,
-   "created": "2026-09-26",
-   "updated": "2026-09-26",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mragungsetiaji/wednesday/issues/11",
-   "title": "RL v1: take / skip policy trained from reviews and trade outcomes",
-   "repo": "mragungsetiaji/wednesday",
-   "number": 11,
-   "created": "2026-09-26",
-   "updated": "2026-09-26",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
-   "url": "https://github.com/mragungsetiaji/wednesday/issues/6",
-   "title": "ML layer in full screen charts and Telegram alerts for model blocks",
-   "repo": "mragungsetiaji/wednesday",
-   "number": 6,
-   "created": "2026-09-26",
-   "updated": "2026-09-26",
-   "queries": [
-    "label:paid"
-   ],
-   "enriched": false,
-   "score": -99,
-   "first_seen": "2026-10-14",
-   "is_new": true
-  },
-  {
    "url": "https://github.com/eigenwallet/core/issues/801",
    "title": "[0.5 XMR] Unit and integration tests for `monero-rpc-pool`",
    "repo": "eigenwallet/core",
@@ -13814,7 +13604,8 @@
    "queries": [
     "label:bounty",
     "\"/bounty\" in:comments",
-    "bounty USDC"
+    "bounty USDC",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "**Bounty:** $25 (LT) **Area:** `tools/log_aggregator.py` and parser fixture tests **Current state:** The legacy log aggregator notes that parser tests can false-pass because the test data was generated by the same parser logic. This leaves JSON, text, and nginx log parsing vulnerable to regressions when real archived log formats drift. **What's needed:** Add independent parser fixtures based on hand-written representative log lines and cover the main parser paths without relying on parser-genera",
    "prs_open": [
@@ -13991,7 +13782,8 @@
    "queries": [
     "label:bounty",
     "\"/bounty\" in:comments",
-    "bounty USDC"
+    "bounty USDC",
+    "\"bounty:\" in:title"
    ],
    "body_snippet": "**Bounty:** $2 USD in crypto (ETH or any) Add a --json flag to git-context. Claim: Submit a PR and I send the crypto. --- Wallet: 0x96ae5ac39ac118361c158c045e6c41dc0c08c533",
    "prs_open": [
@@ -14074,7 +13866,7 @@
     "$2"
    ],
    "stripe_likely": false,
-   "score": -195,
+   "score": -198,
    "first_seen": "2026-10-14",
    "is_new": true
   },
