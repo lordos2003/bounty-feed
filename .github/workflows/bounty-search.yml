@@ -26,8 +26,9 @@ jobs:
       - name: Search GitHub issues for bounties
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/search.py
+        run: python -u scripts/search.py
       - name: Commit results
+        if: always()
         run: |
           git config user.name  "bounty-feed-bot"
           git config user.email "bounty-feed-bot@users.noreply.github.com"

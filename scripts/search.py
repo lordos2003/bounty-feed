@@ -18,6 +18,19 @@ TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
 API = "https://api.github.com"
 NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = NOW.date().isoformat()
+START = time.time()
+DEADLINE = START + float(os.environ.get("BOUNTY_DEADLINE_MIN", "20")) * 60
+LOG_LINES = []
+
+
+def log(msg):
+    line = f"{dt.datetime.now(dt.timezone.utc).strftime('%H:%M:%S')} {msg}"
+    print(line, flush=True)
+    LOG_LINES.append(line)
+
+
+def out_of_time():
+    return time.time() > DEADLINE
 
 AMOUNT_RE = re.compile(
     r"(\$\s?\d[\d,]*(?:\.\d+)?\s?[kK]?"
@@ -44,25 +57,31 @@ def gh(path, params=None, accept="application/vnd.github+json"):
         "X-GitHub-Api-Version": "2022-11-28",
         "User-Agent": "bounty-feed",
     })
-    for attempt in range(4):
+    for attempt in range(3):
+        if out_of_time():
+            return None
         try:
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
+            try:
+                body = re.sub(r"\s+", " ", e.read().decode("utf-8", "replace"))[:300]
+            except Exception:
+                body = ""
             if e.code in (403, 429):
                 reset = e.headers.get("X-RateLimit-Reset")
                 retry = e.headers.get("Retry-After")
+                remaining = e.headers.get("X-RateLimit-Remaining")
                 wait = int(retry) if retry else (max(5, int(reset) - int(time.time()) + 2) if reset else 30)
-                wait = min(wait, 120)
-                print(f"rate limited on {url[:90]}… wait {wait}s", file=sys.stderr)
+                wait = min(wait, 60)
+                log(f"HTTP {e.code} try {attempt + 1}/3 remaining={remaining} wait={wait}s "
+                    f"body={body} url={url[:110]}")
                 time.sleep(wait)
                 continue
-            if e.code in (404, 410, 422):
-                print(f"HTTP {e.code} on {url[:120]}", file=sys.stderr)
-                return None
-            raise
-        except urllib.error.URLError as e:
-            print(f"network error {e} on {url[:90]}", file=sys.stderr)
+            log(f"HTTP {e.code} body={body[:150]} url={url[:110]}")
+            return None
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            log(f"network error {e!r} try {attempt + 1}/3 url={url[:90]}")
             time.sleep(5)
     return None
 
@@ -80,12 +99,16 @@ def search_all():
     updated = (NOW - dt.timedelta(days=CFG["updated_days"])).date().isoformat()
     found = {}
     for q in CFG["queries"]:
+        if out_of_time():
+            log("deadline reached during search, stopping")
+            break
         full = f"{q} is:issue is:open no:assignee created:>={created} updated:>={updated}"
         for page in range(1, CFG["max_pages_per_query"] + 1):
             data = gh("/search/issues", {"q": full, "sort": "updated", "order": "desc",
                                          "per_page": 100, "page": page})
             time.sleep(2.2)
             if not data:
+                log(f"[ -- ] p{page} {q} (no data)")
                 break
             items = data.get("items", [])
             for it in items:
@@ -93,7 +116,7 @@ def search_all():
                     continue
                 rec = found.setdefault(it["html_url"], {"item": it, "queries": []})
                 rec["queries"].append(q)
-            print(f"[{len(items):3}] p{page} {q}")
+            log(f"[{len(items):3}] p{page} {q} (unique so far: {len(found)})")
             if len(items) < 100:
                 break
     return found
@@ -168,10 +191,14 @@ def main():
     seen = json.load(open(seen_path, encoding="utf-8")) if os.path.exists(seen_path) else {}
 
     found = search_all()
+    log(f"search finished: {len(found)} unique issues, {time.time() - START:.0f}s elapsed")
+    if not found:
+        log("ничего не найдено — latest.json не перезаписываю")
+        sys.exit(1)
     order = sorted(found.values(), key=lambda r: -len(r["queries"]))
     results = []
     for i, rec in enumerate(order):
-        if i < CFG["max_enrich"]:
+        if i < CFG["max_enrich"] and not out_of_time():
             results.append(enrich(rec))
         else:
             it = rec["item"]
@@ -205,8 +232,14 @@ def main():
                      f"| {', '.join(r['amounts'])[:40]} | {len(r['prs_open'])}/{len(r['prs_merged'])} "
                      f"| {r['claims']} | {r['updated']} |")
     open(os.path.join(OUT, "latest.md"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
-    print(f"done: {payload['count']} results, {payload['new_today']} new")
+    log(f"done: {payload['count']} results, {payload['new_today']} new, "
+        f"enriched {sum(1 for r in results if r.get('enriched'))}, {time.time() - START:.0f}s total")
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    finally:
+        os.makedirs(OUT, exist_ok=True)
+        with open(os.path.join(OUT, "run.log"), "w", encoding="utf-8") as f:
+            f.write("\n".join(LOG_LINES) + "\n")
