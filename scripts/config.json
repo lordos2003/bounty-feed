@@ -3,6 +3,8 @@
   "updated_days": 21,
   "max_pages_per_query": 2,
   "max_enrich": 200,
+  "search_budget_min": 12,
+  "search_sleep_sec": 15,
   "queries": [
     "label:bounty",
     "label:\"💎 Bounty\"",

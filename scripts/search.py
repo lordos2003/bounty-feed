@@ -19,7 +19,9 @@ API = "https://api.github.com"
 NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = NOW.date().isoformat()
 START = time.time()
-DEADLINE = START + float(os.environ.get("BOUNTY_DEADLINE_MIN", "20")) * 60
+DEADLINE = START + float(os.environ.get("BOUNTY_DEADLINE_MIN", "24")) * 60
+SEARCH_DEADLINE = START + float(CFG.get("search_budget_min", 12)) * 60
+SEARCH_SLEEP = float(CFG.get("search_sleep_sec", 15))
 LOG_LINES = []
 
 
@@ -99,14 +101,16 @@ def search_all():
     updated = (NOW - dt.timedelta(days=CFG["updated_days"])).date().isoformat()
     found = {}
     for q in CFG["queries"]:
-        if out_of_time():
-            log("deadline reached during search, stopping")
+        if time.time() > SEARCH_DEADLINE or out_of_time():
+            log("search budget reached, stopping search (remaining queries skipped)")
             break
         full = f"{q} is:issue is:open no:assignee created:>={created} updated:>={updated}"
         for page in range(1, CFG["max_pages_per_query"] + 1):
+            if time.time() > SEARCH_DEADLINE or out_of_time():
+                break
             data = gh("/search/issues", {"q": full, "sort": "updated", "order": "desc",
                                          "per_page": 100, "page": page})
-            time.sleep(2.2)
+            time.sleep(SEARCH_SLEEP)
             if not data:
                 log(f"[ -- ] p{page} {q} (no data)")
                 break
@@ -200,6 +204,9 @@ def main():
     for i, rec in enumerate(order):
         if i < CFG["max_enrich"] and not out_of_time():
             results.append(enrich(rec))
+            time.sleep(0.4)
+            if (i + 1) % 25 == 0:
+                log(f"enriched {i + 1}/{min(len(order), CFG['max_enrich'])}")
         else:
             it = rec["item"]
             results.append({"url": it["html_url"], "title": it["title"],
