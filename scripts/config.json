@@ -1,0 +1,47 @@
+{
+  "created_days": 365,
+  "updated_days": 21,
+  "max_pages_per_query": 2,
+  "max_enrich": 200,
+  "queries": [
+    "label:bounty",
+    "label:\"💎 Bounty\"",
+    "label:\"💰bounty\"",
+    "label:\"💰 bounty\"",
+    "label:reward",
+    "label:paid",
+    "\"💎 Bounty\" in:comments",
+    "\"/bounty\" in:comments",
+    "bounty USDC",
+    "bounty USDT",
+    "bounty XMR",
+    "bounty sats",
+    "bounty reward in:title",
+    "\"bounty:\" in:title",
+    "\"[bounty\" in:title",
+    "bounty language:python",
+    "bounty language:javascript",
+    "bounty language:typescript",
+    "bounty playwright",
+    "bounty scraper",
+    "bounty automation",
+    "вознаграждение",
+    "оплачу",
+    "оплата задачи",
+    "награда руб",
+    "bounty ₽"
+  ],
+  "exclude_owners": [
+    "zhangjiayang6835-cyber", "2510034127qq-wq", "uknwplayer", "freedom-winds",
+    "dev-kp-eloper", "laclance", "relayhop", "MyZubster-Ecosystem", "SUSU-LABS",
+    "vouchlabsio", "stellita-labs", "borastellar", "slippay-labs", "zstellar-labs",
+    "balloonfly-hq", "stellarspace-hq", "codeswithroh", "UnsafeLabs", "NSPG13",
+    "Scottcjn", "kwizzlesurp10-ctrl", "SecureBananaLabs", "Presago-Labs", "lnflash"
+  ],
+  "exclude_repos": [
+    "BasedHardware/omi", "gigs-sh/gigs-sh", "sutt/innocuous", "zkp2p/peer-link"
+  ],
+  "exclude_title_regex": [
+    "Bounty Alert", "Micro Bounty Alert", "\\[radar\\]", "bug bounty report", "Payment Status Request"
+  ]
+}
