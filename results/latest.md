@@ -1,29 +1,28 @@
-# Bounty feed — 2026-10-15T09:13:22+00:00
-Всего: 769, новых сегодня: 269
+# Bounty feed — 2026-10-15T18:22:18+00:00
+Всего: 852, новых сегодня: 381
 
 | score | new | issue | amounts | PR open/merged | claims | updated |
 |---|---|---|---|---|---|---|
 | 7 |  | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) [BOUNTY $200] Testing — 自动化测试套件 | $200, $280 | 0/0 | 0 | 2026-10-12 |
 | 6 |  | [useagenthq/useagent#113](https://github.com/useagenthq/useagent/issues/113) Coding with an agent: 3 tasks (website, real bug fix, tests) | $5 | 0/0 | 0 | 2026-10-13 |
 | 6 |  | [layters/testshop#363](https://github.com/layters/testshop/issues/363) Tor integration (testing phase) | 0.05 XMR | 0/0 | 0 | 2026-10-05 |
+| 5 | 🆕 | [vanduc2514/hackathon-circle-misthos#182](https://github.com/vanduc2514/hackathon-circle-misthos/issues/182) Bounty: Overview becomes the signed-in user's dashboard — a publisher's, and a c | $500 | 0/0 | 0 | 2026-10-15 |
+| 5 | 🆕 | [rustamovaf46-max/yurist-rustamova-site#12](https://github.com/rustamovaf46-max/yurist-rustamova-site/issues/12) [P0] Мультиканальное продвижение юриста: поиск, Авито, каталоги и CRM | 50 000 ₽ | 0/0 | 0 | 2026-10-15 |
 | 5 | 🆕 | [rustamovaf46-max/yurist-rustamova-site#6](https://github.com/rustamovaf46-max/yurist-rustamova-site/issues/6) Миграция всей инфраструктуры проекта ЗЕВС и юридического сайта на российские пла | 200 ₽, 3 957 ₽, 330 ₽, 50 000 ₽ | 0/0 | 0 | 2026-10-15 |
+| 5 | 🆕 | [ilbotscomodo/superteam-earn-agent#7](https://github.com/ilbotscomodo/superteam-earn-agent/issues/7) AKE Work Sprint — TikTok English evidence, animated video, first paid audit | $10K | 0/0 | 0 | 2026-10-15 |
 | 5 |  | [sybil-solutions/local-ai-registry#223](https://github.com/sybil-solutions/local-ai-registry/issues/223) Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU) | $50 | 0/0 | 1 | 2026-10-14 |
-| 5 | 🆕 | [rustamovaf46-max/yurist-rustamova-site#12](https://github.com/rustamovaf46-max/yurist-rustamova-site/issues/12) [P0] Мультиканальное продвижение юриста: поиск, Авито, каталоги и CRM | 50 000 ₽ | 0/0 | 0 | 2026-10-14 |
-| 5 |  | [secantdev/secant#615](https://github.com/secantdev/secant/issues/615) Spec: M13 — Private source, public downloads | $12 | 0/0 | 0 | 2026-10-14 |
 | 5 |  | [Uuriko/project-room#3343](https://github.com/Uuriko/project-room/issues/3343) Owner Cockpit slice 2: Money (cents + credits, never mixed) and Roster sections | $5.00 | 0/0 | 0 | 2026-10-14 |
 | 5 |  | [close2ground1-debug/agent-market-x402#1](https://github.com/close2ground1-debug/agent-market-x402/issues/1) Claim Scout Persistent Memory | $5,000, $5k, 0.25 USDC, 0.50 USDC, 1.25  | 0/0 | 0 | 2026-10-13 |
 | 5 |  | [Zednicek-Adam/Getaway#17](https://github.com/Zednicek-Adam/Getaway/issues/17) Progression after the garage is maxed: give players something to chase | $1,000, $1,500, $10,000, $2,000, $30,000 | 0/0 | 0 | 2026-10-12 |
 | 5 |  | [ahmedelgaml70/protocol#3](https://github.com/ahmedelgaml70/protocol/issues/3) Discover additional small-capital permissionless caller rewards | $10 | 0/0 | 0 | 2026-10-11 |
 | 5 | 🆕 | [vasiliy2097projects/garage-rent#2](https://github.com/vasiliy2097projects/garage-rent/issues/2) Сверстать экран поиска на моках | 350 ₽ | 0/0 | 0 | 2026-10-10 |
 | 4 | 🆕 | [alston-personal/agentmanager#2003](https://github.com/alston-personal/agentmanager/issues/2003) Bounty Golden Path v1: qualified paid-issue discovery → governed execution → ver | $1000, $3000, $45, $50, $50,, $500, $60, | 0/0 | 0 | 2026-10-15 |
-| 4 | 🆕 | [attestar-labs/attestar#44](https://github.com/attestar-labs/attestar/issues/44) [Bounty: $80] Add a CI check that `apps/web/lib/vk.json` matches the contract fi | $80 | 0/0 | 0 | 2026-10-15 |
+| 4 |  | [everstrat-xyz/contracts#54](https://github.com/everstrat-xyz/contracts/issues/54) Strategy proposal: LlamaLendLoopStrat — wstETH/crvUSD loop with fxSAVE buffer as | $2.7, $3.2, $83.8, $918k, 0.5 ETH, 1 ETH | 0/0 | 0 | 2026-10-15 |
+| 4 |  | [MergeFi/frontend#613](https://github.com/MergeFi/frontend/issues/613) Reward filter and sort compare raw amounts across USDC and XLM | $50, 400 USDC | 0/0 | 0 | 2026-10-15 |
 | 4 | 🆕 | [DelegoLabs/Delego-contracts#515](https://github.com/DelegoLabs/Delego-contracts/issues/515) Implement Community-Driven Fraud Flagging with Slashable Reporter Staking Bond | 50 USDC | 0/0 | 0 | 2026-10-15 |
 | 4 |  | [immanueltella-web/quantum-media-os.#1](https://github.com/immanueltella-web/quantum-media-os./issues/1) 💷 XOOL Penniless Agent — first £1 target | 1 USD | 0/0 | 0 | 2026-10-15 |
 | 4 |  | [scaffold-studio-hq/scaffold-studio-frontend#44](https://github.com/scaffold-studio-hq/scaffold-studio-frontend/issues/44) [Bounty: $60] Enable retries on CI in `playwright.config.ts` | $60 | 0/0 | 0 | 2026-10-14 |
 | 4 | 🆕 | [vanduc2514/hackathon-circle-misthos#171](https://github.com/vanduc2514/hackathon-circle-misthos/issues/171) Bounty: Open the claim model — anyone can work an issue, and only the merge pays | 6.31 USDC | 0/0 | 0 | 2026-10-14 |
-| 4 |  | [everstrat-xyz/contracts#54](https://github.com/everstrat-xyz/contracts/issues/54) Strategy proposal: LlamaLendLoopStrat — wstETH/crvUSD loop with fxSAVE buffer as | $2.7, $3.2, $83.8, $918k, 0.5 ETH, 1 ETH | 0/0 | 0 | 2026-10-14 |
-| 4 | 🆕 | [zeduchat/zedu-fe#815](https://github.com/zeduchat/zedu-fe/issues/815) [Marketing] Add a sponsorship program and application page for university hackat | $100, $200 | 0/0 | 0 | 2026-10-14 |
-| 4 | 🆕 | [BoltzExchange/boltz-backend#1513](https://github.com/BoltzExchange/boltz-backend/issues/1513) Request to co-sign an unspent 6,300,243-sat funding output with Boltz's LND node | 0, 6,300,243 sat, 315,012 sat | 0/0 | 0 | 2026-10-14 |
 | 4 | 🆕 | [sanehunters/sane_android#34](https://github.com/sanehunters/sane_android/issues/34) D16 · Native Code, JNI & Memory Safety — 65 tests | $0, $6 | 0/0 | 0 | 2026-10-14 |
 | 4 |  | [vitorpamplona/amethyst#4447](https://github.com/vitorpamplona/amethyst/issues/4447) [BUG] New desktop app defaults remote signer to relay.nsec.app which is mostly d | 777 sats | 0/0 | 0 | 2026-10-14 |
 | 4 |  | [bujiproject-art/agentmidasopendevteam#5](https://github.com/bujiproject-art/agentmidasopendevteam/issues/5) Bounty #29 ($100): eligibility, integration scope and Pakistan payout | $100 | 0/0 | 0 | 2026-10-13 |
@@ -41,8 +40,6 @@
 | 4 |  | [Rocket-Harbor-420/workmap-agents-for-humans#3](https://github.com/Rocket-Harbor-420/workmap-agents-for-humans/issues/3) [Harbor Crew] Revisión numérica reproducible del OP_RETURN de BTC Puzzle #71 | 1,938 sats, 323 sats | 0/0 | 0 | 2026-09-29 |
 | 4 |  | [MarcoGiacobbe/CyberStrike#2](https://github.com/MarcoGiacobbe/CyberStrike/issues/2) Map: Bug Bounty Autonomous Flow | $20.000 | 0/0 | 0 | 2026-09-28 |
 | 4 | 🆕 | [foulegold/media#126](https://github.com/foulegold/media/issues/126) Как выбрать первого ИИ-сотрудника: с чего начать автоматизацию бизнеса | 600 рублей | 0/0 | 0 | 2026-09-25 |
-| 4 |  | [gewenbo888/psyverse-posts#55](https://github.com/gewenbo888/psyverse-posts/issues/55) 8核M1跑出13个数字分身：我开源了一人公司全自动搞钱流水线的全部架构与Prompt | $1,000, $3, $300, $50, $8 | 0/0 | 0 | 2026-09-24 |
-| 4 |  | [gewenbo888/psyverse-posts#54](https://github.com/gewenbo888/psyverse-posts/issues/54) 8核M1跑出13个数字分身：我开源了一人公司全自动搞钱流水线的全部架构与Prompt | $1,000, $3, $300, $50, $8 | 0/0 | 0 | 2026-09-24 |
 | 3 |  | [sybil-solutions/local-ai-registry#219](https://github.com/sybil-solutions/local-ai-registry/issues/219) Bounty $50: recipe for RX 7900 XTX 24 GB | $50 | 0/0 | 2 | 2026-10-14 |
 | 3 |  | [yearn/budget#350](https://github.com/yearn/budget/issues/350) BR: DAO-ops 4 | $150,000, $153,000, $3,000, $90,000, $93 | 0/0 | 1 | 2026-10-14 |
 | 3 |  | [illbnm/homelab-stack#11](https://github.com/illbnm/homelab-stack/issues/11) [BOUNTY $130] Database Layer — PostgreSQL + Redis + MariaDB 共享实例 | $100, $130 | 1/0 | 0 | 2026-10-12 |
@@ -52,13 +49,11 @@
 | 3 |  | [haveno-dex/haveno#2694](https://github.com/haveno-dex/haveno/issues/2694) Concept approval: Dart port of haveno-ts (Monero Bounties 1.000 XMR) | 1.000 XMR | 0/0 | 0 | 2026-10-02 |
 | 3 |  | [GraniteProtocol/core-v1#69](https://github.com/GraniteProtocol/core-v1/issues/69) Cold pitch: open community audit bounty on v0-4-market — would Granite sponsor a | 5,000 sats | 0/0 | 0 | 2026-09-27 |
 | 3 |  | [J17M/teardownhq#2](https://github.com/J17M/teardownhq/issues/2) x402 agent API companion feed (HN SaaS teardown intelligence) | $0.05, $9 | 0/0 | 0 | 2026-09-26 |
-| 2 |  | [Nish916/revenue-command-runner#1](https://github.com/Nish916/revenue-command-runner/issues/1) Cloud Revenue Command Dashboard | $1,000,000, $100,000, $150k, $50, $500,  | 0/0 | 1 | 2026-10-15 |
 | 2 | 🆕 | [LowcountryDigitalWorks/lowcountrydigitalworks.com#81](https://github.com/LowcountryDigitalWorks/lowcountrydigitalworks.com/issues/81) WEB-HARDEN-001 — Bounded website security/cutover hardening from 2026-10-15 audi | $0 | 0/0 | 0 | 2026-10-15 |
+| 2 |  | [Nish916/revenue-command-runner#1](https://github.com/Nish916/revenue-command-runner/issues/1) Cloud Revenue Command Dashboard | $1,000,000, $100,000, $150k, $50, $500,  | 0/0 | 1 | 2026-10-15 |
 | 2 |  | [donetick/donetick#885](https://github.com/donetick/donetick/issues/885) Feat: Gamification & Categorized XP System | $100 | 0/0 | 1 | 2026-10-15 |
-| 2 |  | [secantdev/secant#599](https://github.com/secantdev/secant/issues/599) M13: Private source, public downloads | $0 | 0/0 | 0 | 2026-10-14 |
 | 2 |  | [Uuriko/project-room#3307](https://github.com/Uuriko/project-room/issues/3307) Dispute bond is specified two ways: dispute machine opens at max(1, 5% of bounty | $1, | 0/0 | 0 | 2026-10-13 |
 | 2 |  | [industrial-platform-ai/industrial-platform-agent-tools#46](https://github.com/industrial-platform-ai/industrial-platform-agent-tools/issues/46) Central Command / Reconcile paid probes vs recurring production revenue (Oct 13) | $0, $0.010, $0.018, $0.050, $0.078, $0.2 | 0/0 | 0 | 2026-10-13 |
-| 1 | 🆕 | [AxalNetwork/StudioOS#1663](https://github.com/AxalNetwork/StudioOS/issues/1663) D701 (S08): on a phone, Studio is Eadwyn: Conversations, Tasks, My tickets and O | $1 | 0/0 | 0 | 2026-10-15 |
 | 1 |  | [liren001/eth-legion-nexus#5](https://github.com/liren001/eth-legion-nexus/issues/5) [TASK-001] Defensive hardening for outreach pipeline — 5 USDC fixed price (EXECU | 5 USDC, 5.88 USDC | 1/0 | 0 | 2026-10-14 |
 | 1 | 🆕 | [sanehunters/sane_android#45](https://github.com/sanehunters/sane_android/issues/45) D27 · Reporting, Severity Rating & Evidence — 83 tests | $0, $2 | 0/0 | 0 | 2026-10-14 |
 | 1 | 🆕 | [sanehunters/sane_android#35](https://github.com/sanehunters/sane_android/issues/35) D17 · Dynamic Code Loading, Deserialization & Supply Chain — 86 tests | $0 | 0/0 | 0 | 2026-10-14 |
