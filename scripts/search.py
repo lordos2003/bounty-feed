@@ -47,6 +47,8 @@ CLAIM_RE = re.compile(
 )
 PAID_RE = re.compile(r"\b(rewarded|bounty (has been )?paid|payment sent|paid out)\b", re.IGNORECASE)
 STRIPE_HINT = ("algora", "opire", "polar")
+TESTNET_RE = re.compile("|".join(CFG.get("testnet_regex", [])) or r"(?!x)x", re.IGNORECASE)
+SECONDARY_WAIT = float(CFG.get("secondary_wait_sec", 60))
 
 
 def gh(path, params=None, accept="application/vnd.github+json"):
@@ -74,8 +76,12 @@ def gh(path, params=None, accept="application/vnd.github+json"):
                 reset = e.headers.get("X-RateLimit-Reset")
                 retry = e.headers.get("Retry-After")
                 remaining = e.headers.get("X-RateLimit-Remaining")
-                wait = int(retry) if retry else (max(5, int(reset) - int(time.time()) + 2) if reset else 30)
-                wait = min(wait, 60)
+                if "secondary rate limit" in body.lower():
+                    # вторичный лимит: X-RateLimit-Reset тут не помогает, ждём фиксированно
+                    wait = int(retry) if retry else SECONDARY_WAIT
+                else:
+                    wait = int(retry) if retry else (max(5, int(reset) - int(time.time()) + 2) if reset else 30)
+                    wait = min(wait, 60)
                 log(f"HTTP {e.code} try {attempt + 1}/3 remaining={remaining} wait={wait}s "
                     f"body={body} url={url[:110]}")
                 time.sleep(wait)
@@ -130,12 +136,15 @@ def search_all():
     created = (NOW - dt.timedelta(days=CFG["created_days"])).date().isoformat()
     updated = (NOW - dt.timedelta(days=CFG["updated_days"])).date().isoformat()
     found = {}
-    for q in CFG["queries"]:
+    queries = [q if isinstance(q, dict) else {"q": q} for q in CFG["queries"]]
+    for qi, qd in enumerate(queries):
+        q = qd["q"]
         if time.time() > SEARCH_DEADLINE or out_of_time():
-            log("search budget reached, stopping search (remaining queries skipped)")
+            skipped = [x["q"] for x in queries[qi:]]
+            log(f"search budget reached, skipped {len(skipped)} queries: {skipped}")
             break
         full = f"{q} is:issue is:open no:assignee created:>={created} updated:>={updated}"
-        for page in range(1, CFG["max_pages_per_query"] + 1):
+        for page in range(1, int(qd.get("pages", CFG["max_pages_per_query"])) + 1):
             if time.time() > SEARCH_DEADLINE or out_of_time():
                 break
             data = gh("/search/issues", {"q": full, "sort": "updated", "order": "desc",
@@ -156,6 +165,20 @@ def search_all():
     return found
 
 
+def pre_score(rec):
+    """Дешёвая оценка по данным поиска (без API): задаёт порядок обогащения."""
+    it = rec["item"]
+    text = f"{it['title']}\n{it.get('body') or ''}"
+    labels = " ".join(l["name"] for l in it.get("labels", [])).lower()
+    s = len(rec["queries"])
+    s += 3 if AMOUNT_RE.search(text) else 0
+    s += 2 if ("bounty" in labels or "reward" in labels) else 0
+    s += 1 if it.get("author_association") in ("OWNER", "MEMBER", "COLLABORATOR") else 0
+    s += 1 if (NOW.date() - dt.date.fromisoformat(it["updated_at"][:10])).days <= 7 else 0
+    s -= 5 if TESTNET_RE.search(text) else 0
+    return s
+
+
 def enrich(rec):
     it = rec["item"]
     repo = it["repository_url"].split("/repos/")[1]
@@ -170,8 +193,10 @@ def enrich(rec):
         "body_snippet": re.sub(r"\s+", " ", (it.get("body") or ""))[:500],
         "prs_open": [], "prs_merged": [], "prs_closed": [],
         "claims": 0, "claimers": [], "bot_bounty": None,
-        "paid_hint": False, "enriched": False,
+        "paid_hint": False, "testnet_hint": False, "enriched": False,
+        "pre_score": rec.get("pre_score"),
     }
+    all_text = text
     timeline = gh(f"/repos/{repo}/issues/{n}/timeline", {"per_page": 100})
     if isinstance(timeline, list):
         out["enriched"] = True
@@ -189,6 +214,7 @@ def enrich(rec):
                         out["prs_closed"].append(pr)
             elif e == "commented":
                 body = ev.get("body") or ""
+                all_text += "\n" + body
                 login = ((ev.get("user") or ev.get("actor") or {}).get("login") or "").lower()
                 if any(h in login for h in STRIPE_HINT) and ("bounty" in body.lower() or "💎" in body):
                     out["bot_bounty"] = {"bot": login, "text": re.sub(r"\s+", " ", body)[:300]}
@@ -200,6 +226,7 @@ def enrich(rec):
                     out["paid_hint"] = True
     amounts = sorted({m.group(0).strip() for m in AMOUNT_RE.finditer(text)})[:8]
     out["amounts"] = amounts
+    out["testnet_hint"] = bool(TESTNET_RE.search(all_text))
     out["stripe_likely"] = bool(out["bot_bounty"]) or any(
         h in " ".join(out["labels"]).lower() for h in STRIPE_HINT)
     s = 0
@@ -215,6 +242,7 @@ def enrich(rec):
     s -= 10 if out["prs_merged"] else 0
     s -= min(out["claims"], 3) * 2
     s -= 10 if out["paid_hint"] else 0
+    s -= 8 if out["testnet_hint"] else 0
     out["score"] = s
     return out
 
@@ -233,21 +261,34 @@ def main():
     if not found:
         log("ничего не найдено — latest.json не перезаписываю")
         sys.exit(1)
-    order = sorted(found.values(), key=lambda r: -len(r["queries"]))
+    for rec in found.values():
+        rec["pre_score"] = pre_score(rec)
+    order = sorted(found.values(), key=lambda r: (r["pre_score"], r["item"]["updated_at"]), reverse=True)
     results = []
+    not_enriched_reason = {"limit": 0, "time": 0}
     for i, rec in enumerate(order):
         if i < CFG["max_enrich"] and not out_of_time():
             results.append(enrich(rec))
             time.sleep(0.4)
-            if (i + 1) % 25 == 0:
+            if (i + 1) % 50 == 0:
                 log(f"enriched {i + 1}/{min(len(order), CFG['max_enrich'])}")
         else:
+            not_enriched_reason["limit" if i >= CFG["max_enrich"] else "time"] += 1
             it = rec["item"]
+            text = f"{it['title']}\n{it.get('body') or ''}"
             results.append({"url": it["html_url"], "title": it["title"],
                             "repo": it["repository_url"].split("/repos/")[1],
                             "number": it["number"],
                             "created": it["created_at"][:10], "updated": it["updated_at"][:10],
-                            "queries": rec["queries"], "enriched": False, "score": -99})
+                            "labels": [l["name"] for l in it.get("labels", [])],
+                            "author_association": it.get("author_association"),
+                            "body_snippet": re.sub(r"\s+", " ", (it.get("body") or ""))[:500],
+                            "amounts": sorted({m.group(0).strip() for m in AMOUNT_RE.finditer(text)})[:8],
+                            "testnet_hint": bool(TESTNET_RE.search(text)),
+                            "queries": rec["queries"], "enriched": False,
+                            "pre_score": rec["pre_score"], "score": -99})
+    if any(not_enriched_reason.values()):
+        log(f"not enriched: {not_enriched_reason}")
     for r in results:
         first = seen.setdefault(r["url"], TODAY)
         r["first_seen"] = first

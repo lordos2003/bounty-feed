@@ -17,7 +17,7 @@ concurrency:
 jobs:
   search:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,6 +26,7 @@ jobs:
       - name: Search GitHub issues for bounties
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BOUNTY_DEADLINE_MIN: "42"
         run: python -u scripts/search.py
       - name: Commit results
         if: always()
