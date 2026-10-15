@@ -122,7 +122,16 @@
     "\\[Bounty Deliverable\\]",
     "^bounty-watch \\d{4}",
     "^Scope digest",
-    "vulnerabilities \\(highest severity"
+    "vulnerabilities \\(highest severity",
+    "bounty[- ]?ledger",
+    "bounty[- ]?radar",
+    "^\\[Attempt\\]",
+    "^tests?$",
+    "^Security report:",
+    "\\bdigest\\b",
+    "日报",
+    "paid work lead",
+    "赏金：有"
   ],
   "exclude_labels": [
     "paid",
@@ -145,7 +154,8 @@
     "credits only",
     "unpaid\\W{1,4}(?:the )?reward is",
     "slots?:\\s*\\d+\\s*\\(filled\\)",
-    "no (?:monetary|cash) (?:reward|payment)"
+    "no (?:monetary|cash) (?:reward|payment)",
+    "post and fund a real task"
   ],
   "_testnet_note": "Не исключают, а помечают testnet_hint=true и снижают score: такие выплаты ничего не стоят.",
   "testnet_regex": [

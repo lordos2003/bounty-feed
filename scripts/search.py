@@ -36,7 +36,7 @@ def out_of_time():
 
 AMOUNT_RE = re.compile(
     r"(\$\s?\d[\d,]*(?:\.\d+)?\s?[kK]?"
-    r"|\d[\d,\s]*(?:\.\d+)?\s?(?:₽|(?:USDC|USDT|USD|XMR|BTC|SOL|ETH|sats?|сатош\w*|руб\w*|RUB)\b)"
+    r"|\d[\d,\s]*(?:\.\d+)?\s?(?:₽|(?:USDC|USDT|USD|XMR|BTC|ETH|sats?|сатош\w*|руб\w*|RUB)\b|(?-i:SOL)\b)"
     r"|(?:USDC|USDT|XMR)\s?\d[\d,]*(?:\.\d+)?)",
     re.IGNORECASE,
 )
@@ -237,6 +237,7 @@ def enrich(rec):
     usd = [float(x.replace(",", "")) for a in amounts
            for x in re.findall(r"\$\s?(\d[\d,]*(?:\.\d+)?)", a)]
     s -= 3 if usd and max(usd) < 5 else 0  # микро-награды ($1–4) почти всегда шум
+    s -= 3 if not amounts else 0  # без явной суммы это почти никогда не оплачиваемая задача
     s -= 2 if out["stripe_likely"] else 0
     s -= 4 * len(out["prs_open"])
     s -= 10 if out["prs_merged"] else 0
@@ -306,9 +307,14 @@ def main():
              f"Всего: {payload['count']}, новых сегодня: {payload['new_today']}", "",
              "| score | new | issue | amounts | PR open/merged | claims | updated |",
              "|---|---|---|---|---|---|---|"]
-    for r in results[:150]:
-        if not r.get("enriched"):
+    shown = 0
+    for r in results:
+        if shown >= 150:
+            break
+        # в сводку — только задачи с явной суммой, без признаков тестовой сети и с положительной оценкой
+        if not r.get("enriched") or not r["amounts"] or r["testnet_hint"] or r["score"] <= 0:
             continue
+        shown += 1
         title = r["title"].replace("|", "/")[:80]
         lines.append(f"| {r['score']} | {'🆕' if r['is_new'] else ''} | [{r['repo']}#{r['number']}]({r['url']}) {title} "
                      f"| {', '.join(r['amounts'])[:40]} | {len(r['prs_open'])}/{len(r['prs_merged'])} "
