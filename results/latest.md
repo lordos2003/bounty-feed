@@ -1,5 +1,5 @@
-# Bounty feed — 2026-10-16T07:07:01+00:00
-Всего: 799, новых сегодня: 239
+# Bounty feed — 2026-10-16T18:08:52+00:00
+Всего: 816, новых сегодня: 293
 
 | score | new | issue | amounts | PR open/merged | claims | updated |
 |---|---|---|---|---|---|---|
@@ -9,13 +9,15 @@
 | 5 | 🆕 | [Tyaoo/picker#1543](https://github.com/Tyaoo/picker/issues/1543) [每日信息流] 2026-10-16 | $150K, $25, $9.8, $98 | 0/0 | 0 | 2026-10-16 |
 | 5 | 🆕 | [MM0x02/RSS-Push#663](https://github.com/MM0x02/RSS-Push/issues/663) [每日信息流] 2026-10-16 | $25, $60 | 0/0 | 0 | 2026-10-16 |
 | 5 | 🆕 | [BruceFeIix/picker#2750](https://github.com/BruceFeIix/picker/issues/2750) [每日信息流] 2026-10-16 | $150K, $25, $60 | 0/0 | 0 | 2026-10-16 |
-| 5 | 🆕 | [ruohong2018/ruohong2018.github.io#1346](https://github.com/ruohong2018/ruohong2018.github.io/issues/1346) [每日信息流] 2026-10-16 | $150K, $25, $60 | 0/0 | 0 | 2026-10-16 |
 | 5 |  | [rustamovaf46-max/yurist-rustamova-site#12](https://github.com/rustamovaf46-max/yurist-rustamova-site/issues/12) [P0] Мультиканальное продвижение юриста: поиск, Авито, каталоги и CRM | 50 000 ₽ | 0/0 | 0 | 2026-10-15 |
 | 5 |  | [rustamovaf46-max/yurist-rustamova-site#6](https://github.com/rustamovaf46-max/yurist-rustamova-site/issues/6) Миграция всей инфраструктуры проекта ЗЕВС и юридического сайта на российские пла | 200 ₽, 3 957 ₽, 330 ₽, 50 000 ₽ | 0/0 | 0 | 2026-10-15 |
 | 5 |  | [close2ground1-debug/agent-market-x402#1](https://github.com/close2ground1-debug/agent-market-x402/issues/1) Claim Scout Persistent Memory | $5,000, $5k, 0.25 USDC, 0.50 USDC, 1.25  | 0/0 | 0 | 2026-10-13 |
 | 5 |  | [Zednicek-Adam/Getaway#17](https://github.com/Zednicek-Adam/Getaway/issues/17) Progression after the garage is maxed: give players something to chase | $1,000, $1,500, $10,000, $2,000, $30,000 | 0/0 | 0 | 2026-10-12 |
 | 5 |  | [ahmedelgaml70/protocol#3](https://github.com/ahmedelgaml70/protocol/issues/3) Discover additional small-capital permissionless caller rewards | $10 | 0/0 | 0 | 2026-10-11 |
 | 5 |  | [vasiliy2097projects/garage-rent#2](https://github.com/vasiliy2097projects/garage-rent/issues/2) Сверстать экран поиска на моках | 350 ₽ | 0/0 | 0 | 2026-10-10 |
+| 4 | 🆕 | [nymrel/nymrel-swarm-studio#21](https://github.com/nymrel/nymrel-swarm-studio/issues/21) Income Opportunity Registry — map studio assets to the best 100 digital revenue  | $60 | 0/0 | 0 | 2026-10-16 |
+| 4 | 🆕 | [huwhitememes/tollbooth#2](https://github.com/huwhitememes/tollbooth/issues/2) Add tool #101: Bug Bounty Intelligence — smart contract security,  USDC Base x40 | $5 | 0/0 | 0 | 2026-10-16 |
+| 4 | 🆕 | [chatmcp/mcpso#3237](https://github.com/chatmcp/mcpso/issues/3237) Submit MCP Server: Bug Bounty Intelligence — AI smart contract security scanner | 402, USDC | 0/0 | 0 | 2026-10-16 |
 | 4 | 🆕 | [chainreactors/picker#1396](https://github.com/chainreactors/picker/issues/1396) [每日信息流] 2026-10-16 | $150K, $25, $60 | 0/0 | 0 | 2026-10-16 |
 | 4 | 🆕 | [Minkinx/sec-picker#161](https://github.com/Minkinx/sec-picker/issues/161) [每日信息流] 2026-10-16 | $150K, $25, $9.8, $98 | 0/0 | 0 | 2026-10-16 |
 | 4 |  | [immanueltella-web/quantum-media-os.#1](https://github.com/immanueltella-web/quantum-media-os./issues/1) 💷 XOOL Penniless Agent — first £1 target | $45, 45 USD | 0/0 | 0 | 2026-10-15 |
@@ -42,16 +44,14 @@
 | 3 |  | [haveno-dex/haveno#2694](https://github.com/haveno-dex/haveno/issues/2694) Concept approval: Dart port of haveno-ts (Monero Bounties 1.000 XMR) | 1.000 XMR | 0/0 | 0 | 2026-10-02 |
 | 3 |  | [GraniteProtocol/core-v1#69](https://github.com/GraniteProtocol/core-v1/issues/69) Cold pitch: open community audit bounty on v0-4-market — would Granite sponsor a | 5,000 sats | 0/0 | 0 | 2026-09-27 |
 | 3 |  | [J17M/teardownhq#2](https://github.com/J17M/teardownhq/issues/2) x402 agent API companion feed (HN SaaS teardown intelligence) | $0.05, $9 | 0/0 | 0 | 2026-09-26 |
-| 2 |  | [Nish916/revenue-command-runner#1](https://github.com/Nish916/revenue-command-runner/issues/1) Cloud Revenue Command Dashboard | $1,000,000, $100,000, $150k, $2,000,000, | 0/0 | 1 | 2026-10-16 |
+| 2 |  | [Nish916/revenue-command-runner#1](https://github.com/Nish916/revenue-command-runner/issues/1) Cloud Revenue Command Dashboard | $1,000,000, $100,000, $2,000,000, $50, $ | 0/0 | 1 | 2026-10-16 |
+| 2 |  | [donetick/donetick#885](https://github.com/donetick/donetick/issues/885) Feat: Gamification & Categorized XP System | $100 | 0/0 | 1 | 2026-10-16 |
 | 2 |  | [LowcountryDigitalWorks/lowcountrydigitalworks.com#81](https://github.com/LowcountryDigitalWorks/lowcountrydigitalworks.com/issues/81) WEB-HARDEN-001 — Bounded website security/cutover hardening from 2026-10-15 audi | $0 | 0/0 | 0 | 2026-10-15 |
-| 2 |  | [donetick/donetick#885](https://github.com/donetick/donetick/issues/885) Feat: Gamification & Categorized XP System | $100 | 0/0 | 1 | 2026-10-15 |
 | 2 |  | [industrial-platform-ai/industrial-platform-agent-tools#46](https://github.com/industrial-platform-ai/industrial-platform-agent-tools/issues/46) Central Command / Reconcile paid probes vs recurring production revenue (Oct 13) | $0, $0.010, $0.018, $0.050, $0.078, $0.2 | 0/0 | 0 | 2026-10-13 |
 | 1 |  | [sybil-solutions/local-ai-registry#223](https://github.com/sybil-solutions/local-ai-registry/issues/223) Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU) | $50 | 0/0 | 3 | 2026-10-16 |
-| 1 | 🆕 | [oll4com/spaceapp#64](https://github.com/oll4com/spaceapp/issues/64) [$400] Per-service container images: ship each image only the code and dependenc | $400 | 0/0 | 3 | 2026-10-16 |
-| 1 | 🆕 | [oll4com/spaceapp#63](https://github.com/oll4com/spaceapp/issues/63) [$600] Support rootless Podman as a container engine in the run-spaceapp launche | $600 | 0/0 | 3 | 2026-10-16 |
-| 1 | 🆕 | [oll4com/spaceapp#62](https://github.com/oll4com/spaceapp/issues/62) [$750] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive frame | $750 | 0/0 | 4 | 2026-10-16 |
+| 1 | 🆕 | [haoruilee/awesome-agent-native-services#227](https://github.com/haoruilee/awesome-agent-native-services/issues/227) [New Service] Money Reactor | $0.001, $0.002, $0.01 | 0/0 | 0 | 2026-10-16 |
+| 1 | 🆕 | [neatlogs/neatroots#288](https://github.com/neatlogs/neatroots/issues/288) Feature proposal: show what a run, a project and a period cost, from a bundled p | $0.00 | 0/0 | 0 | 2026-10-16 |
 | 1 |  | [sybil-solutions/local-ai-registry#219](https://github.com/sybil-solutions/local-ai-registry/issues/219) Bounty $50: recipe for RX 7900 XTX 24 GB | $50 | 0/0 | 3 | 2026-10-15 |
-| 1 |  | [willi-d7/williams-contracts#109](https://github.com/willi-d7/williams-contracts/issues/109) Keeper Bounty Token Selection Arbitrarily Favors First Token in Multi-Token Esta | $0.001, $0.10, $100,000, 100,000 USDC | 1/0 | 0 | 2026-10-15 |
 | 1 |  | [liren001/eth-legion-nexus#5](https://github.com/liren001/eth-legion-nexus/issues/5) [TASK-001] Defensive hardening for outreach pipeline — 5 USDC fixed price (EXECU | 5 USDC, 5.88 USDC | 1/0 | 0 | 2026-10-15 |
 | 1 | 🆕 | [litang9/big_model_radar#558](https://github.com/litang9/big_model_radar/issues/558) 🌐 AI 官方内容追踪报告 2026-10-16 | $1 | 0/0 | 0 | 2026-10-15 |
 | 1 |  | [Circadian-agent/agent-economy-data#5](https://github.com/Circadian-agent/agent-economy-data/issues/5) Sellers settling through non-Coinbase facilitators are outside the Bazaar frame; | $0.02 | 0/0 | 0 | 2026-10-13 |
