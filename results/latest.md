@@ -1,5 +1,5 @@
-# Bounty feed — 2026-10-17T06:54:19+00:00
-Всего: 812, новых сегодня: 102
+# Bounty feed — 2026-10-17T17:17:07+00:00
+Всего: 899, новых сегодня: 240
 
 | score | new | issue | amounts | PR open/merged | claims | updated |
 |---|---|---|---|---|---|---|
@@ -7,32 +7,33 @@
 | 6 | 🆕 | [limitlessprojects/Go-Hybrid#186](https://github.com/limitlessprojects/Go-Hybrid/issues/186) [wildcard] Erase the .hy / .go Split: Whole-Package Tier-0 Checking via Native G | $250 | 0/0 | 0 | 2026-10-17 |
 | 6 |  | [useagenthq/useagent#113](https://github.com/useagenthq/useagent/issues/113) Coding with an agent: 3 tasks (website, real bug fix, tests) | $5 | 0/0 | 0 | 2026-10-13 |
 | 6 |  | [layters/testshop#363](https://github.com/layters/testshop/issues/363) Tor integration (testing phase) | 0.05 XMR | 0/0 | 0 | 2026-10-05 |
+| 5 | 🆕 | [Gospelsam019/williams-contracts#109](https://github.com/Gospelsam019/williams-contracts/issues/109) Keeper Bounty Token Selection Arbitrarily Favors First Token in Multi-Token Esta | $0.001, $0.10, $100,000, 100,000 USDC | 0/0 | 0 | 2026-10-17 |
+| 5 |  | [rustamovaf46-max/yurist-rustamova-site#12](https://github.com/rustamovaf46-max/yurist-rustamova-site/issues/12) [P0] Мультиканальное продвижение юриста: поиск, Авито, каталоги и CRM | 50 000 ₽ | 0/0 | 0 | 2026-10-17 |
+| 5 | 🆕 | [TokenNotIncluded/lmm-api#935](https://github.com/TokenNotIncluded/lmm-api/issues/935) [upstream-port] 表格行入场动画结束后释放 transform（new-api 5e959519，前端） | 1 USD | 0/0 | 0 | 2026-10-17 |
 | 5 | 🆕 | [TokenNotIncluded/lmm-api#934](https://github.com/TokenNotIncluded/lmm-api/issues/934) [upstream-port] 暗色主题声明 color-scheme: dark（new-api #7571，前端） | 1 USD | 0/0 | 0 | 2026-10-17 |
 | 5 | 🆕 | [MM0x02/RSS-Push#664](https://github.com/MM0x02/RSS-Push/issues/664) [每日信息流] 2026-10-17 | $6.3 | 0/0 | 0 | 2026-10-17 |
 | 5 | 🆕 | [BruceFeIix/picker#2752](https://github.com/BruceFeIix/picker/issues/2752) [每日信息流] 2026-10-17 | $10,000, $29, $6.3 | 0/0 | 0 | 2026-10-17 |
 | 5 | 🆕 | [TokenNotIncluded/lmm-api#932](https://github.com/TokenNotIncluded/lmm-api/issues/932) [upstream-port] Chat → Responses 转换保留 input_image 的 detail 字段（new-api #7855） | 1 USD | 0/0 | 0 | 2026-10-17 |
-| 5 | 🆕 | [ruohong2018/ruohong2018.github.io#1347](https://github.com/ruohong2018/ruohong2018.github.io/issues/1347) [每日信息流] 2026-10-17 | $10,000, $29, $6.3 | 0/0 | 0 | 2026-10-17 |
 | 5 |  | [Tyaoo/picker#1543](https://github.com/Tyaoo/picker/issues/1543) [每日信息流] 2026-10-16 | $150K, $25, $9.8, $98 | 0/0 | 0 | 2026-10-16 |
 | 5 |  | [MM0x02/RSS-Push#663](https://github.com/MM0x02/RSS-Push/issues/663) [每日信息流] 2026-10-16 | $25, $60 | 0/0 | 0 | 2026-10-16 |
 | 5 |  | [BruceFeIix/picker#2750](https://github.com/BruceFeIix/picker/issues/2750) [每日信息流] 2026-10-16 | $150K, $25, $60 | 0/0 | 0 | 2026-10-16 |
-| 5 |  | [rustamovaf46-max/yurist-rustamova-site#12](https://github.com/rustamovaf46-max/yurist-rustamova-site/issues/12) [P0] Мультиканальное продвижение юриста: поиск, Авито, каталоги и CRM | 50 000 ₽ | 0/0 | 0 | 2026-10-15 |
 | 5 |  | [rustamovaf46-max/yurist-rustamova-site#6](https://github.com/rustamovaf46-max/yurist-rustamova-site/issues/6) Миграция всей инфраструктуры проекта ЗЕВС и юридического сайта на российские пла | 200 ₽, 3 957 ₽, 330 ₽, 50 000 ₽ | 0/0 | 0 | 2026-10-15 |
 | 5 |  | [close2ground1-debug/agent-market-x402#1](https://github.com/close2ground1-debug/agent-market-x402/issues/1) Claim Scout Persistent Memory | $5,000, $5k, 0.25 USDC, 0.50 USDC, 1.25  | 0/0 | 0 | 2026-10-13 |
 | 5 |  | [Zednicek-Adam/Getaway#17](https://github.com/Zednicek-Adam/Getaway/issues/17) Progression after the garage is maxed: give players something to chase | $1,000, $1,500, $10,000, $2,000, $30,000 | 0/0 | 0 | 2026-10-12 |
 | 5 |  | [ahmedelgaml70/protocol#3](https://github.com/ahmedelgaml70/protocol/issues/3) Discover additional small-capital permissionless caller rewards | $10 | 0/0 | 0 | 2026-10-11 |
 | 5 |  | [vasiliy2097projects/garage-rent#2](https://github.com/vasiliy2097projects/garage-rent/issues/2) Сверстать экран поиска на моках | 350 ₽ | 0/0 | 0 | 2026-10-10 |
-| 4 | 🆕 | [limitlessprojects/Go-Hybrid#378](https://github.com/limitlessprojects/Go-Hybrid/issues/378) [wildcard] Compile fixed-rate task networks away: certified periodic Go kernels  | $0, $250 | 0/0 | 1 | 2026-10-17 |
+| 4 | 🆕 | [Chain-Love/chain-love#4602](https://github.com/Chain-Love/chain-love/issues/4602) [DBIP] Preserve +prefixed Telegram invites through spreadsheet CSV edits | 10 USDC | 0/0 | 0 | 2026-10-17 |
 | 4 | 🆕 | [limitlessprojects/Go-Hybrid#345](https://github.com/limitlessprojects/Go-Hybrid/issues/345) [wildcard] Make hy-emit untrusted: independently validated lowering to plain Go | $250 | 0/0 | 1 | 2026-10-17 |
-| 4 | 🆕 | [limitlessprojects/Go-Hybrid#352](https://github.com/limitlessprojects/Go-Hybrid/issues/352) [wildcard] GUARANTEES.md row 12 is wrong: cancellation-safety is a one-pass coro | $250 | 0/0 | 1 | 2026-10-17 |
-| 4 | 🆕 | [limitlessprojects/Go-Hybrid#348](https://github.com/limitlessprojects/Go-Hybrid/issues/348) [wildcard] Certify cancellation-safe structured task regions through blocking-ef | $250 | 0/0 | 1 | 2026-10-17 |
-| 4 | 🆕 | [chainreactors/picker#1397](https://github.com/chainreactors/picker/issues/1397) [每日信息流] 2026-10-17 | $10,000, $29, $6.3 | 0/0 | 0 | 2026-10-17 |
-| 4 |  | [immanueltella-web/quantum-media-os.#1](https://github.com/immanueltella-web/quantum-media-os./issues/1) 💷 XOOL Penniless Agent — first £1 target | 50 USD | 0/0 | 0 | 2026-10-17 |
+| 4 | 🆕 | [rroland10/dex223-bug-bounty#25](https://github.com/rroland10/dex223-bug-bounty/issues/25) [Security] Medium — Dex223CoreAutoListing.listSingle allows permissionless overw | USDC223 | 0/0 | 0 | 2026-10-17 |
+| 4 | 🆕 | [bujiproject-art/agentmidasopendevteam#14](https://github.com/bujiproject-art/agentmidasopendevteam/issues/14) Bounty #6 Meeting Scheduler ($100): source, acceptance, and fixed payout terms | $100, $100, | 0/0 | 0 | 2026-10-17 |
 | 4 |  | [nymrel/nymrel-swarm-studio#21](https://github.com/nymrel/nymrel-swarm-studio/issues/21) Income Opportunity Registry — map studio assets to the best 100 digital revenue  | $60 | 0/0 | 0 | 2026-10-17 |
+| 4 |  | [immanueltella-web/quantum-media-os.#1](https://github.com/immanueltella-web/quantum-media-os./issues/1) 💷 XOOL Penniless Agent — first £1 target | $60, 60 USD | 0/0 | 0 | 2026-10-17 |
+| 4 |  | [bujiproject-art/agentmidasopendevteam#5](https://github.com/bujiproject-art/agentmidasopendevteam/issues/5) Bounty #29 ($100): eligibility, integration scope and Pakistan payout | $100 | 0/0 | 0 | 2026-10-17 |
+| 4 | 🆕 | [chainreactors/picker#1397](https://github.com/chainreactors/picker/issues/1397) [每日信息流] 2026-10-17 | $10,000, $29, $6.3 | 0/0 | 0 | 2026-10-17 |
 | 4 |  | [huwhitememes/tollbooth#2](https://github.com/huwhitememes/tollbooth/issues/2) Add tool #101: Bug Bounty Intelligence — smart contract security,  USDC Base x40 | $5 | 0/0 | 0 | 2026-10-16 |
 | 4 |  | [chainreactors/picker#1396](https://github.com/chainreactors/picker/issues/1396) [每日信息流] 2026-10-16 | $150K, $25, $60 | 0/0 | 0 | 2026-10-16 |
 | 4 |  | [Minkinx/sec-picker#161](https://github.com/Minkinx/sec-picker/issues/161) [每日信息流] 2026-10-16 | $150K, $25, $9.8, $98 | 0/0 | 0 | 2026-10-16 |
 | 4 |  | [vitorpamplona/amethyst#4447](https://github.com/vitorpamplona/amethyst/issues/4447) [BUG] New desktop app defaults remote signer to relay.nsec.app which is mostly d | 777 sats | 0/0 | 0 | 2026-10-14 |
-| 4 |  | [bujiproject-art/agentmidasopendevteam#5](https://github.com/bujiproject-art/agentmidasopendevteam/issues/5) Bounty #29 ($100): eligibility, integration scope and Pakistan payout | $100 | 0/0 | 0 | 2026-10-13 |
 | 4 |  | [PayRam/payram-scripts#113](https://github.com/PayRam/payram-scripts/issues/113) Paid bug-report offer: current eligibility and Nano / USDT payout before work | $1, $5, 5 USDC | 0/0 | 0 | 2026-10-13 |
 | 4 |  | [96loveslife/big_model_radar#478](https://github.com/96loveslife/big_model_radar/issues/478) 🌐 AI 官方内容追踪报告 2026-09-12 | 5.6 SOL | 0/0 | 0 | 2026-10-12 |
 | 4 |  | [mobileappbyharis/navi-x402-mcp#1](https://github.com/mobileappbyharis/navi-x402-mcp/issues/1) Add Bug Bounty Intelligence to the hub: smart contract security scanning via x40 | 5 USDC | 0/0 | 0 | 2026-10-11 |
@@ -55,10 +56,11 @@
 | 2 |  | [Nish916/revenue-command-runner#1](https://github.com/Nish916/revenue-command-runner/issues/1) Cloud Revenue Command Dashboard | $1,000,000, $150k, $2,000,000, $50, $500 | 0/0 | 1 | 2026-10-17 |
 | 2 |  | [donetick/donetick#885](https://github.com/donetick/donetick/issues/885) Feat: Gamification & Categorized XP System | $100 | 0/0 | 1 | 2026-10-16 |
 | 2 |  | [industrial-platform-ai/industrial-platform-agent-tools#46](https://github.com/industrial-platform-ai/industrial-platform-agent-tools/issues/46) Central Command / Reconcile paid probes vs recurring production revenue (Oct 13) | $0, $0.010, $0.018, $0.050, $0.078, $0.2 | 0/0 | 0 | 2026-10-13 |
+| 1 |  | [sybil-solutions/local-ai-registry#219](https://github.com/sybil-solutions/local-ai-registry/issues/219) Bounty $50: recipe for RX 7900 XTX 24 GB | $50 | 0/0 | 3 | 2026-10-17 |
+| 1 |  | [liren001/eth-legion-nexus#5](https://github.com/liren001/eth-legion-nexus/issues/5) [TASK-001] Defensive hardening for outreach pipeline — 5 USDC fixed price (EXECU | 5 USDC, 5.88 USDC | 1/0 | 0 | 2026-10-17 |
+| 1 | 🆕 | [GermanoDevelopment/greenfield#40](https://github.com/GermanoDevelopment/greenfield/issues/40) [frontend] Fix USDC units, conversion copy and repository display | $2500000, 1 USDC | 1/0 | 0 | 2026-10-17 |
 | 1 | 🆕 | [DaltonTheDeveloper/squash-live-test#2](https://github.com/DaltonTheDeveloper/squash-live-test/issues/2) humanBytes: MB-scale values shown as KB (live $5 test) | $5 | 1/0 | 0 | 2026-10-17 |
-| 1 | 🆕 | [limitlessprojects/Go-Hybrid#375](https://github.com/limitlessprojects/Go-Hybrid/issues/375) [wildcard] Kill libhyrt.a and the runtime stack-guard branch for SMALL/DEFAULT l | $0 | 0/0 | 0 | 2026-10-17 |
 | 1 | 🆕 | [neatlogs/neatlogs#234](https://github.com/neatlogs/neatlogs/issues/234) with_raw_response / with_streaming_response calls record no tokens or output, an | $0, | 0/0 | 0 | 2026-10-17 |
-| 1 |  | [sybil-solutions/local-ai-registry#219](https://github.com/sybil-solutions/local-ai-registry/issues/219) Bounty $50: recipe for RX 7900 XTX 24 GB | $50 | 0/0 | 3 | 2026-10-15 |
 | 1 |  | [Circadian-agent/agent-economy-data#5](https://github.com/Circadian-agent/agent-economy-data/issues/5) Sellers settling through non-Coinbase facilitators are outside the Bazaar frame; | $0.02 | 0/0 | 0 | 2026-10-13 |
 | 1 |  | [taifoon-io/skills#1](https://github.com/taifoon-io/skills/issues/1) TrollBridge: 100 x402 data lanes on Base, ready for your Bazaar | $0.005, $0.10 | 0/0 | 0 | 2026-10-13 |
 | 1 |  | [illbnm/homelab-stack#9](https://github.com/illbnm/homelab-stack/issues/9) [BOUNTY $300] SSO — Authentik 统一身份认证 | $300 | 1/0 | 1 | 2026-10-12 |
