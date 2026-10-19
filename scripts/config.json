@@ -107,7 +107,13 @@
     "BitPolito/paycue-bounty-demo",
     "Bu1ldTh3Futur3/bounty-hunter-test",
     "claude-builders-bounty/claude-builders-bounty",
-    "auscaster/frantic-board"
+    "auscaster/frantic-board",
+    "ClankerNation/OpenAgents",
+    "96loveslife/big_model_radar",
+    "KEithwy1030/gamer-demo1",
+    "Uuriko/project-room",
+    "shouteck/box-bounty-sandbox",
+    "gitcoinco/gitcoin_co_30"
   ],
   "exclude_title_regex": [
     "Bounty Alert",
@@ -131,7 +137,9 @@
     "\\bdigest\\b",
     "日报",
     "paid work lead",
-    "赏金：有"
+    "赏金：有",
+    "^Application: bounty item",
+    "^Bounty Scout\\b"
   ],
   "exclude_labels": [
     "paid",
