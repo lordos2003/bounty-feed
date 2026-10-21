@@ -40,6 +40,56 @@ AMOUNT_RE = re.compile(
     r"|(?:USDC|USDT|XMR)\s?\d[\d,]*(?:\.\d+)?)",
     re.IGNORECASE,
 )
+def _rx(key, default):
+    pats = CFG.get(key) or default
+    return re.compile("|".join(f"(?:{p})" for p in pats), re.IGNORECASE)
+
+
+# Сумма засчитывается как награда, только если рядом есть слово про награду/оплату работы
+# и нет слов про цену товара, тариф, бюджет рекламы и т.п. Списки настраиваются в config.json.
+REWARD_CTX_RE = _rx("reward_context_regex", [r"bount", r"reward", r"награ", r"вознагр"])
+PRICE_CTX_RE = _rx("price_context_regex", [r"цен[аеуыо]?\b", r"\bprice", r"стоимост", r"тариф"])
+CTX_BEFORE = int(CFG.get("reward_ctx_before", 80))
+CTX_AFTER = int(CFG.get("reward_ctx_after", 50))
+PRICE_BEFORE = int(CFG.get("price_ctx_before", 40))
+PRICE_AFTER = int(CFG.get("price_ctx_after", 25))
+
+
+def _amount_value(s):
+    """Числовое значение суммы (для отсева нулевых наград); None, если не разобрать."""
+    m = re.search(r"\d[\d,\s]*(?:\.\d+)?", s)
+    if not m:
+        return None
+    num = re.sub(r"[,\s]", "", m.group(0))
+    try:
+        return float(num)
+    except ValueError:
+        return None
+
+
+def reward_amounts(text):
+    """Суммы, похожие на награду за задачу. Возвращает (reward, other): other — остальные найденные суммы."""
+    reward, other = set(), set()
+    for m in AMOUNT_RE.finditer(text):
+        amt = m.group(0).strip()
+        before = text[max(0, m.start() - CTX_BEFORE):m.start()]
+        after = text[m.end():m.end() + CTX_AFTER]
+        near = text[max(0, m.start() - PRICE_BEFORE):m.start()] + " " + text[m.end():m.end() + PRICE_AFTER]
+        val = _amount_value(amt)
+        if (REWARD_CTX_RE.search(before) or REWARD_CTX_RE.search(after)) \
+                and not PRICE_CTX_RE.search(near) and val != 0:
+            reward.add(amt)
+        else:
+            other.add(amt)
+    return sorted(reward)[:8], sorted(other - reward)[:8]
+
+
+def labels_line(labels):
+    """Метки как строка текста: в них часто сама сумма ("bounty: $50")."""
+    names = [l if isinstance(l, str) else (l.get("name") or "") for l in labels]
+    return "labels: " + " | ".join(names) if names else ""
+
+
 CLAIM_RE = re.compile(
     r"(^|\s)/(attempt|claim)\b|i('| a)?m working on|i will work on|i'll work on|"
     r"assign (this )?(to )?me|can i take|i'd like to work|беру в работу|возьму",
@@ -170,8 +220,9 @@ def pre_score(rec):
     it = rec["item"]
     text = f"{it['title']}\n{it.get('body') or ''}"
     labels = " ".join(l["name"] for l in it.get("labels", [])).lower()
+    text = labels_line(it.get("labels", [])) + "\n" + text
     s = len(rec["queries"])
-    s += 3 if AMOUNT_RE.search(text) else 0
+    s += 3 if reward_amounts(text)[0] else 0
     s += 2 if ("bounty" in labels or "reward" in labels) else 0
     s += 1 if it.get("author_association") in ("OWNER", "MEMBER", "COLLABORATOR") else 0
     s += 1 if (NOW.date() - dt.date.fromisoformat(it["updated_at"][:10])).days <= 7 else 0
@@ -183,7 +234,7 @@ def enrich(rec):
     it = rec["item"]
     repo = it["repository_url"].split("/repos/")[1]
     n = it["number"]
-    text = f"{it['title']}\n{it.get('body') or ''}"
+    text = f"{labels_line(it.get('labels', []))}\n{it['title']}\n{it.get('body') or ''}"
     out = {
         "url": it["html_url"], "repo": repo, "number": n, "title": it["title"],
         "created": it["created_at"][:10], "updated": it["updated_at"][:10],
@@ -224,8 +275,9 @@ def enrich(rec):
                     out["claimers"].append(login)
                 if PAID_RE.search(body):
                     out["paid_hint"] = True
-    amounts = sorted({m.group(0).strip() for m in AMOUNT_RE.finditer(text)})[:8]
+    amounts, other_amounts = reward_amounts(text)
     out["amounts"] = amounts
+    out["amounts_other"] = other_amounts  # суммы без контекста награды (цены, бюджеты) — для отладки
     out["testnet_hint"] = bool(TESTNET_RE.search(all_text))
     out["stripe_likely"] = bool(out["bot_bounty"]) or any(
         h in " ".join(out["labels"]).lower() for h in STRIPE_HINT)
@@ -276,7 +328,7 @@ def main():
         else:
             not_enriched_reason["limit" if i >= CFG["max_enrich"] else "time"] += 1
             it = rec["item"]
-            text = f"{it['title']}\n{it.get('body') or ''}"
+            text = f"{labels_line(it.get('labels', []))}\n{it['title']}\n{it.get('body') or ''}"
             results.append({"url": it["html_url"], "title": it["title"],
                             "repo": it["repository_url"].split("/repos/")[1],
                             "number": it["number"],
@@ -284,7 +336,7 @@ def main():
                             "labels": [l["name"] for l in it.get("labels", [])],
                             "author_association": it.get("author_association"),
                             "body_snippet": re.sub(r"\s+", " ", (it.get("body") or ""))[:500],
-                            "amounts": sorted({m.group(0).strip() for m in AMOUNT_RE.finditer(text)})[:8],
+                            "amounts": reward_amounts(text)[0],
                             "testnet_hint": bool(TESTNET_RE.search(text)),
                             "queries": rec["queries"], "enriched": False,
                             "pre_score": rec["pre_score"], "score": -99})

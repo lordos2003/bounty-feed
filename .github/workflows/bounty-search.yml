@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Test reward amount filter
+        run: python -I scripts/test_reward_amounts.py
       - name: Search GitHub issues for bounties
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
