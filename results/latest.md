@@ -1,28 +1,33 @@
-# Bounty feed — 2026-10-22T07:31:15+00:00
-Всего: 848, новых сегодня: 117
+# Bounty feed — 2026-10-22T18:37:18+00:00
+Всего: 789, новых сегодня: 184
 
 | score | new | issue | amounts | PR open/merged | claims | updated |
 |---|---|---|---|---|---|---|
-| 7 |  | [ak10082247-max/canaryguard-402#2](https://github.com/ak10082247-max/canaryguard-402/issues/2) [BOUNTY] $5.00+ USDC: Adversarial Prompt Injection Bypass on CanaryGuard Firewal | $5.00 | 0/0 | 0 | 2026-10-21 |
-| 7 |  | [lizTheDeveloper/privacy-the-game#333](https://github.com/lizTheDeveloper/privacy-the-game/issues/333) [stronger source] Zumigo supplies Microbilt (tier C) | $300 | 0/0 | 0 | 2026-10-21 |
+| 7 |  | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) [BOUNTY $200] Testing — 自动化测试套件 | $200, $280 | 0/0 | 0 | 2026-10-22 |
+| 7 |  | [ak10082247-max/canaryguard-402#2](https://github.com/ak10082247-max/canaryguard-402/issues/2) [BOUNTY] $5.00+ USDC: Adversarial Prompt Injection Bypass on CanaryGuard Firewal | $5.00 | 0/0 | 0 | 2026-10-22 |
 | 7 |  | [layters/testshop#363](https://github.com/layters/testshop/issues/363) Tor integration (testing phase) | 0.05 XMR | 0/0 | 0 | 2026-10-19 |
 | 6 |  | [useagenthq/useagent#113](https://github.com/useagenthq/useagent/issues/113) Coding with an agent: 3 tasks (website, real bug fix, tests) | $5 | 0/0 | 0 | 2026-10-18 |
-| 6 |  | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) [BOUNTY $200] Testing — 自动化测试套件 | $200, $280 | 0/0 | 0 | 2026-10-12 |
+| 5 | 🆕 | [xpex-systems-ai/GXEON-AI#452](https://github.com/xpex-systems-ai/GXEON-AI/issues/452) GXEON PAID-WORK #002 — TokenGems/Jupiter docs review (research ready, no submiss | 350 USDC, 50 USDC | 0/0 | 0 | 2026-10-22 |
 | 5 |  | [rustemmustafingovua-byte/lumen-chain#2](https://github.com/rustemmustafingovua-byte/lumen-chain/issues/2) 🔐 Audit: консенсус-критичный код (crypto.ts, ledger.ts, chain.ts, p2p.ts) | 300 USDC | 0/0 | 0 | 2026-10-20 |
-| 4 | 🆕 | [rezearcher/x402-data-api#1](https://github.com/rezearcher/x402-data-api/issues/1) Complementary x402 service: smart contract security scanning via Al-Mizaan v3 | 5 USDC | 0/0 | 0 | 2026-10-22 |
+| 4 | 🆕 | [opensense-inc/opensense-slam-sdk#1](https://github.com/opensense-inc/opensense-slam-sdk/issues/1) Bounty: Implement ORB-SLAM3 Algorithm with Docker + ROS2 Support | $500 | 0/0 | 0 | 2026-10-22 |
+| 4 | 🆕 | [sbc1-code/brand-monitor#139](https://github.com/sbc1-code/brand-monitor/issues/139) Brand Mentions: 2026-10-22 (22 worthy, 0 highlights) | $59.97 | 0/0 | 0 | 2026-10-22 |
+| 4 |  | [immanueltella-web/quantum-media-os.#1](https://github.com/immanueltella-web/quantum-media-os./issues/1) 💷 XOOL Penniless Agent — first £1 target | 80 USD | 0/0 | 0 | 2026-10-22 |
+| 4 | 🆕 | [sybil-solutions/local-ai-recipe-kit#37](https://github.com/sybil-solutions/local-ai-recipe-kit/issues/37) LocalMaxxing export invents engine and decoding metadata (paid-scope inquiry) | $50 | 0/0 | 0 | 2026-10-22 |
+| 4 |  | [solana-foundation/program-examples#755](https://github.com/solana-foundation/program-examples/issues/755) tokens/token-swap: add the native (Solana Native) flavor — example currently shi | $200 | 0/0 | 0 | 2026-10-22 |
 | 4 | 🆕 | [daydreamsai/lucid-agents#1729](https://github.com/daydreamsai/lucid-agents/issues/1729) Taskmarket API: all wallet-signed writes 401 'Signature does not match worker ad | 6 USDC | 0/0 | 0 | 2026-10-22 |
-| 4 |  | [immanueltella-web/quantum-media-os.#1](https://github.com/immanueltella-web/quantum-media-os./issues/1) 💷 XOOL Penniless Agent — first £1 target | 80 USD | 0/0 | 0 | 2026-10-21 |
+| 4 | 🆕 | [rezearcher/x402-data-api#1](https://github.com/rezearcher/x402-data-api/issues/1) Complementary x402 service: smart contract security scanning via Al-Mizaan v3 | 5 USDC | 0/0 | 0 | 2026-10-22 |
 | 4 |  | [AxalNetwork/StudioOS#2390](https://github.com/AxalNetwork/StudioOS/issues/2390) Admin redesign · Approvals · Approvals: one inbox for every decision, eight miss | $1,200 | 0/0 | 0 | 2026-10-21 |
 | 4 |  | [AxalNetwork/StudioOS#2371](https://github.com/AxalNetwork/StudioOS/issues/2371) Admin redesign · Programs · Programs: every program on its own page, how to run  | $2,000, $4,250, $500 | 0/0 | 0 | 2026-10-21 |
-| 4 |  | [solana-foundation/program-examples#755](https://github.com/solana-foundation/program-examples/issues/755) tokens/token-swap: add the native (Solana Native) flavor — example currently shi | $200 | 0/0 | 0 | 2026-10-20 |
 | 4 |  | [close2ground1-debug/agent-market-x402#1](https://github.com/close2ground1-debug/agent-market-x402/issues/1) Claim Scout Persistent Memory | $5,000, 0.25 USDC, 0.50 USDC, 2 USDC | 0/0 | 0 | 2026-10-13 |
 | 4 |  | [ahmedelgaml70/protocol#3](https://github.com/ahmedelgaml70/protocol/issues/3) Discover additional small-capital permissionless caller rewards | $10 | 0/0 | 0 | 2026-10-11 |
+| 3 |  | [illbnm/homelab-stack#13](https://github.com/illbnm/homelab-stack/issues/13) [BOUNTY $80] Notifications — 统一通知中心 (Gotify + Apprise) | $80 | 1/0 | 0 | 2026-10-22 |
+| 3 |  | [illbnm/homelab-stack#11](https://github.com/illbnm/homelab-stack/issues/11) [BOUNTY $130] Database Layer — PostgreSQL + Redis + MariaDB 共享实例 | $100, $130 | 1/0 | 0 | 2026-10-22 |
 | 3 |  | [haveno-dex/haveno#2694](https://github.com/haveno-dex/haveno/issues/2694) Concept approval: Dart port of haveno-ts (Monero Bounties 1.000 XMR) | 1.000 XMR | 0/0 | 0 | 2026-10-02 |
 | 2 |  | [Nish916/revenue-command-runner#1](https://github.com/Nish916/revenue-command-runner/issues/1) Cloud Revenue Command Dashboard | $1,000,000, $1000, $500, $650, $700, $85 | 0/0 | 1 | 2026-10-22 |
-| 2 |  | [donetick/donetick#885](https://github.com/donetick/donetick/issues/885) Feat: Gamification & Categorized XP System | $100 | 0/0 | 1 | 2026-10-21 |
-| 2 |  | [illbnm/homelab-stack#11](https://github.com/illbnm/homelab-stack/issues/11) [BOUNTY $130] Database Layer — PostgreSQL + Redis + MariaDB 共享实例 | $100, $130 | 1/0 | 0 | 2026-10-12 |
+| 2 |  | [donetick/donetick#885](https://github.com/donetick/donetick/issues/885) Feat: Gamification & Categorized XP System | $100 | 0/0 | 1 | 2026-10-22 |
 | 2 |  | [mister3ai-cmyk/ngp-sovereign-synesis-bounties#3](https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/issues/3) Research Track #3 — DryLab4 & SiLA 2 Robotic Laboratory Bridge (Syn Research Lab | $20,000 | 0/0 | 2 | 2026-10-11 |
 | 1 |  | [illbnm/homelab-stack#9](https://github.com/illbnm/homelab-stack/issues/9) [BOUNTY $300] SSO — Authentik 统一身份认证 | $300 | 1/0 | 1 | 2026-10-22 |
+| 1 |  | [ivcained/fiddy#1](https://github.com/ivcained/fiddy/issues/1) Fiddy: Farcaster client + read node + 3-command tutorial ($2048 bounty) | $128, $2,048, $2048, $512 | 1/0 | 0 | 2026-10-22 |
+| 1 | 🆕 | [gewenbo888/ai-for-money#1](https://github.com/gewenbo888/ai-for-money/issues/1) 【实战解密】我用 AI 智能体扫荡 GitHub 开源悬赏：48 小时合并 6 个 PR 斩获  美金全流程 | $100, $50, $650.00 | 1/0 | 0 | 2026-10-22 |
 | 1 | 🆕 | [picsoritdidnthappen/poidh-app#1606](https://github.com/picsoritdidnthappen/poidh-app/issues/1606) [bounty #1497] Independent poidh v1 per-wallet ledger ready - deliverable, verif | $2.5, 0.001 ETH | 0/0 | 0 | 2026-10-22 |
 | 1 |  | [sybil-solutions/local-ai-registry#223](https://github.com/sybil-solutions/local-ai-registry/issues/223) Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU) | $50 | 0/0 | 4 | 2026-10-20 |
-| 1 |  | [ivcained/fiddy#1](https://github.com/ivcained/fiddy/issues/1) Fiddy: Farcaster client + read node + 3-command tutorial ($2048 bounty) | $128, $2,048, $2048, $512 | 1/0 | 0 | 2026-10-20 |
