@@ -28,3 +28,10 @@
 Добавлено в exclude_title_regex:
 - ^Application: bounty item — заявки соискателей (bujiproject-art/agentmidasopendevteam), а не сами задачи.
 - ^Bounty Scout\b — бот-сводка (ariahendrawan-sudo/project-a).
+
+### 2026-10-22
+Здоровье: ОК (14 плановых запусков success, без skipped, 403 — 14 строк secondary limit, запуск 1854 с при дедлайне 42 мин, лента свежая; not enriched: limit 148 — упирается в max_enrich=700, не менял).
+Добавлено в exclude_title_regex:
+- `^\[(?:find opt-out|opt-out check)\]` — lizTheDeveloper/privacy-the-game: 78 однотипных issue «[find opt-out] <брокер>» / «[opt-out check] ...», массово заведены владельцем 19.10, без суммы награды, занимали 72 из топ-100.
+- `^\[(?:new research|stronger source)\]` — тот же репозиторий, те же шаблонные исследовательские задачи (метка bounty: medium, суммы нет; «$300» в #333 — цитата из текста).
+Репозиторий целиком не исключён: остальные его issue (если появятся с реальной суммой) пройдут.

@@ -139,7 +139,9 @@
     "paid work lead",
     "赏金：有",
     "^Application: bounty item",
-    "^Bounty Scout\\b"
+    "^Bounty Scout\\b",
+    "^\\[(?:find opt-out|opt-out check)\\]",
+    "^\\[(?:new research|stronger source)\\]"
   ],
   "exclude_labels": [
     "paid",
