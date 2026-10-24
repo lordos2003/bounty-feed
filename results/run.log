@@ -1,54 +1,56 @@
-07:15:47 [  9] p1 вознаграждение (unique so far: 9)
-07:15:56 [  1] p1 оплачу (unique so far: 10)
-07:16:06 [ 92] p1 оплата задачи (unique so far: 102)
-07:16:07 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=%D0%BD%D0%B0%D0%B3%D1%80%D0%B0%D0%B4%D0%B0+%D1%80%D1%83%D0%B1+is%3Aissu
-07:17:16 [  0] p1 награда руб (unique so far: 102)
-07:17:26 [100] p1 bounty ₽ (unique so far: 190)
-07:17:26 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+%E2%82%BD+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D202
-07:18:37 [100] p2 bounty ₽ (unique so far: 265)
-07:18:47 [ 99] p1 bounty language:python (unique so far: 273)
-07:18:47 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+language%3Ajavascript+is%3Aissue+is%3Aopen+no%3Aassignee+created
-07:19:57 [100] p1 bounty language:javascript (unique so far: 296)
-07:20:08 [100] p2 bounty language:javascript (unique so far: 351)
-07:20:08 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+language%3Atypescript+is%3Aissue+is%3Aopen+no%3Aassignee+created
-07:21:19 [100] p1 bounty language:typescript (unique so far: 388)
-07:21:30 [100] p2 bounty language:typescript (unique so far: 470)
-07:21:30 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+playwright+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D20
-07:22:41 [ 80] p1 bounty playwright (unique so far: 509)
-07:22:50 [ 23] p1 bounty scraper (unique so far: 520)
-07:22:50 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+automation+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D20
-07:24:01 [ 99] p1 bounty automation (unique so far: 535)
-07:24:12 [ 96] p1 label:"💎 Bounty" (unique so far: 563)
-07:24:12 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=%22%F0%9F%92%8E+Bounty%22+in%3Acomments+is%3Aissue+is%3Aopen+no%3Aassig
-07:25:22 [ 64] p1 "💎 Bounty" in:comments (unique so far: 569)
-07:25:33 [100] p1 label:bounty (unique so far: 574)
-07:25:33 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=label%3Abounty+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D2025-
-07:26:43 [100] p2 label:bounty (unique so far: 606)
-07:26:52 [  6] p1 label:reward (unique so far: 611)
-07:26:53 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+XMR+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D2025-10-2
-07:28:02 [ 56] p1 bounty XMR (unique so far: 615)
-07:28:12 [ 53] p1 bounty sats (unique so far: 624)
-07:28:13 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+reward+in%3Atitle+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%
-07:29:22 [ 10] p1 bounty reward in:title (unique so far: 628)
-07:29:32 [ 99] p1 bounty USDC (unique so far: 632)
-07:29:33 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+USDT+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D2025-10-
-07:30:43 [100] p1 bounty USDT (unique so far: 646)
-07:30:54 [100] p1 "/bounty" in:comments (unique so far: 647)
-07:30:54 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=%22bounty%3A%22+in%3Atitle+is%3Aissue+is%3Aopen+no%3Aassignee+created%3
-07:32:04 [100] p1 "bounty:" in:title (unique so far: 650)
-07:32:14 [100] p1 "[bounty" in:title (unique so far: 650)
-07:32:14 search finished: 650 unique issues, 997s elapsed; excluded by filters (with repeats): {'owner': 435, 'title': 106, 'repo': 192, 'label': 10, 'text': 3, 'deadline': 3}
-07:33:31 enriched 50/650
-07:34:32 enriched 100/650
-07:35:33 enriched 150/650
-07:36:32 enriched 200/650
-07:37:29 enriched 250/650
-07:38:24 enriched 300/650
-07:39:17 enriched 350/650
-07:40:17 enriched 400/650
-07:41:09 enriched 450/650
-07:41:55 enriched 500/650
-07:42:49 enriched 550/650
-07:43:50 enriched 600/650
-07:44:47 enriched 650/650
-07:44:47 done: 650 results, 98 new, enriched 650, 1750s total
+17:29:46 [  9] p1 вознаграждение (unique so far: 9)
+17:29:55 [  1] p1 оплачу (unique so far: 10)
+17:30:05 [ 94] p1 оплата задачи (unique so far: 104)
+17:30:05 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=%D0%BD%D0%B0%D0%B3%D1%80%D0%B0%D0%B4%D0%B0+%D1%80%D1%83%D0%B1+is%3Aissu
+17:31:15 [  0] p1 награда руб (unique so far: 104)
+17:31:25 [100] p1 bounty ₽ (unique so far: 178)
+17:31:25 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+%E2%82%BD+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D202
+17:32:35 [100] p2 bounty ₽ (unique so far: 253)
+17:32:46 [100] p1 bounty language:python (unique so far: 274)
+17:32:46 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+language%3Apython+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%
+17:33:57 [ 99] p2 bounty language:python (unique so far: 316)
+17:34:07 [100] p1 bounty language:javascript (unique so far: 338)
+17:34:07 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+language%3Ajavascript+is%3Aissue+is%3Aopen+no%3Aassignee+created
+17:35:17 [100] p2 bounty language:javascript (unique so far: 379)
+17:35:27 [100] p1 bounty language:typescript (unique so far: 416)
+17:35:28 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+language%3Atypescript+is%3Aissue+is%3Aopen+no%3Aassignee+created
+17:36:38 [100] p2 bounty language:typescript (unique so far: 494)
+17:36:49 [ 82] p1 bounty playwright (unique so far: 533)
+17:36:50 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+scraper+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D2025-
+17:37:59 [ 25] p1 bounty scraper (unique so far: 546)
+17:38:10 [ 99] p1 bounty automation (unique so far: 569)
+17:38:10 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=label%3A%22%F0%9F%92%8E+Bounty%22+is%3Aissue+is%3Aopen+no%3Aassignee+cr
+17:39:20 [ 98] p1 label:"💎 Bounty" (unique so far: 595)
+17:39:30 [ 66] p1 "💎 Bounty" in:comments (unique so far: 601)
+17:39:30 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=label%3Abounty+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D2025-
+17:40:41 [100] p1 label:bounty (unique so far: 601)
+17:40:51 [100] p2 label:bounty (unique so far: 626)
+17:40:51 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=label%3Areward+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D2025-
+17:42:00 [  6] p1 label:reward (unique so far: 630)
+17:42:10 [ 58] p1 bounty XMR (unique so far: 634)
+17:42:10 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+sats+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D2025-10-
+17:43:20 [ 58] p1 bounty sats (unique so far: 644)
+17:43:29 [ 10] p1 bounty reward in:title (unique so far: 648)
+17:43:29 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=bounty+USDC+is%3Aissue+is%3Aopen+no%3Aassignee+created%3A%3E%3D2025-10-
+17:44:40 [100] p1 bounty USDC (unique so far: 652)
+17:44:50 [100] p1 bounty USDT (unique so far: 660)
+17:44:50 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=%22%2Fbounty%22+in%3Acomments+is%3Aissue+is%3Aopen+no%3Aassignee+create
+17:46:01 [100] p1 "/bounty" in:comments (unique so far: 661)
+17:46:11 [100] p1 "bounty:" in:title (unique so far: 667)
+17:46:11 HTTP 403 try 1/3 remaining=27 wait=60.0s body={ "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits", "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your r url=https://api.github.com/search/issues?q=%22%5Bbounty%22+in%3Atitle+is%3Aissue+is%3Aopen+no%3Aassignee+created%3
+17:47:22 [100] p1 "[bounty" in:title (unique so far: 667)
+17:47:22 search finished: 667 unique issues, 1065s elapsed; excluded by filters (with repeats): {'owner': 526, 'repo': 227, 'title': 100, 'label': 14, 'text': 3, 'deadline': 4}
+17:48:28 enriched 50/667
+17:49:28 enriched 100/667
+17:50:21 enriched 150/667
+17:51:13 enriched 200/667
+17:52:03 enriched 250/667
+17:52:53 enriched 300/667
+17:53:42 enriched 350/667
+17:54:29 enriched 400/667
+17:55:18 enriched 450/667
+17:56:04 enriched 500/667
+17:56:44 enriched 550/667
+17:57:37 enriched 600/667
+17:58:32 enriched 650/667
+17:58:48 done: 667 results, 126 new, enriched 667, 1751s total
