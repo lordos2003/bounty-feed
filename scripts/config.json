@@ -93,7 +93,8 @@
     "scoopdisney",
     "riles22",
     "Mariukasfak",
-    "oguzpoyrazyasin"
+    "oguzpoyrazyasin",
+    "doomsday-network"
   ],
   "exclude_repos": [
     "BasedHardware/omi",
@@ -113,7 +114,11 @@
     "KEithwy1030/gamer-demo1",
     "Uuriko/project-room",
     "shouteck/box-bounty-sandbox",
-    "gitcoinco/gitcoin_co_30"
+    "gitcoinco/gitcoin_co_30",
+    "alfrexo95/bounty-bot",
+    "up2itnow0822/ClawPowers-Skills",
+    "Nish916/revenue-command-runner",
+    "immanueltella-web/quantum-media-os."
   ],
   "exclude_title_regex": [
     "Bounty Alert",
@@ -141,7 +146,8 @@
     "^Application: bounty item",
     "^Bounty Scout\\b",
     "^\\[(?:find opt-out|opt-out check)\\]",
-    "^\\[(?:new research|stronger source)\\]"
+    "^\\[(?:new research|stronger source)\\]",
+    "^Daily Review\\b"
   ],
   "exclude_labels": [
     "paid",

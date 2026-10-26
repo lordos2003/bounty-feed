@@ -35,3 +35,17 @@
 - `^\[(?:find opt-out|opt-out check)\]` — lizTheDeveloper/privacy-the-game: 78 однотипных issue «[find opt-out] <брокер>» / «[opt-out check] ...», массово заведены владельцем 19.10, без суммы награды, занимали 72 из топ-100.
 - `^\[(?:new research|stronger source)\]` — тот же репозиторий, те же шаблонные исследовательские задачи (метка bounty: medium, суммы нет; «$300» в #333 — цитата из текста).
 Репозиторий целиком не исключён: остальные его issue (если появятся с реальной суммой) пройдут.
+
+### 2026-10-26
+Здоровье: ОК (16 запусков success за 8 суток, без skipped и not enriched, 403 — 13 строк secondary limit, лента свежая; утренний запуск 26.10 ещё не прошёл на момент проверки).
+Добавлено в exclude_repos:
+- alfrexo95/bounty-bot — бот переписывает чужие bounty в свои issue «Bounty Seguro» (4 строки топа, вложенные дубли).
+- up2itnow0822/ClawPowers-Skills — ежедневные автоотчёты «Daily Review».
+- Nish916/revenue-command-runner — бот-дашборд, сумма $1,000,000 из служебного текста.
+- immanueltella-web/quantum-media-os. — бот-копия «Bounty Alert» с чужого сканера.
+Добавлено в exclude_owners:
+- doomsday-network — 7 строк топа: награды в токене DOOM/wDOOM, «Star repos», обмен на Steam-карту; не деньги.
+Добавлено в exclude_title_regex:
+- `^Daily Review\b` — шаблон автоотчётов.
+Реплей: убирает 29 записей, защищённых и OWNER/MEMBER живых проектов среди них нет (WebFetch был недоступен, решение по телам issue из ленты).
+Не тронуто (не проверено): SPLURT-Station/S.P.L.U.R.T-tg (игровые suggestion-issue с меткой bounty), NEXAITECHAU/algora-demo-1.
