@@ -1,27 +1,23 @@
-# Bounty feed — 2026-11-01T18:58:59+00:00
-Всего: 813, новых сегодня: 109
+# Bounty feed — 2026-11-02T09:26:07+00:00
+Всего: 851, новых сегодня: 118
 
 | score | new | issue | amounts | PR open/merged | claims | updated |
 |---|---|---|---|---|---|---|
-| 7 |  | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) [BOUNTY $200] Testing — 自动化测试套件 | $200, $280 | 0/0 | 0 | 2026-11-01 |
+| 7 |  | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) [BOUNTY $200] Testing — 自动化测试套件 | $200, $280 | 0/0 | 0 | 2026-11-02 |
 | 6 |  | [useagenthq/useagent#116](https://github.com/useagenthq/useagent/issues/116) Docs, slides and sheets: 3 tasks | $5 | 0/0 | 0 | 2026-10-30 |
 | 6 |  | [layters/testshop#363](https://github.com/layters/testshop/issues/363) Tor integration (testing phase) | 0.05 XMR | 0/0 | 0 | 2026-10-23 |
+| 5 |  | [bolivian-peru/os-moda#4](https://github.com/bolivian-peru/os-moda/issues/4) 🏆 BOUNTY (1 SOL): Film "I Gave AI Root Access — Here's Every Single Thing It Did | 1 SOL | 0/0 | 1 | 2026-11-02 |
 | 5 |  | [xpex-systems-ai/GXEON-AI#452](https://github.com/xpex-systems-ai/GXEON-AI/issues/452) GXEON PAID-WORK #002 — TokenGems/Jupiter docs review (research ready, no submiss | 350 USDC, 50 USDC | 0/0 | 0 | 2026-11-01 |
-| 5 | 🆕 | [bolivian-peru/os-moda#4](https://github.com/bolivian-peru/os-moda/issues/4) 🏆 BOUNTY (1 SOL): Film "I Gave AI Root Access — Here's Every Single Thing It Did | 1 SOL | 0/0 | 1 | 2026-10-31 |
 | 5 |  | [andrey-krasheninnikov/want-brief#35](https://github.com/andrey-krasheninnikov/want-brief/issues/35) Спецификация развития Want Brief: аккаунты, пространства и интеграции | $40, $5 | 0/0 | 0 | 2026-10-28 |
 | 5 |  | [RomanVaskin/aurelmar#32](https://github.com/RomanVaskin/aurelmar/issues/32) Исследование рынка и конкурентов AURELMAR — единственная задача 28 октября | $12 | 0/0 | 0 | 2026-10-28 |
+| 4 | 🆕 | [eigenwallet/core#727](https://github.com/eigenwallet/core/issues/727) [Bounty: 0.05 XMR - 0.25 XMR] Performance improvements inside UI | 0.05 XMR, 0.25 XMR | 0/0 | 1 | 2026-11-02 |
 | 4 |  | [aibtcdev/landing-page#1129](https://github.com/aibtcdev/landing-page/issues/1129) Bounty cancel can't carry a reason: 'no entry passed' looks the same as 'poster  | 37,000 sats | 0/0 | 0 | 2026-11-01 |
-| 4 |  | [dailydollar-bot/agent-bounty-feed#2](https://github.com/dailydollar-bot/agent-bounty-feed/issues/2) [Bounty] Framework-native x402 client paying in Nano (XNO): four slots, 150 XNO  | $50 | 0/0 | 0 | 2026-11-01 |
-| 4 | 🆕 | [Trauma-Station/Trauma-Station#5225](https://github.com/Trauma-Station/Trauma-Station/issues/5225) [BOUNTY] huge important bounty bounty bounty | $10000 | 0/0 | 0 | 2026-11-01 |
-| 4 |  | [sybil-solutions/local-ai-registry#370](https://github.com/sybil-solutions/local-ai-registry/issues/370) Support: NVIDIA GeForce RTX 5060 Laptop GPU 8 GB (Blackwell) + $50 bounty reques | $50 | 0/0 | 0 | 2026-11-01 |
-| 4 |  | [Clawland-AI/clawland-fleet#16](https://github.com/Clawland-AI/clawland-fleet/issues/16) Fleet dashboard bounty: live service integration scope | $600 | 0/0 | 0 | 2026-11-01 |
 | 4 |  | [useagenthq/useagent#109](https://github.com/useagenthq/useagent/issues/109) October Hackathon: post your entry here | $100, $150, $75 | 0/0 | 0 | 2026-10-31 |
-| 4 | 🆕 | [SlopDotCash/slopdotcash#1958](https://github.com/SlopDotCash/slopdotcash/issues/1958) Owner decision: a third advertised private bounty paid in a sponsor's own token  | $3,000 | 0/0 | 0 | 2026-10-31 |
+| 4 |  | [SlopDotCash/slopdotcash#1958](https://github.com/SlopDotCash/slopdotcash/issues/1958) Owner decision: a third advertised private bounty paid in a sponsor's own token  | $3,000 | 0/0 | 0 | 2026-10-31 |
 | 4 |  | [Cyon0x/earnly#1](https://github.com/Cyon0x/earnly/issues/1) Contact question: Earnly-Build bounty payments | $120, $50 | 0/0 | 0 | 2026-10-30 |
-| 4 |  | [BREXAtlas/WorldLeaderChat#1663](https://github.com/BREXAtlas/WorldLeaderChat/issues/1663) NEWS CANDIDATE: Trump offers $1 million reward for tips resulting in voter fraud | $1, $1,000,000 | 0/0 | 0 | 2026-10-30 |
 | 4 |  | [rustemmustafingovua-byte/lumen-chain#2](https://github.com/rustemmustafingovua-byte/lumen-chain/issues/2) 🔐 Audit: консенсус-критичный код (crypto.ts, ledger.ts, chain.ts, p2p.ts) | 300 USDC | 0/0 | 0 | 2026-10-23 |
-| 3 |  | [illbnm/homelab-stack#11](https://github.com/illbnm/homelab-stack/issues/11) [BOUNTY $130] Database Layer — PostgreSQL + Redis + MariaDB 共享实例 | $100, $130 | 1/0 | 0 | 2026-11-01 |
+| 3 |  | [illbnm/homelab-stack#11](https://github.com/illbnm/homelab-stack/issues/11) [BOUNTY $130] Database Layer — PostgreSQL + Redis + MariaDB 共享实例 | $100, $130 | 1/0 | 0 | 2026-11-02 |
 | 3 |  | [illbnm/homelab-stack#13](https://github.com/illbnm/homelab-stack/issues/13) [BOUNTY $80] Notifications — 统一通知中心 (Gotify + Apprise) | $80 | 1/0 | 0 | 2026-11-01 |
+| 2 |  | [Trauma-Station/Trauma-Station#5225](https://github.com/Trauma-Station/Trauma-Station/issues/5225) [BOUNTY] huge important bounty bounty bounty | $10000 | 0/0 | 1 | 2026-11-02 |
+| 1 |  | [dailydollar-bot/agent-bounty-feed#3](https://github.com/dailydollar-bot/agent-bounty-feed/issues/3) 5 USDC bounty: best public agent-facing guide or demo for Agent Bounty Feed (dea | 5 USDC | 1/0 | 0 | 2026-11-02 |
 | 1 |  | [illbnm/homelab-stack#9](https://github.com/illbnm/homelab-stack/issues/9) [BOUNTY $300] SSO — Authentik 统一身份认证 | $300 | 1/0 | 1 | 2026-11-01 |
-| 1 |  | [dailydollar-bot/agent-bounty-feed#3](https://github.com/dailydollar-bot/agent-bounty-feed/issues/3) 5 USDC bounty: best public agent-facing guide or demo for Agent Bounty Feed (dea | 5 USDC | 1/0 | 0 | 2026-11-01 |
-| 1 |  | [liren001/eth-legion-nexus#5](https://github.com/liren001/eth-legion-nexus/issues/5) [TASK-001] Defensive hardening for outreach pipeline — 5 USDC fixed price (EXECU | 5 USDC, 5.88 USDC | 1/0 | 0 | 2026-11-01 |
