@@ -1,17 +1,18 @@
-# Bounty feed — 2026-11-12T09:46:12+00:00
-Всего: 866, новых сегодня: 147
+# Bounty feed — 2026-11-12T21:29:27+00:00
+Всего: 896, новых сегодня: 216
 
 | score | new | issue | amounts | PR open/merged | claims | updated |
 |---|---|---|---|---|---|---|
+| 7 |  | [IES-BoilerRoom/cuda-warp-allreduce-verifier#2](https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/2) [Escrowed $600 USDC] Stabilize dual-pass FP16/BF16 tree reduction parity on tail | $600 | 0/0 | 0 | 2026-11-12 |
+| 7 | 🆕 | [IES-BoilerRoom/rfc9421-http-signature-gateway#2](https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/2) [Escrowed $600 USDC] Reconcile structured-field dictionary serialization across  | $600 | 0/0 | 0 | 2026-11-12 |
+| 7 | 🆕 | [IES-BoilerRoom/bgp-med-oscillation-verifier#1](https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1) [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preferenc | $450 | 0/0 | 0 | 2026-11-12 |
+| 7 | 🆕 | [IES-BoilerRoom/bgp-med-oscillation-verifier#2](https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/2) [Escrowed $600 USDC] Eliminate persistent route-reflector MED cycle across confe | $600 | 0/0 | 0 | 2026-11-12 |
+| 7 | 🆕 | [IES-BoilerRoom/rfc9421-http-signature-gateway#1](https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1) [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signat | $450 | 0/0 | 0 | 2026-11-12 |
 | 7 |  | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) [BOUNTY $200] Testing — 自动化测试套件 | $200, $280 | 0/0 | 0 | 2026-11-11 |
-| 7 |  | [IES-BoilerRoom/cuda-warp-allreduce-verifier#2](https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/2) [Escrowed $600 USDC] Stabilize dual-pass FP16/BF16 tree reduction parity on tail | $600 | 0/0 | 0 | 2026-11-11 |
-| 7 |  | [IES-BoilerRoom/ed25519-ct-limb-verifier#2](https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/2) [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variab | $600 | 0/0 | 0 | 2026-11-11 |
-| 7 |  | [IES-BoilerRoom/wasm-component-canonical-abi#2](https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2) [Escrowed $600 USDC] Verify zero-reallocation UTF-8 frame lifting under determin | $600 | 0/0 | 0 | 2026-11-11 |
 | 7 |  | [IES-BoilerRoom/Furnace#2](https://github.com/IES-BoilerRoom/Furnace/issues/2) [Escrowed $600 USDC] Stabilize multi-shard batch watermarks across concurrent wo | $600 | 0/0 | 0 | 2026-11-11 |
 | 7 |  | [IES-BoilerRoom/ebpf-verifier-reg-bounds#2](https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2) [Escrowed $600 USDC] Tighten 32-bit subregister zero-extension parity across con | $600 | 0/0 | 0 | 2026-11-10 |
 | 7 |  | [IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix#2](https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2) [Escrowed $600 USDC] Eliminate ABA generation counter skew across heterogeneous  | $600 | 0/0 | 0 | 2026-11-10 |
 | 7 |  | [IES-BoilerRoom/mcp-sse-frame-conformance#2](https://github.com/IES-BoilerRoom/mcp-sse-frame-conformance/issues/2) [Escrowed $600 USDC] Handle split 4-byte UTF-8 codepoints and CRLF keepalive hea | $600 | 0/0 | 0 | 2026-11-10 |
-| 7 |  | [PhanKhoa95/oss-bot-trap-benchmark#86](https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/86) [Bounty $1,450] perf(ledger): benchmark PR #66 bitwise mask vs PR #79 bitshift i | $1,450, $500 | 0/0 | 0 | 2026-11-10 |
 | 6 | 🆕 | [Adeolu05/zec-bounty-alerts#2](https://github.com/Adeolu05/zec-bounty-alerts/issues/2) ZecHub bounty: Traducción de Inglés a Español / Zcash Shielded News (0.022 ZEC) | 25  USD | 0/0 | 0 | 2026-11-12 |
 | 6 | 🆕 | [Adeolu05/zec-bounty-alerts#1](https://github.com/Adeolu05/zec-bounty-alerts/issues/1) ZecHub bounty: Descubre ShieldedScan – Explorador de Zcash (0.03 ZEC) | 35 USD | 0/0 | 0 | 2026-11-11 |
 | 6 |  | [WholeTroutMedia/protocol-conformance-relay#2](https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2) [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked  | $600 | 0/0 | 0 | 2026-11-11 |
@@ -19,19 +20,18 @@
 | 6 |  | [WholeTroutMedia/agent-conformance-quarantine#2](https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2) [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block  | $600 | 0/0 | 0 | 2026-11-10 |
 | 6 |  | [eigenwallet/core#1250](https://github.com/eigenwallet/core/issues/1250) [2 XMR] Switch asb wallet to pure monero-oxide | 2 XMR | 0/0 | 0 | 2026-11-08 |
 | 6 |  | [layters/testshop#363](https://github.com/layters/testshop/issues/363) Tor integration (testing phase) | 0.05 XMR | 0/0 | 0 | 2026-10-23 |
+| 5 |  | [IES-BoilerRoom/cuda-warp-allreduce-verifier#1](https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1) [Escrowed $450 USDC] Align SM90 warp butterfly accumulator rounding across subno | $450 | 0/0 | 1 | 2026-11-12 |
 | 5 |  | [PhanKhoa95/oss-bot-trap-benchmark#85](https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/85) [Bounty $1,500] audit(dex): resolve competing PR #77 vs PR #81 AMM fee-on-input  | $1,500, $500 | 0/0 | 1 | 2026-11-12 |
-| 5 |  | [IES-BoilerRoom/wasm-component-canonical-abi#1](https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1) [Escrowed $450 USDC] Fix canonical string frame ceiling and align deterministic  | $450 | 0/0 | 1 | 2026-11-11 |
-| 5 |  | [IES-BoilerRoom/cuda-warp-allreduce-verifier#1](https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1) [Escrowed $450 USDC] Align SM90 warp butterfly accumulator rounding across subno | $450 | 0/0 | 1 | 2026-11-11 |
 | 5 |  | [IES-BoilerRoom/Furnace#1](https://github.com/IES-BoilerRoom/Furnace/issues/1) [Escrowed $450 USDC] Fix frame batch ceiling boundary and align 64-lane determin | $450 | 0/0 | 1 | 2026-11-11 |
 | 5 |  | [IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix#1](https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1) [Escrowed $450 USDC] Fix slot batch ceiling check and align multi-stride ring wr | $450 | 0/0 | 1 | 2026-11-11 |
 | 5 |  | [IES-BoilerRoom/ebpf-verifier-reg-bounds#1](https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1) [Escrowed $450 USDC] Fix ALU64 chunk ceiling boundary and tristate tnum scalar b | $450 | 0/0 | 1 | 2026-11-11 |
-| 5 |  | [IES-BoilerRoom/ed25519-ct-limb-verifier#1](https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/1) [Escrowed $450 USDC] Fix wire-frame ceiling off-by-one and align constant-time r | $450 | 0/0 | 1 | 2026-11-11 |
 | 5 |  | [IES-BoilerRoom/protocol-conformance-relay#2](https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2) [Escrowed $600 USDC] Eliminate ABA generation counter skew across heterogeneous  | $600 | 0/0 | 1 | 2026-11-10 |
+| 4 | 🆕 | [andrewsiah/agentswarm-examples#46](https://github.com/andrewsiah/agentswarm-examples/issues/46) [$2 site credit] Add a Dart example that lists open bounties | $1.80, $2 | 0/0 | 0 | 2026-11-12 |
+| 4 | 🆕 | [andrewsiah/agentswarm-examples#45](https://github.com/andrewsiah/agentswarm-examples/issues/45) [$2 site credit] Add a PHP example that lists open bounties | $1.80, $2 | 0/0 | 0 | 2026-11-12 |
 | 4 |  | [MergeFi/frontend#843](https://github.com/MergeFi/frontend/issues/843) Bounty pages have a per-bounty Open Graph image but no twitter-image, so every T | 100 USDC | 0/0 | 0 | 2026-11-12 |
 | 4 |  | [MergeFi/frontend#835](https://github.com/MergeFi/frontend/issues/835) Duplicate JSX attributes in BountyCard and Avatar break the build and silently r | 500 USDC | 0/0 | 0 | 2026-11-12 |
+| 4 |  | [beta-tester-code/agentforge#3](https://github.com/beta-tester-code/agentforge/issues/3) [sprint] 2026-09-30 evening — conversion path exists, $0 inbound, distribution i | $150, $400 | 0/0 | 0 | 2026-11-12 |
 | 4 |  | [WholeTroutMedia/protocol-conformance-relay#1](https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1) [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure | $450 | 0/0 | 1 | 2026-11-11 |
-| 4 |  | [beta-tester-code/agentforge#3](https://github.com/beta-tester-code/agentforge/issues/3) [sprint] 2026-09-30 evening — conversion path exists, $0 inbound, distribution i | $150, $400 | 0/0 | 0 | 2026-11-11 |
-| 4 |  | [farzinfarahi30-star/Leadpilot-ai#16](https://github.com/farzinfarahi30-star/Leadpilot-ai/issues/16) NOVA paid-task candidate / TaskMarket / TSK-836Z6Q65 | 15.0 USD | 0/0 | 0 | 2026-11-11 |
 | 4 |  | [doishy-doish/escrow-radar#5](https://github.com/doishy-doish/escrow-radar/issues/5) 🎯 Frantic NEW bounty #128 ($8) | $8 | 0/0 | 0 | 2026-11-09 |
 | 4 |  | [doishy-doish/escrow-radar#4](https://github.com/doishy-doish/escrow-radar/issues/4) 🎯 Frantic NEW bounty #129 ($16) | $16 | 0/0 | 0 | 2026-11-09 |
 | 4 |  | [eigenwallet/core#727](https://github.com/eigenwallet/core/issues/727) [Bounty: 0.05 XMR - 0.25 XMR] Performance improvements inside UI | 0.05 XMR, 0.25 XMR | 0/0 | 1 | 2026-11-08 |
@@ -44,9 +44,8 @@
 | 3 |  | [illbnm/homelab-stack#13](https://github.com/illbnm/homelab-stack/issues/13) [BOUNTY $80] Notifications — 统一通知中心 (Gotify + Apprise) | $80 | 1/0 | 0 | 2026-11-11 |
 | 3 |  | [illbnm/homelab-stack#11](https://github.com/illbnm/homelab-stack/issues/11) [BOUNTY $130] Database Layer — PostgreSQL + Redis + MariaDB 共享实例 | $100, $130 | 1/0 | 0 | 2026-11-11 |
 | 3 |  | [ilhamraduanbis-source/toyol-digital#5](https://github.com/ilhamraduanbis-source/toyol-digital/issues/5) 🔐 Toyol Pocket — Tindakan pemilik sebelum bayaran sebenar | $50, 0.02 USDC, 3 USDC | 0/0 | 1 | 2026-11-11 |
-| 3 |  | [PhanKhoa95/oss-bot-trap-benchmark#87](https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/87) [Bounty $1,300] fix(security): detect cross-PR scope contamination between #69 a | $1,300, $500 | 1/0 | 0 | 2026-11-10 |
 | 2 |  | [theselfish/SlopStation13#40](https://github.com/theselfish/SlopStation13/issues/40) [BOUNTY][$420][ADD] P. Diddy Lube | $420 | 1/0 | 0 | 2026-11-11 |
-| 2 |  | [commonworld-one/commonworld#212](https://github.com/commonworld-one/commonworld/issues/212) Open paid tasks: four $1 listings on 1F916 (bugs, plan, promotion, module) | $1 | 0/0 | 0 | 2026-11-11 |
+| 1 |  | [PhanKhoa95/oss-bot-trap-benchmark#87](https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/87) [Bounty $1,300] fix(security): detect cross-PR scope contamination between #69 a | $1,300, $500 | 1/0 | 1 | 2026-11-12 |
 | 1 |  | [PhanKhoa95/oss-bot-trap-benchmark#17](https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/17) [Bounty $650] test(validator): verify path normalization for \ancestors\archive\ | $500, $650 | 1/0 | 1 | 2026-11-12 |
 | 1 | 🆕 | [farmmer938-lgtm/autonomous-zero-baht#35](https://github.com/farmmer938-lgtm/autonomous-zero-baht/issues/35) AF alert: 2 new paid opportunity(ies) | $1, $3 | 0/0 | 0 | 2026-11-12 |
 | 1 | 🆕 | [doishy-doish/escrow-radar#8](https://github.com/doishy-doish/escrow-radar/issues/8) 🎯 Frantic NEW bounty #149 ($3) | $3 | 0/0 | 0 | 2026-11-12 |
@@ -57,7 +56,6 @@
 | 1 |  | [celo-org/buy-skill#74](https://github.com/celo-org/buy-skill/issues/74) [list] nonsynthetic — x402 agent utility edge + open task board | $0.05 | 0/0 | 0 | 2026-11-11 |
 | 1 |  | [doishy-doish/escrow-radar#6](https://github.com/doishy-doish/escrow-radar/issues/6) 🎯 Frantic NEW bounty #148 ($1) | $1 | 0/0 | 0 | 2026-11-11 |
 | 1 |  | [doishy-doish/escrow-radar#7](https://github.com/doishy-doish/escrow-radar/issues/7) 🎯 Frantic NEW bounty #147 ($1) | $1 | 0/0 | 0 | 2026-11-11 |
-| 1 |  | [PhanKhoa95/oss-bot-trap-benchmark#3](https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/3) [Bounty $350] perf(validator): add empty-slice fast path to verify_sequence_gap  | $350, $500 | 1/0 | 1 | 2026-11-10 |
 | 1 |  | [sybil-solutions/local-ai-registry#219](https://github.com/sybil-solutions/local-ai-registry/issues/219) Bounty $50: recipe for RX 7900 XTX 24 GB | $50 | 0/0 | 5 | 2026-11-09 |
 | 1 |  | [doishy-doish/escrow-radar#3](https://github.com/doishy-doish/escrow-radar/issues/3) 🎯 Frantic NEW bounty #146 ($2) | $2 | 0/0 | 0 | 2026-11-09 |
 | 1 |  | [doishy-doish/escrow-radar#2](https://github.com/doishy-doish/escrow-radar/issues/2) 🎯 Frantic NEW bounty #130 ($3) | $3 | 0/0 | 0 | 2026-11-08 |
